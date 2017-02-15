@@ -1,6 +1,6 @@
 Blog using Jekyll and VSC theme.
-Vanilla Bean Creme Theme: http://richbray.me/frap/
 ============================
+Vanilla Bean Creme Theme: http://richbray.me/frap/
 Windows 10 x64 Jekyll Install:
 Open Powershell v3.
 Stop Execution Policy for the session:
