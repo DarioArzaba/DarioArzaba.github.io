@@ -1,15 +1,13 @@
 ---
 layout: default
-title: Mainpage
+title: Home
 ---
-<!-- Content
-    ================================================== -->
   <div class="top-strip"></div>
   <div class="content">
     <main class="container">
     	<div class="row-fluid">
     		<section class="content">
-    		  <h1>Ipsum List</h1>
+    		  <h1>Dario Arzaba</h1>
     		</section>
     		<ul class="entries">
     		{% for post in paginator.posts %}
@@ -47,7 +45,6 @@ title: Mainpage
             <a href="/">1</a>
             {% endif %}
           </li>
-
           {% for count in (2..paginator.total_pages) %}
           <li class="page">
             {% if count == paginator.page %}
@@ -69,7 +66,5 @@ title: Mainpage
         </p> -->
         {% endif %}
       </div>
-
     </main>
   </div>
-
