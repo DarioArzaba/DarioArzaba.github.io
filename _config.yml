@@ -1,7 +1,19 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
+title: Your awesome title
+email: your-email@domain.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
+twitter_username: jekyllrb
+github_username:  jekyll
+markdown: kramdown
 paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
