@@ -1,6 +1,5 @@
 ---
 layout: post_page
-title: Bluth
+title: Jekyll Adventures
 ---
-
 {% include bluth.html %}
