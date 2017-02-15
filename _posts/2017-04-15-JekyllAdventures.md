@@ -20,7 +20,9 @@ Laying down some code with markdown.
 ==text highlighted==
 **Bold Text!**
 So if i wanted to show some code: `code` And then it would be beutiful
-![Cat](https://images.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwiWp7GL95LSAhXEwlQKHThSDH4QjRwIBw&url=https%3A%2F%2Fpixabay.com%2Fen%2Fphotos%2Fcat%2F&psig=AFQjCNE9ulOaT4Q77BuhjxoFA7Q4e2kcDQ&ust=1487276562474040)
+
+![Cat](https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg)
+
 [Google Link](http://google.com)
 
 *First
