@@ -2,8 +2,6 @@
 layout: post_page
 title: JekyllAdventures
 ---
-## Some Title
-
 Footnotes can be added to the body of your text using placeholders like this: [^1]. For example,
 
 This is text with a footnote link at the end. [^1]
@@ -12,7 +10,10 @@ Alternatively you can use ‘n’ rather than numbers [^n] so you don’t have t
 
 
 > Quotes that i really like
---------
+
+
+***************
+
 Laying down some code with markdown.
 *Italics text example*
 ~~text lined~~
