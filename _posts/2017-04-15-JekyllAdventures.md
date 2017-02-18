@@ -1,65 +1,76 @@
 ---
 layout: post_page
-title: JekyllAdventures
+title: Jekyll Adventures
 ---
-Footnotes can be added to the body of your text using placeholders like this: [^1]. For example,
 
-This is text with a footnote link at the end. [^1]
-Alternatively you can use ‘n’ rather than numbers [^n] so you don’t have to worry about which number you are on. At the very end of your post, you can define your matching footnotes as shown below, URLs will be turned into links:
+Vanilla Bean Creme Theme: http://richbray.me/frap/
 
+Windows 10 x64 Jekyll Install:
 
+Open Powershell v3.
 
-> Quotes that i really like
+Stop Execution Policy for the session:
 
+	PowerShell.exe -ExecutionPolicy Undefined
 
-***************
+Install Chocolatey:
 
-Laying down some code with markdown.
-*Italics text example*
-~~text lined~~
-==text highlighted==
-**Bold Text!**
-So if i wanted to show some code: `code` And then it would be beutiful
+	iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 
-![Cat](https://cdn.pixabay.com/photo/2014/03/29/09/17/cat-300572_960_720.jpg)
+Install Ruby:
 
-[Google Link](http://google.com)
+	choco install ruby -y
+	
+Install Development Kit from http://rubyinstaller.org/downloads/.
 
-*First
-*Second
-*Third Item
+Initiate Development Kit:
 
-```
-<header>
-    <h1>{{title}}</h1>
-</header>
-```
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+	ruby dk.rb init
+	
+Open the newly generated config.yml file and append at the end the installation directory with an hyphen and a space first.
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+Review that the directory is correct and install the dev kit:
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+	ruby dk.rb review
+	ruby dk.rb install
+	
+Install Jekyll and Bundler:
+	
+	gem install jekyll bundler
+	
+Install Jekyll Plugins (Optional):
+	
+	gem install jekyll-paginate-v2
+	gem install jekyll-feed
+	gem install jekyll-gist
+	gem install rouge
+	gem install wdm
+	
+Install Github-Pages Plugin Dependencies:
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+	cinst -Source "https://go.microsoft.com/fwlink/?LinkID=230477" libxml2
+	cinst -Source "https://go.microsoft.com/fwlink/?LinkID=230477" libxslt
+	cinst -Source "https://go.microsoft.com/fwlink/?LinkID=230477" libiconv
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Install Nokogiri:
+	
+	gem install nokogiri
+	
+Go to an empty directory to create the site and:
+	
+	jekyll new blogname
+	*Enter blogname directory*
+	bundle exec jekyll serve
+	
+All done! Link this folder with your repository and start configuring Jekyll.
 
+Talkling about configuration... I had a hard time changing the theme with Github settings, so if you want to change the theme you should probably do a local test site first, and even then you may need to bundle, build, change the config and gemfile etc. If you want to fiddle with that more info here:
+https://jekyllrb.com/docs/themes/
 
+On the other side since Github fully supports Jekyll you could just (probably) copy and paste a theme and adapt it to your needs without building the site per se.
 
+Regular Themes can be found here:
+http://jekyllthemes.org/
 
-[^1]: This is my first footnote
-[^n]: Visit http://ghost.org
-[^n]: A final footnote
+Gem Packed Themes can be found here:
+https://rubygems.org/search?utf8=✓&query=jekyll-theme
