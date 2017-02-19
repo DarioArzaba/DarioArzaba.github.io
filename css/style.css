@@ -14,3 +14,7 @@ td {
 th{
   border: 1px solid black;
 }
+img {
+  position: relative;
+  left: 50%;
+}
