@@ -2,6 +2,9 @@
 layout: post_page
 title: Jekyll Adventures
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices ligula quis est maximus facilisis. Nunc et metus vitae nisl pellentesque egestas ac eget orci. Vivamus vel sodales felis. Vestibulum vestibulum bibendum euismod. Nam pellentesque ornare ipsum, quis pharetra eros. Vivamus fringilla id purus non gravida. Maecenas ultrices in ex sed dapibus. Nullam accumsan sit amet enim quis fringilla. Pellentesque dignissim sem ac tristique feugiat. Suspendisse faucibus dui sollicitudin suscipit vehicula. Aliquam dui eros, ullamcorper quis diam non, imperdiet egestas nisl.
+
+Jekyll
 
 Vanilla Bean Creme Theme: http://richbray.me/frap/
 
