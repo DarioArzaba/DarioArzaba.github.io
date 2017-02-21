@@ -11,12 +11,10 @@ En su introducción Orwell habla acerca de la opresión a la libre crítica lite
 
 Entre los grandes adjetivos que se adjudican a la lectura, se encuentra su capacidad para mantenerse vigente ante los problemas sociales y politicos actuales. Esta caracteristica se debe a su capacidad de representar una faceta humana eterea, que encierra los conceptos de poder, autoridad y descontento popular.
 
-La lectura critica abiertamente el totalitarismo de cualquier clase, examinando el desplazamiento y la manipulación que sufre todo movimiviemto de tranformacion política, con el uso de la fuerza y la violencia como el principal medio de coerción social. La fabula nos permite interpretar a los personajes como moldes de la corrupcion que experimentan nuestros lideres actuales, las fuerzas de seguridad opresoras y la divergencia mediática. 
-
-> Es en esta asociación natural al orden político de done proviene la fuerza de la obra.
-
-***
-
+La lectura critica abiertamente el totalitarismo de cualquier clase, examinando el desplazamiento y la manipulación que sufre todo movimiviemto de tranformacion política, con el uso de la fuerza y la violencia como el principal medio de coerción social. La fabula nos permite interpretar a los personajes como moldes de la corrupcion que experimentan tanto nuestros lideres actuales, como las fuerzas de seguridad opresoras y la divergencia mediática. 
+  
+> "Es en esta asociación natural al orden político de done proviene la fuerza de la obra."
+  
 #### Resumen ####
 
 Los animales de la Granja Manor, alentados por el sabio cerdo "Viejo Mayor", se rebelan contra el dueño de la granja (Señor Jones) para crear sus propias reglas (Los Siete Mandamientos) que escriben en una pared.
@@ -37,8 +35,6 @@ Las granjas aledañas, al principio repudiaban el exilio de la clase gobernante 
 
 > Todos los animales son iguales, pero algunos animales son mas iguales que otros.
 
-***
-
 Napoleon alberga en su personalidad megalomanía, perversiones, delicadezas y villanías genocidas cuya descripción se ajusta al carácter de muchos líderes actuales. Experimentamos su transformacion, o deformacion, la cual termina cuando se convierte en un ser humano y es tristemente en el ser humano en donde puede convivir la máxima expresión de dichas características.
 
 La rebelión en la granja utiliza su simpática imagen para presentar el desenlace de poder e indagar en la génesis de sus más oscuras actitudes, como la violencia, la manipulacion y el abuso del poder. Características sin límites, resueltas en su simple aplicacion por medio de una figura de autoridad, junto con la silenciosa complaciencia inicial del ente gobernado.
@@ -46,8 +42,6 @@ La rebelión en la granja utiliza su simpática imagen para presentar el desenla
 La relacion de poder, entre los animales y los cerdos, muchas veces no estaba conducido por actos voluntarios, las mismas dudas sobre el gobierno totalitario se fundamentaban en una realidad alterna y es que el gobierno de Napoleon utilizaba frecuentemente la alteriacion de la realidad por medio de los medios masivos. Esta clase de manipulacion solo es posible frente a la ausencia de una educacion generalizada que genere mentes criticas. 
 
 > La resistencia fisica al regimen nunca se dio porque nunca inicio la resistencia mental previa y necesaria.
-
-***
 
 #### Contexto Historico ####
 
