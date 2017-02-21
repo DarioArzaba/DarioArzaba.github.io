@@ -43,7 +43,7 @@ La relacion de poder entre los animales y los cerdos muchas veces no estaba cond
 
 ***
 
-##### Contexto Historico #####
+#### Contexto Historico ####
 
 La Revolución Rusa se llevo a cabo en 1917 con la caída del régimen del Zar Nicolas II, y el establecimiento del comunismo en Rusia la cual pasaría a denominarse la Union de las Republicas Socialistas Sovieticas, régimen que duraría hasta 1991.
 
