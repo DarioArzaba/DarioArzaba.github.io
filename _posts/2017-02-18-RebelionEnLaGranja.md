@@ -41,6 +41,8 @@ La rebelión en la granja utiliza su simpática imagen para presentar el desenla
 
 La relacion de poder entre los animales y los cerdos muchas veces no estaba conducido por actos voluntarios, las mismas dudas sobre el gobierno totalitario se fundamentaban en una realidad alterna y es que el gobierno de napoleon utilizaban frecuentemente la alteriacion de la realidad por medio de los medios masivos. Esta alteracion es simplemente un hecho aunado a la ausencia de educacion generalizada, impidiendo una critica que la desmienta. La resistencia fisica al regimen nunca se dio porque nunca existio una resistencia mental originada por la educacion.
 
+***
+
 ##### Contexto Historico #####
 
 La Revolución Rusa se llevo a cabo en 1917 con la caída del régimen del Zar Nicolas II, y el establecimiento del comunismo en Rusia la cual pasaría a denominarse la Union de las Republicas Socialistas Sovieticas, régimen que duraría hasta 1991.
