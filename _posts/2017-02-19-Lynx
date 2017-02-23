@@ -1,0 +1,24 @@
+---
+layout: post_page
+title: Lynx
+---
+Navegador en texto para Windows que muestra los sitios web sin la interfaz del usuario (GUI). No muestra ningun tipo de imagenes, scripts o graficos y por lo tanto es exepcionalmente rapido. Desarrollada originalmente por Lou Montulli, Michael Grobe y Charles Rezac en la Universidad de Kansas (1992), mantenido actualmente por Thomas Dickey. Se puede utilizar para determinar problemas de Crowling en un sitio Web. Una de las principales razones por las que se continuo su desarrollo fue como un navegador accesible que pudiera leer el texto de la pantalla y trabajar con [Refreshable Braille Displays](https://es.wikipedia.org/wiki/Dispositivo_Braille).
+
+![Lynx Browser on Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d5/Lynx-wikipedia.png)
+
+Mientras investigaba un poco acerca del navegador me tope con este divertido [manifiesto](http://world.std.com/~adamg/manifesto.html) que defiende el uso de Lynx: 
+
+***
+Enough's enough. The World-Wide Web promises a new way to let people communicate. But too many Web designers are being bewitched by "multimedia" - they load their sites with gigantic graphics, embedded sound clips and animation. There's nothing wrong with that, as far as it goes. But increasingly, these Web designers are forgetting to include Lynx, one of the first Web browsers, in their HTML code.
+*But Netscape is so cool.*
+Yes, but not everybody can, or even wants to, use Netscape or Mosaic. Some of us are quite happy with our 286s and 386s and see no reason to spend several hundred dollars to upgrade to Windows...
+***
+
+Otros Navegadores de Texto:
+
+1. [Links](http://links.twibright.com/download/binaries/win32/) (Windows Compatible)
+1. [ELinks](http://elinks.or.cz/download.html/)
+3. [W3m](https://sourceforge.net/projects/w3m/) 
+4. [Retawq](https://sourceforge.net/projects/retawq/)
+5. [Netrik](https://sourceforge.net/projects/netrik/)
+6. [Line Mode](http://line-mode.cern.ch/www/hypertext/WWW/TheProject.html)
