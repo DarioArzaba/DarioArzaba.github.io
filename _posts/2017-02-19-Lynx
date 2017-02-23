@@ -9,10 +9,36 @@ Navegador en texto para Windows que muestra los sitios web sin la interfaz del u
 Mientras investigaba un poco acerca del navegador me tope con este divertido [manifiesto](http://world.std.com/~adamg/manifesto.html) que defiende el uso de Lynx: 
 
 ***
+
 Enough's enough. The World-Wide Web promises a new way to let people communicate. But too many Web designers are being bewitched by "multimedia" - they load their sites with gigantic graphics, embedded sound clips and animation. There's nothing wrong with that, as far as it goes. But increasingly, these Web designers are forgetting to include Lynx, one of the first Web browsers, in their HTML code.
 *But Netscape is so cool.*
 Yes, but not everybody can, or even wants to, use Netscape or Mosaic. Some of us are quite happy with our 286s and 386s and see no reason to spend several hundred dollars to upgrade to Windows...
+
 ***
+
+
+
+~~~
+//Teclas Basicas
+Ayuda: h
+Key Map: k
+Opciones: o
+Salir:  q
+Refrescar:  Ctrl+R
+Escribir una direccion:  G y escribe el nombre.
+Abrir un Link: Flecha derecha.
+Ver todos los links: L
+Ir a la pagina anterior: Flecha izquierda.
+Scroll: Flecha Arriba y Abajo.
+Añadir Bookmark: a
+Ver Bookmarks: v
+Quitar bookmark: r
+~~~
+
+* [Manual de Usuario](http://lynx.invisible-island.net/lynx_help/Lynx_users_guide.html)
+* [Opciones de Configuracion CFG](http://lynx.invisible-island.net/lynx_help/cattoc.html)
+* [Comandos para el Binario](http://linuxcommand.org/man_pages/lynx1.html )
+* [Lista de Teclas Rapidas](http://lynx.browser.org/lynx_help/keystrokes/keystroke_help.html)
 
 Otros Navegadores de Texto:
 
