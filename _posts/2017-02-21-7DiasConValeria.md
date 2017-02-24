@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title: 7 Diaz con Valeria
+title: 7 Dias con Valeria
 ---
 
 I  
