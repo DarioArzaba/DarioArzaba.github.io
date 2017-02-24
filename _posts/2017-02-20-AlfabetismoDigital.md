@@ -31,9 +31,10 @@ Más sobre educacion y el internet:
 7. [Articulo de DlmCentral](http://dmlcentral.net/why-we-need-a-4th-r-reading-writing-arithmetic-algorithms/)
 
 Alfabetizacion Digital
-    Habilidades y competencias necesarias para la lectura, escritura y participacion efectiva en Internet.
+: Habilidades y competencias necesarias para la lectura, escritura y participacion efectiva en Internet.
 
-[1]:* Usar tecnologia publica, abierta y transparente.
+[^1]:
+    * Usar tecnologia publica, abierta y transparente.
     * No existe autoridad central que controle el internet.
     * Solo los autores pueden editar y controlar su contenido.
     * Todos los ciudadanos del internet son iguales.
