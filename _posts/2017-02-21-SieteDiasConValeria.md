@@ -27,8 +27,8 @@ Todo ruido gotea en mi cordura, yo sin salida,
 IV  
 Ocaso de soberbia y mendigo de profesión,  
 así nos encontramos en algún lugar de la palabra.  
-Unión de un saludo noble y un adiós que reposa,  
-sobre lapidas disonantes repletas de consuelo.  
+Unión de un saludo noble y un adiós,  
+reposando sobre lapidas disonantes llenas de consuelo.  
 {: .centro}
 
 V  
@@ -48,6 +48,6 @@ y sigo sin terminar.
 VII  
 Deseo tu emboscada,  
 que pintemos,  
-y tu palabra,  
+y tu palabra  
 acariciando mi cuerpo.
 {: .centro}
