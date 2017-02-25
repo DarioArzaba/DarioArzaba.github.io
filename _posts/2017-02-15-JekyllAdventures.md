@@ -3,14 +3,13 @@ layout: post_page
 title: Jekyll Adventures
 ---
 
+Gracias a un curso que habia tomado en [CodeAcademy](https://www.codecademy.com/) aprendi a crear sitios en [Github Pages](https://pages.github.com/) sin embargo no fue hasta el dia de hoy que me decidi por incorporar [Jekyll](https://jekyllrb.com/) y su generador de sitios estaticos en mi sistema.
 
-Gracias a un curso que tome en CodeAcademy habia creado con anterioridad un sitio en Github Pages sin embargo no fue hasta el dia de hoy que me decidi por incorporar la tecnologia por completo en mi sistema.
+Con Jekyll podemos transformar documentos de texto en [Markdown](https://daringfireball.net/projects/markdown/) y transformarlos en HTML, es decir en un [sitio web estatico](https://techterms.com/definition/staticwebsite). Generando el layout del sitio con un renderizador [Liquid](https://shopify.github.io/liquid/).
 
-Jekyll es un generador de sitios estaticos, esto quiere decir que podemos incluir archivos en Markdown y estos seran trandormados en HTML. Podemos ademas generar el Layout del sitio incluyendo multiples archivos HTML con el renderizador Liquid.
+De las multiples plantillas y estilos que existen me decidi por uno minimalista enfocado en texto. La decision final recayo en [Vanilla Bean Creme Theme](http://richbray.me/frap/), la cual es una buena plantilla sin embargo en retrospectiva deberia de haber creado mi propia plantilla.
 
-De las multiples plantillas y estilos existentes busque uno que fuera minimalista y enfocado a un blog, principalmente de texto. Entre ellos encontre [Vanilla Bean Creme Theme](http://richbray.me/frap/) el cual parece servir mis necesidades sin embargo carece de un menu por categorias.
-
-Para iniciar mi desarrollo en Jekyll tuve que installar Chocolatey, Ruby, RubyGems y [RubyDevKit](http://rubyinstaller.org/downloads/). La mayoria de las installaciones y compilaciones se realizaron desde PowerShell:
+En Windows para desarrollar en Jekyll se tiene que instalar Chocolatey, Ruby, RubyGems y [RubyDevKit](http://rubyinstaller.org/downloads/). La mayoria de las installaciones y compilaciones se realizaron desde PowerShell:
 
 ~~~ powershell
 PowerShell.exe -ExecutionPolicy Undefined
@@ -30,6 +29,6 @@ cinst -Source "https://go.microsoft.com/fwlink/?LinkID=230477" libxslt
 cinst -Source "https://go.microsoft.com/fwlink/?LinkID=230477" libiconv
 gem install nokogiri
 jekyll new blogname
-*Enter blogname directory*
+*Enter (cd) the blogname directory*
 bundle exec jekyll serve
 ~~~
