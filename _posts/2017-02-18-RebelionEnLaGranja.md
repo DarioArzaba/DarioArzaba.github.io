@@ -5,7 +5,7 @@ title: Rebelión en la Granja
 
 George Orwell es el autor de la sátira política “*Rebelión en la granja*” (1945), en donde nos comparte una analogía bien pensada acerca de las dificultades y eventual prostitución a manos de Stalin, de los ideales socialistas personificados en la Union Sovietica de 1940. La obra constituye un analisis general de la corrupcion y el poder, sin necesidad de un conocimiento previo del contexto de la Union Sovietica, extendiendo su uso a las aulas de varios paises.
 
-![Rebelion En la Granja Primera Edicion](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Animal_Farm_-_1st_edition.jpg/220px-Animal_Farm_-_1st_edition.jpg)
+![Rebelion En la Granja Primera Edicion](/Images/animalfarm.jpg)
 
 En su introducción, Orwell habla acerca de la opresión a la libre crítica literaria, la cual habia comenzado a afectar las opiniones de los ilustrados de su tiempo. Entendiendo que la obra se desarrolla en los tiempos en donde el Marxismo cautivaba al mundo, uno puede sumergirse fácilmente en la breve historia, cuya pintoresca granja magnifica y ejemplifica con claridad los aspectos claves en cada fase del desarrollo de la politica comunista.
 
