@@ -27,7 +27,7 @@ me he parado a meditar…
 quién te volviera a soñar!  
 {: .centro}
 
-Antonio Machado
+[Antonio Machado](https://es.wikisource.org/wiki/Antonio_Machado)
 {: .centro}
 
 ***
