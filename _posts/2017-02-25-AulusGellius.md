@@ -31,7 +31,7 @@ El mismo Aulus menciona a otro personaje, [Gnaeus Gellius](https://en.wikipedia.
 
 ***
 
-####Noches Áticas####
+### Noches Áticas ###
 
 Las Noches Aticas (Noctes Atticae) es un importante compilatorio de conocimientos Romanos y fuente de incontables referencias culturales. Destaca su constante comparacion entre la cultura griega y la romana, abunda en citas y proverbios de ambas culturas, a la vez que expone los detalles de vida intelectual en sus élites. 
 
