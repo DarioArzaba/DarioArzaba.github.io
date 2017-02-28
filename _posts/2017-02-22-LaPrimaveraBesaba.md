@@ -32,6 +32,6 @@ quién te volviera a soñar!
 
 ***
 
-####Interpretación####
+#### Interpretación ####
 
 La juventud es la primavera de todo ser humano, un momento de calma en donde el tiempo pasa suavemente y brotan sueños por doquier. Toda juventud es un momento finito de inocencia, una delicada mente que entra por primera vez en contacto con el mundo, aunque en escencia, termmina siendo un calido recuerdo que abraza y consuela a la mente del adulto. Antonio maldice el no vivir una juventud llena de amor, cuando se da cuenta a la mitad de su vida, de que podria haber capturado ese amor en forma de un dulce recuerdo.
