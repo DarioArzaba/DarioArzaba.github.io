@@ -29,8 +29,8 @@ El poema reprocha el progresismo así como a la presión global y estadounidense
 
 Modernista, fuertemente estructurado en su musicalidad y texto repleto de imágenes eternas, “La Suave Patria” es una metafora de dos sentidos que explora el dolor mexicano y su incomparable hermosura.
 
-[Poema Completo](https://www.poemas.de/suave-patria/)
-[Video del Poema Recitado](https://www.youtube.com/watch?v=3rGDKgCALZ8)
-[Analisis Cervante Virtual](http://www.cervantesvirtual.com/obra-visor/lopez-velarde-1921-la-medula-guadalupana-de-la-suave-patria/html/968a0e68-59d7-11e0-b864-00163ebf5e63_3.html)
-[Circulo de Poesia](http://circulodepoesia.com/2009/04/los-comentaristas-de-la-suave-patria/)
-[Letras Libres](http://www.letraslibres.com/mexico/lopez-velarde-hacia-la-suave-patria)
+* [Poema Completo](https://www.poemas.de/suave-patria/)
+* [Video del Poema Recitado](https://www.youtube.com/watch?v=3rGDKgCALZ8)
+* [Analisis Cervante Virtual](http://www.cervantesvirtual.com/obra-visor/lopez-velarde-1921-la-medula-guadalupana-de-la-suave-patria/html/968a0e68-59d7-11e0-b864-00163ebf5e63_3.html)
+* [Circulo de Poesia](http://circulodepoesia.com/2009/04/los-comentaristas-de-la-suave-patria/)
+* [Letras Libres](http://www.letraslibres.com/mexico/lopez-velarde-hacia-la-suave-patria)
