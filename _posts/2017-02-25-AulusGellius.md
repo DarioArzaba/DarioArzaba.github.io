@@ -44,5 +44,7 @@ Estructurado en 20 tomos y 400 capitulos, Aulus explora la historia, el arte, el
 > "Es un gran discurso sobre las diversas ciencias, dicho de forma elegante y elocuente".
 
 [Ensayo](http://www.redalyc.org/articulo.oa?id=59115484009)
+
 [Noches Aticas en Ingles](https://archive.org/details/atticnights00millrich)
+
 [Noches Aticas en Latin](https://la.wikisource.org/wiki/Noctes_Atticae)
