@@ -36,7 +36,8 @@ table tr:last-child td:last-child {
   text-align:center;
 }
 
-@media only screen and (max-width: 500px) {
-  h1 {font-size: 7vh;
+@media only screen and (max-width: 725px) {
+  .content h1 {font-size: 7vh;
   }
+  main.container,main.content>.container{width:auto}
 }
