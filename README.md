@@ -1,6 +1,6 @@
-Blog using Jekyll and VSC theme.
+Blog using Jekyll
 ============================
-Vanilla Bean Creme Theme: http://richbray.me/frap/
+[RPLopes Jekyll Theme](https://github.com/rplopes/ricardolopes.net)
 
 Windows 10 x64 Jekyll Install:
 
@@ -64,7 +64,7 @@ All done! Link this folder with your repository and start configuring Jekyll.
 Talkling about configuration... I had a hard time changing the theme with Github settings, so if you want to change the theme you should probably do a local test site first, and even then you may need to bundle, build, change the config and gemfile etc. If you want to fiddle with that more info here:
 https://jekyllrb.com/docs/themes/
 
-On the other side since Github fully supports Jekyll you could just (probably) copy and paste a theme and adapt it to your needs without building the site per se.
+On the other side since Github fully supports Jekyll you could just (probably) copy and paste a theme and adapt it to your needs without building the site per se. Finally If you want really cool RB plugins you will have to build locally and push the static site like I'm doing for the Category and Tags Plugin.
 
 Regular Themes can be found here:
 http://jekyllthemes.org/
