@@ -1,17 +1,14 @@
-title: Your awesome title
-email: your-email@domain.com
-description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: ""
-url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+name: "Dario Arzaba"
+author: "Dario Arzaba"
+url: "http://darioarzaba.github.io"
+blog: "http://darioarzaba.github.io"
+feed: "http://feeds.feedburner.com/darioarzaba.github.io"
+paginate: 10
+highlighter: rouge
 markdown: kramdown
-paginate: 10 # pagination basted on number of posts
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap

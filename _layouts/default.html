@@ -1,22 +1,19 @@
-<!doctype html>
+---
+layout: compress
+---
+
+<!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="utf-8" />
-	<meta name="description" content="Random Thought Pattern." />
-	<meta name="author" content="Dario Arzaba"/>
-	<title>Home - Dario Arzaba</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css" />
-	<link rel="shortcut icon" href="ico/favicon.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	{{ content }}
-<footer>
-	<div class="container">
-		<a href="http://thehearthofdev.x10.mx" target:_blank>Main Site</a>
-	</div>
-</footer>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/custom.js"></script>
-</body>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="wrapper">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+	<script src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </body>
 </html>
