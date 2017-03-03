@@ -1,0 +1,14 @@
+name: "Dario Arzaba"
+author: "Dario Arzaba"
+url: "http://darioarzaba.github.io"
+blog: "http://darioarzaba.github.io"
+feed: "http://feeds.feedburner.com/darioarzaba.github.io"
+paginate: 10
+highlighter: rouge
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
