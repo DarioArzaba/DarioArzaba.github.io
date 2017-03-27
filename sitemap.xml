@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://darioarzaba.github.io/defcon/2017/03/19/DefCon.html</loc>
+    <lastmod>2017-03-19T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/recetas/2017/03/18/RecetaPapas.html</loc>
+    <lastmod>2017-03-18T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/sitio%20web/2017/03/07/BrianKelks.html</loc>
+    <lastmod>2017-03-07T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/sitio%20web/2017/03/06/ContributorCovenant.html</loc>
+    <lastmod>2017-03-06T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/sitio%20web/2017/03/05/StaticGen.html</loc>
+    <lastmod>2017-03-05T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/sitio%20web/2017/03/04/TiscaliWordscape.html</loc>
+    <lastmod>2017-03-04T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/programacion/2017/03/03/IRC.html</loc>
+    <lastmod>2017-03-03T00:00:00-06:00</lastmod>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/lenguaje/2017/03/02/ClaveMorse.html</loc>
+    <lastmod>2017-03-02T00:00:00-06:00</lastmod>
+  </url>
+  <url>
     <loc>http://darioarzaba.github.io/peliculas/2017/03/01/LaVidaDeAdele.html</loc>
     <lastmod>2017-03-01T00:00:00-06:00</lastmod>
   </url>
@@ -280,6 +312,111 @@
     <loc>http://darioarzaba.github.io/blog/tags/psicologia/</loc>
   </url>
   <url>
+    <loc>http://darioarzaba.github.io/blog/tags/codigo/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/historia/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/telegrafo/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/antiguo/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/chats/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/grupos/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/programadores/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/opensource/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/ingles/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/fonetica/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/etimologia/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/frases/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/sitio/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/hugo/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/html/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/github/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/git/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/conducta/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/normas/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/linguista/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/alfabetos/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/letras/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/links/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/varios/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/website/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/papas/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/vegetariano/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/recetas/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/simple/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/defcon/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/hacking/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/hack/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/bluethooth/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/video/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/tags/conferencia/</loc>
+  </url>
+  <url>
     <loc>http://darioarzaba.github.io/blog/categories/primero/</loc>
   </url>
   <url>
@@ -311,6 +448,18 @@
   </url>
   <url>
     <loc>http://darioarzaba.github.io/blog/categories/articulo/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/categories/lenguaje/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/categories/sitio-web/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/categories/recetas/</loc>
+  </url>
+  <url>
+    <loc>http://darioarzaba.github.io/blog/categories/defcon/</loc>
   </url>
     <url>
       <loc>http://darioarzaba.github.io/primero/2017/02/15/JekyllAdventures.html</loc>
@@ -356,5 +505,29 @@
     </url>
     <url>
       <loc>http://darioarzaba.github.io/peliculas/2017/03/01/LaVidaDeAdele.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/lenguaje/2017/03/02/ClaveMorse.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/programacion/2017/03/03/IRC.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/sitio%20web/2017/03/04/TiscaliWordscape.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/sitio%20web/2017/03/05/StaticGen.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/sitio%20web/2017/03/06/ContributorCovenant.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/sitio%20web/2017/03/07/BrianKelks.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/recetas/2017/03/18/RecetaPapas.html</loc>
+    </url>
+    <url>
+      <loc>http://darioarzaba.github.io/defcon/2017/03/19/DefCon.html</loc>
     </url>
 </urlset>

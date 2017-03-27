@@ -7,6 +7,816 @@
     <atom:link href="http://darioarzaba.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Wearables, Camaras e Interrogatorios</title>
+        <description>&lt;p&gt;DefCon inicio en 1993 como una fiesta de despedida para el miembro del grupo de hackers canadiense “Platinum Net”, sin embargo el festejado no pudo asistir y el organizador del evento (Jeff Moss) terminaria por invitar a todos en el IRC #hack. El nombre DefCon es una referencia a &lt;em&gt;US Armed Forces Defense Rediness Condition&lt;/em&gt; de la pelicula &lt;em&gt;WarGames&lt;/em&gt;, ademas de ser las tres letras escritas en la tecla numero tres de un telefono.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;attacks-against-top-consumer-products&quot;&gt;Attacks Against Top Consumer Products&lt;/h3&gt;
+
+&lt;p&gt;Por Zack Fasel y Erin Jacobs&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XkJ2tH21Wf8&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Fasel-Jacobs-I-fight-for-the-users-UPDATED.pdf&quot;&gt;Presentacion PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/zfasel?lang=en&quot;&gt;Twitter Zack Fasel&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/SecBarbie?lang=en&quot;&gt;Twitter Erin Jacobs&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;algunas-notas-de-la-presentacin&quot;&gt;Algunas notas de la presentación&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Vectores de Ataque&lt;/strong&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Arbitrary_code_execution&quot;&gt;Ejecutar codigo&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Buffer_overflow&quot;&gt;Overflow&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/DOS&quot;&gt;DOS&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Memory_corruption&quot;&gt;Memory Corruption&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Privilege_escalation&quot;&gt;Privilege Escalation&lt;/a&gt;, XSS (https://en.wikipedia.org/wiki/Cross-site_scripting), Http Response Spliting (https://en.wikipedia.org/wiki/HTTP_response_splitting), CSRF (https://en.wikipedia.org/wiki/Cross-site_request_forgery) etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usando Herramientas&lt;/strong&gt;: &lt;a href=&quot;https://github.com/pwnieexpress/blue_hydra&quot;&gt;BlueHydra&lt;/a&gt; (&lt;a href=&quot;https://github.com/ZeroChaos-&quot;&gt;Zero Chaos&lt;/a&gt; y &lt;a href=&quot;https://github.com/granolocks&quot;&gt;Granolocks&lt;/a&gt; como parte de &lt;a href=&quot;https://www.pwnieexpress.com/&quot;&gt;Pwnieexpress&lt;/a&gt;), &lt;a href=&quot;https://github.com/merculite/BLE-Security&quot;&gt;BLE Lock From Miles Away&lt;/a&gt; (&lt;a href=&quot;https://media.defcon.org/DEF%20CON%2024/DEF%20CON%2024%20presentations/DEFCON-24-Rose-Ramsey-Picking-Bluetooth-Low-Energy-Locks-UPDATED.pdf&quot;&gt;Rose and Ramsey&lt;/a&gt;) y &lt;a href=&quot;https://github.com/nccgroup/BLE-Replay&quot;&gt;BLE Replay&lt;/a&gt; (&lt;a href=&quot;https://github.com/nccgroup&quot;&gt;Foringer and Trabun&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;En dispositivos como&lt;/strong&gt;: &lt;a href=&quot;https://en.wikipedia.org/wiki/Automatic_number_plate_recognition&quot;&gt;ALPR&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Electronic_toll_collection&quot;&gt;ETC RFID&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Bluetooth&quot;&gt;Bluethooth&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Facial_recognition_system&quot;&gt;Facial Recognition&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/IMSI-catcher&quot;&gt;IMSI Catcher&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Radio-frequency_identification&quot;&gt;Credit Card RFID&lt;/a&gt; y &lt;a href=&quot;https://en.wikipedia.org/wiki/Smart_card&quot;&gt;Work Badges&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Para estos ataques asumimos que utilizan el Bluetooth clasico que consiste de 80 canales de 1Mhz a 1600 hops por segundo y con protocolos &lt;a href=&quot;https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2012/february/bluetooth-defining-nap-uap-lap/&quot;&gt;NAP-UAP-LAP&lt;/a&gt;, en donde los LAP hacen la secuencia de hops, e incluyen todo el mensaje. Para solucionar problemas de seguridad algunos utilizan hoy en dia Bluetooth Smart.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bluetooth Smart&lt;/strong&gt;: El &lt;a href=&quot;https://en.wikipedia.org/wiki/Bluetooth_low_energy&quot;&gt;BLE&lt;/a&gt; consiste en 37+3 2Mhz Canales con incremento de los canales determinado por Master cuando realiza la conexión. Dirección de acceso de 4 Bytes y Mac Address de 6 al anunciarse (Advertising Announcements). La dirección de acceso se utiliza solo una vez y cambia dependiendo de la conexión con el dispositivo (imposible rastrearla por mucho tiempo). Para que un dispositivo comparta la informacion de su estado por bluetooth utilizamos &lt;a href=&quot;https://www.bluetooth.com/specifications/assigned-numbers/generic-access-profile&quot;&gt;GAP&lt;/a&gt; (generic access profile) y/o &lt;a href=&quot;https://www.bluetooth.com/specifications/generic-attributes-overview&quot;&gt;GATT&lt;/a&gt; (generic attribute profile).&lt;/p&gt;
+
+&lt;p&gt;Para comenzar un ataque podemos desconectar momentaneamente y en proximidad el BLE, para ello necesitamos un &lt;a href=&quot;https://www.ettus.com/product/details/UB210-KIT&quot;&gt;USRP b210&lt;/a&gt; = 56Mhz y BLE = 80Mhz - 6Mhz de Broadcast. Si enviamos 242 Mhz a 2478 Mhz es decir GNURadio + Rand Noise, entonces podemos desactivarlo. Alternativamente podriamos realizar &lt;a href=&quot;https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack&quot;&gt;Spoof Disconect&lt;/a&gt;, en esencia enviar &lt;em&gt;&lt;a href=&quot;http://rfmw.em.keysight.com/wireless/helpfiles/n7606b/Content/Main/PDU_Payload_Setting_8.htm&quot;&gt;LL_TERMINATE_IND Control Packet&lt;/a&gt;&lt;/em&gt; al dispositivo, esto es complicado pues necesitariamos obtener el &lt;a href=&quot;https://stackoverflow.com/questions/41160068/what-is-the-purpose-of-access-address-in-ble&quot;&gt;Address Access&lt;/a&gt; momentaneamente y utilizar el canal adecuado, muchos dispositivos se bloquean automaticamente al resolver este paquete.&lt;/p&gt;
+
+&lt;p&gt;Si tu intencion es rastrar Macs Dinamicos te recomendamos buscar &lt;a href=&quot;https://arxiv.org/pdf/1703.02874v1.pdf&quot;&gt;patrones de randomizacion&lt;/a&gt; o GAPs y GATTs que dejen escapar el serial o el nombre del dispositivo en base a ciertas circunstancias de conexión. Encontramos que es posible desautorizar dispositivos con BLE al intentar que estos respondan a canales de pedido o advertencia utilizando sus direcciones Mac. Algunas de las credenciales de fabrica (sin que el usuario las cambiara) que obtuvimos con el metodo anterior para camaras de &lt;em&gt;seguridad&lt;/em&gt; fueron:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;User: Admin, admin, Administrator, root, supervisor.&lt;/li&gt;
+  &lt;li&gt;Password: 1234, 12345 , 123456, 9999, 4321, 1111111 admin, pass, camera, system, root, supervisor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Productos Testeados:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pavlok: Static Mac, su serial esta en su mac, su serial tambien esta por medio de GATT en caso de que no lo tuvieras ya en su ascii - &amp;gt; hex&lt;/li&gt;
+  &lt;li&gt;Trackr: Static Mac, serial en su broadcast.&lt;/li&gt;
+  &lt;li&gt;Tile: Static Mac, “Tile Identifier” en su GATT, sin embargo solo se mantiene conectado cuando la aplicacion esta abierta.&lt;/li&gt;
+  &lt;li&gt;Fitbit one: Mac dinamico pero se vuelve estatico despues de 4 meses, no se mantiene conectado por lo que realiza broadcasts.&lt;/li&gt;
+  &lt;li&gt;Withings active: Mac dinamico, pero advierte su MAC como datos de manufactura en sus datos de advertencia (ADV_IND).&lt;/li&gt;
+  &lt;li&gt;Pebble steel: 2bytes de mac en sus datos de manufactura. Mac estatico, serial en la info del dispositivo, usa a veces clasico y a veces BLE.&lt;/li&gt;
+  &lt;li&gt;Fitbit alta: Mac dinamico pero se vuelve estatico despues de meses.&lt;/li&gt;
+  &lt;li&gt;Apple watch: Mac dinamico, se mantiene dinamico sin importar que, sin embargo detectamos un patron de tiempo.&lt;/li&gt;
+  &lt;li&gt;Android wear: Random Mac pero no responde bien a BLE broadcasts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Otros ataques y recursos relacionados:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/urbanesec&quot;&gt;Urbanesec Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/dominicgs&quot;&gt;Dominic Spill Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/mossmann&quot;&gt;Michael Ossman Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/mikeryan&quot;&gt;Mike Ryan Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/mubix&quot;&gt;Mubix Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/urbanesec/ZackAttack&quot;&gt;ZackAttack&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://developer.mozilla.org/es/docs/Web/HTTP/Access_control_CORS&quot;&gt;Apps sin CORS&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.aircrack-ng.org/doku.php?id=Main&amp;amp;DokuWiki=pv64lb864prravrcjlqd9p86i6&quot;&gt;Aircracking&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/gartnera/Web-Password-Cracking&quot;&gt;Hashcat Interface&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://msdn.microsoft.com/en-us/library/gg465305.aspx&quot;&gt;UNC Paths&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_hash_functions&quot;&gt;Hashes&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/NT_LAN_Manager&quot;&gt;NTLM&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Web_Proxy_Auto-Discovery_Protocol&quot;&gt;WPAD&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Link-Local_Multicast_Name_Resolution&quot;&gt;LLMNR&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/NetBIOS_over_TCP/IP&quot;&gt;NetBT&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;us-interrogation-techniques-and-se&quot;&gt;US Interrogation Techniques and SE&lt;/h4&gt;
+
+&lt;p&gt;Por Robert Anderson&lt;/p&gt;
+
+&lt;p&gt;Personalmente fue muy interesante darle una hojeada a los manuales de inteligencia que utilizaba USA, mismos que estan hoy en dia en el dominio publico. Basta la opinion de expertos que defienden la creencia de que los mejores hackers de la historia lo fueron no &lt;em&gt;solo&lt;/em&gt; por sus conocimientos tecnicos, sino tambien por sus habilidades en &lt;em&gt;Ingenieria Social&lt;/em&gt;, es decir en el arte del engaño para obtener informacion crucial.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/G_lmXqBUtZc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/&quot;&gt;DefCon&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc-news.html&quot;&gt;Noticias&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/DEFCONConference/videos&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc-archives.html&quot;&gt;Por Conferencia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc-video.html&quot;&gt;Videos&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc-tools.html&quot;&gt;Herramientas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://media.defcon.org/&quot;&gt;Servidor Principal&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc-torrent.html&quot;&gt;Torrents&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.defcon.org/html/links/dc_press/dc_press.html&quot;&gt;Articulos&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/defcon/2017/03/19/DefCon.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/defcon/2017/03/19/DefCon.html</guid>
+        
+        <category>DefCon</category>
+        
+        <category>Hacking</category>
+        
+        <category>Hack</category>
+        
+        <category>Github</category>
+        
+        <category>Bluethooth</category>
+        
+        <category>Video</category>
+        
+        <category>Conferencia</category>
+        
+        
+        <category>DefCon</category>
+        
+      </item>
+    
+      <item>
+        <title>Papas en Salsa de Jitomate</title>
+        <description>&lt;!--Agregar Fotografia de la Receta--&gt;
+
+&lt;p&gt;Ingredientes Base:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;4 Papas&lt;/li&gt;
+  &lt;li&gt;3 Tomates Rojos&lt;/li&gt;
+  &lt;li&gt;1/4 Cebolla blanca&lt;/li&gt;
+  &lt;li&gt;1/2 Chile Serrano Verde&lt;/li&gt;
+  &lt;li&gt;1 Pizca de Pimienta&lt;/li&gt;
+  &lt;li&gt;1 Pizca de Oregano&lt;/li&gt;
+  &lt;li&gt;1 Diente de Ajo&lt;/li&gt;
+  &lt;li&gt;1 Cucharada de Sal&lt;/li&gt;
+  &lt;li&gt;2 Cucharadas de Aceite de Oliva&lt;/li&gt;
+  &lt;li&gt;1/8 de Queso Manchego en Cuadritos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Preparacion:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cortamos y pelamos las papas en cuadros grandes.&lt;/li&gt;
+  &lt;li&gt;Hervimos las papas hasta que esten medio cocidas.&lt;/li&gt;
+  &lt;li&gt;En una cacerola ponemos el aceite y sofreimos.&lt;/li&gt;
+  &lt;li&gt;Licuamos los tomates, el ajo, la cebolla, la pimienta, el chile, la sal y el oregano con un vaso de agua.&lt;/li&gt;
+  &lt;li&gt;Se hierve la salza de tomate en un sarten y agregamos las rodajas de papa.&lt;/li&gt;
+  &lt;li&gt;Se deja hervir hasta que se cosan bien las papas y se consuma un poco la salsa.&lt;/li&gt;
+  &lt;li&gt;Finalmente se apaga el fuego y se agrega el queso sobre los cuadros de papa, se tapa el sarten hasta que se gratine.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 18 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/recetas/2017/03/18/RecetaPapas.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/recetas/2017/03/18/RecetaPapas.html</guid>
+        
+        <category>Papas</category>
+        
+        <category>Vegetariano</category>
+        
+        <category>Recetas</category>
+        
+        <category>Simple</category>
+        
+        
+        <category>Recetas</category>
+        
+      </item>
+    
+      <item>
+        <title>Brian Kelks</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.bckelk.ukfsn.org/phon.full.html&quot;&gt;Alfabetos foneticos&lt;/a&gt;: Lista incluye los alfabetos foneticos, radiofonicos o de deletreo para distintos idiomas. Wikipedia tambien cuenta con una &lt;a href=&quot;https://en.wikipedia.org/wiki/Spelling_alphabet&quot;&gt;lista similar&lt;/a&gt;. Mirror en &lt;a href=&quot;http://www.w2aee.columbia.edu/phonetic.html&quot;&gt;este sitio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Antes de los 50s un alfabeto fonetico popular era el &lt;a href=&quot;http://www.bckelk.ukfsn.org/able.html&quot;&gt;Able Baker Charlie&lt;/a&gt;. Este alfabeto (&lt;a href=&quot;http://www.navsource.org/archives/sfpa.htm&quot;&gt;Able Baker&lt;/a&gt;) fue utilizado en la segunda guerra mundial. Ademas de Estados Unidos, Alemania tambien conto su propio &lt;a href=&quot;https://de.wikipedia.org/wiki/Buchstabiertafel&quot;&gt;alfabeto fonetico&lt;/a&gt; y unicamente despues de la segunda guerra mundial es que adoptaria el estandar &lt;a href=&quot;http://www.thephoneticalphabet.com/&quot;&gt;NATO&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Existen otros &lt;a href=&quot;http://www.phoneticalphabets.net/&quot;&gt;alfabetos foneticos&lt;/a&gt; menos conocidos como &lt;a href=&quot;http://alumnus.caltech.edu/~however/NAPA/&quot;&gt;NAPA&lt;/a&gt;, el cual intenta ser verdaderamente &lt;em&gt;anacrofonetico&lt;/em&gt;. Como referencia se otorga una lista con los &lt;a href=&quot;http://www.phon.ucl.ac.uk/home/wells/phoneticsymbolsforenglish.htm&quot;&gt;simbolos foneticos&lt;/a&gt; en ingles y un sitio Open Source con todos los &lt;a href=&quot;http://www.dicts.info/&quot;&gt;diccionarios del mundo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;En otra parte del sitio se exponen las 1000 palabras más usadas en Ingles &lt;a href=&quot;http://www.bckelk.ukfsn.org/words/uk1000.html&quot;&gt;Segun Brian Kelks&lt;/a&gt;. Aunque creo que la lista de &lt;a href=&quot;https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists&quot;&gt;Wikipedia&lt;/a&gt; esta más actualizada. Al utilizar el Proyecto Gutemberg obtenemos &lt;a href=&quot;https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/PG/2006/04/1-10000&quot;&gt;esta lista&lt;/a&gt; de 10,000 palabras para ingles o &lt;a href=&quot;http://corpus.rae.es/frec/1000_formas.TXT&quot;&gt;esta lista&lt;/a&gt; de 1000 palabras para español.&lt;/p&gt;
+
+&lt;p&gt;En &lt;a href=&quot;http://www.bckelk.ukfsn.org/words/etaoin.html&quot;&gt;esta pagina&lt;/a&gt; Brian describe algunas frecuencias de letras segun varios idiomas, de nuevo Wikipedia tiene &lt;a href=&quot;https://en.wikipedia.org/wiki/Letter_frequency&quot;&gt;un articulo&lt;/a&gt; mucho más completo, aunque el que mas me gusto es el de &lt;a href=&quot;http://letterfrequency.org/&quot;&gt;este sitio&lt;/a&gt;. En el articulo de Brian tambien se menciona como dato curioso que la frecuencia del discruso inaugural de Obama fue (etoarnsihdlucwfmgpybvkjqzx) y el de la novela &lt;em&gt;El Pais de las Maravillas&lt;/em&gt; es (etaoihnsrdluwgcymfpbkvqxjz).&lt;/p&gt;
+
+&lt;p&gt;Existe un tipo de ingles que se populariso en Oriente denominado “&lt;a href=&quot;http://www.basic-english.org/&quot;&gt;Ingles Basico&lt;/a&gt;”. Tomando en cuenta la frecuencia de las palabras los alumnos pueden aprender rapidamente la mayoria del vocabulario fundamental, con el objetivo de darse a entender de forma cruda pero practica. Esta es una opcion muy popular para quienes quieren &lt;a href=&quot;http://www.english-zone.com/&quot;&gt;aprender Ingles&lt;/a&gt; a gran velocidad. En &lt;a href=&quot;http://www.zompist.com/langfaq.html&quot;&gt;este sitio&lt;/a&gt; se discuten otros aspectos de linguistica como la creacion de lenguajes artificiales.&lt;/p&gt;
+
+&lt;p&gt;Por ultimo el sitio recomienda algunas bibliotecas publicas como &lt;a href=&quot;https://www.thefreelibrary.com/&quot;&gt;The Free Library&lt;/a&gt; o &lt;a href=&quot;https://openlibrary.org/&quot;&gt;The Open Library&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;code-talkers&quot;&gt;Code Talkers&lt;/h4&gt;
+
+&lt;p&gt;Se habla de como es que los &lt;a href=&quot;http://www.bckelk.ukfsn.org/cotalk.html&quot;&gt;Nativos Americanos&lt;/a&gt; utilizaron su lengua original para codificar mensajes secretos en la primera y segunda guerra mundial.&lt;/p&gt;
+
+&lt;p&gt;Catorse indios Choctaw ayudaron a la division 36 en la campaña francesa al traducir y codificar los mensajes, aunque muchos fueron interceptados por los alemanes nunca pudieron decifrar su contenido. En 1986 se dieron Medallas de Valor a las familias de los Choctaw y en 1989 Francia dio el mayor reconocimiento la “Chevalier de LOrdre National du Merite”. Su exito rotundo extenderia el servicio de los Choctaw a la segunda guerra mundial.&lt;/p&gt;
+
+&lt;p&gt;Ademas de los Choctaw en la segunda guerra mundial fueron introducidos diecisiete indios Comanche. Entrenados en todas las formas de comunicacion fueron introducidos en la cuarta division de comunicaciones para utilizar su lenguaje Comanche como codigo secreto. Por ejemplo para referirse a Adolph Hitler decian “&lt;em&gt;Posah Tai Vo&lt;/em&gt;” que literalmente significa “Hombre Blanco Loco”. Al igual que a los Choctaw, Francia le otorgo a la tribu Medallas de Valor en 1989.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo aunque la participacion Choctaw y Comanche fue vital, la mayor participacion de indios americanos en la segunda guerra mundial se dio con la introduccion de 400 indios Navajo, denominados “&lt;em&gt;Code Talkers&lt;/em&gt;” para las comunicaciones en el frente del Pacifico. Su exito con los japoneses fue tal que se diseño un alfabeto fonetico (Y razon de que Brian lo incluya en su sitio) en Navajo.&lt;/p&gt;
+
+&lt;p&gt;Los navajo sirvieron en la tercera, cuarta y quinta divisiones de comunicaciones. Tenian la responsabilidad de transmitir bombardeos, movimiento de tropas, posiciones enemigas e informacion extremadamente importante; en particular se recuerda la operacion para capturar Iwo Jima en donde unicamente se utilizo Navajo y se transmitio a la perfeccion 800 ordenes.&lt;/p&gt;
+
+&lt;p&gt;Alfabeto Fonetico en Navajo:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Significado&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Navajo&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Traduccion&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;A&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Wol-la-chee&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ant&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;B&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Shush&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bear&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;C&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mosai&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Cat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;D&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Be&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Deer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;E&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Dzeh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Elk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;F&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ma-e&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Fox&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;G&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Klizzie&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Goat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;H&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Horse&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;I&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Tkin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ice&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;J&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Tkele-cho-gi&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Jackass&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;K&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Klizzie-yazzie&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Kid&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;L&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Dibeh-yazzie&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Lamb&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;M&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Na-as-tso-si&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Mouse&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;N&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Nesh-chee&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Nut&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;O&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ne-ahs-jah&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Owl&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;P&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Bi-sodih&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Pig&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Q&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ca-yeilth&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Quiver&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;R&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gah&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rabbit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;S&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Dibeh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Sheep&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;T&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Than-zie&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Turkey&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;U&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;No-da-ih&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ute&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;V&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;A-keh-di-glini&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Victor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;W&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Gloe-ih&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Weasel&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;X&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Al-an-as-dzoh&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Cross&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Y&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Tsah-as-zih&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Yucca&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Z&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Besh-do-gliz&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Zinc&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;No tengo tiempo de checar estos links, sin embargo lo pongo aqui como un recordatorio de su existencia:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bckelk.ukfsn.org/links.html&quot;&gt;Brian Kelks Link Dump&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bckelk.ukfsn.org/menu.html&quot;&gt;Website Alfabetos&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://spellout.org/&quot;&gt;Herramienta para Deletrear Texto&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.bckelk.ukfsn.org/links.html&quot;&gt;Website Links&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/sitio%20web/2017/03/07/BrianKelks.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/sitio%20web/2017/03/07/BrianKelks.html</guid>
+        
+        <category>Linguista</category>
+        
+        <category>Alfabetos</category>
+        
+        <category>Letras</category>
+        
+        <category>Links</category>
+        
+        <category>Varios</category>
+        
+        <category>Website</category>
+        
+        <category>Internet</category>
+        
+        
+        <category>Sitio Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Contributor Covenant</title>
+        <description>&lt;p&gt;Muchos proyectos Open Source necesitan de un &lt;strong&gt;Codigo de Conducta&lt;/strong&gt; para protejer los valores de libertad y equidad que se necesitan en estos ambientes virtuales.&lt;/p&gt;
+
+&lt;p&gt;Sabiendo de la necesidad de esta clase de normas, en torno a la creacion colectiva de codigo, &lt;a href=&quot;http://where.coraline.codes/&quot;&gt;Coraline Ada Ehmke&lt;/a&gt; ha creado un &lt;a href=&quot;http://contributor-covenant.org/version/1/4/es/&quot;&gt;Codigo de Conducta&lt;/a&gt; estandar.&lt;/p&gt;
+
+&lt;p&gt;Este proyecto tiene la esperanza de aumentar la diversidad de quienes contribuyen, la cantidad de mujeres, personas de color y poblaciones marginadas, para que puedan aportar nuevas ideas y puntos de vista.&lt;/p&gt;
+
+&lt;p&gt;El problema es que muchos proyectos se generan en comunidades &lt;a href=&quot;https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy&quot;&gt;Meritocraticas&lt;/a&gt;, que terminan por jerarquizar a las personas y discriminar asumiendo que todos tienen la misma cantidad de recursos, tiempo y experiencias personales.&lt;/p&gt;
+
+&lt;p&gt;Coraline, ademas de crear el codigo de conducta, ha aportado a infinidad de &lt;a href=&quot;https://github.com/CoralineAda/&quot;&gt;proyectos&lt;/a&gt; open source, y es la fundadora de &lt;a href=&quot;https://www.os4w.org/&quot;&gt;OS4W&lt;/a&gt;, un sitio web dedicado a reunir y fortalecer a las comunidades minoritarias para introducirlas en el sector tecnologico.&lt;/p&gt;
+
+&lt;p&gt;Las visiones de inclusion y diversidad de Caroline son expresadas en detalle dentro de tres publicaciones que realizo para la revista &lt;a href=&quot;https://modelviewculture.com/&quot;&gt;Model View Culture&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://modelviewculture.com/pieces/codes-of-conduct-when-being-excellent-is-not-enough&quot;&gt;Codigos de Conducta 2014&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://modelviewculture.com/pieces/the-dehumanizing-myth-of-the-meritocracy&quot;&gt;Meritocracy&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://modelviewculture.com/pieces/the-new-normal-codes-of-conduct-in-2015-and-beyond&quot;&gt;Codigos de Conducta 2015&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;En los articulos anteriores puedo rescatar los siguientes puntos:&lt;/p&gt;
+
+&lt;p&gt;La industria de software ha desarrollado un sistema meritocratico que aparenta ser inclusivo, sin embargo no es mas que otro sistema de poder necesitado de un apoyo proactivo a la diversidad si es que pretende evitar la normalizacion de la discriminacion.&lt;/p&gt;
+
+&lt;p&gt;Uno de sus principales obstaculos es que las aportaciones intelectuales de un individuo no pueden de ninguna manera justificar actitudes racistas que tienden a propagarse en la comunidad, sobretodo cuando dichas aportaciones lo hayan puesto en un puesto de poder e influencia. La comunidad Open Source debe examinar toda filosofia que se asemeje a este unutilitarismo deshumanizante.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;lista-de-conferencias-de-caroline&quot;&gt;Lista de Conferencias de Caroline&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/NPy1vGedYI0&quot;&gt;El ya no trabaja aqui&lt;/a&gt;: Expone su experiencia como una mujer transgenero. Creo que es muy importante dar a conocer la voz de estas personas, ya que debemos normalizar sus deciciones, con el fin de evitar la discriminacion que lamentablemente viven dia a dia.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/96cqqEfGSFg&quot;&gt;Artesanos y Aprendices&lt;/a&gt;: Compara las diferencias entre las oportunidades educativas y de trabajo actuales con las de hace un milenio. Esta interesante comparativa nos permite evitar algunos errores comunes que seguimos viviendo en los sistemas actuales.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/Pf_nXuHhods&quot;&gt;Inteligencia en Negocios&lt;/a&gt;: Explica el uso de Ruby para generar analisis de bases de datos (Inteligencia en Negocios) de forma ligera y rapida, esto como una alternativa a la tendencia de contratar equipos y servidores costosos que generan reportes demaciado complejos para un analisis iterativo y agil.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/NfyieD5det8&quot;&gt;NEO4J Base de Datos Grafica&lt;/a&gt;: Explica el uso de bases de datos graficas como una alternativa a bases de datos tabulares.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/V2Ail3yMo0o&quot;&gt;Estetica del Codigo&lt;/a&gt;: Analisa la relacion que tiene la estetica del codigo y su impacto real en la utilidad de distintos lenguajes, enfatiza la necesidad de lograr codigo agil, simple, legible y practico.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/lZ0UYq2UJUw&quot;&gt;Alquimia e Identidad de los Programadores&lt;/a&gt;: Explica la complicada busqueda de identidad que experimentan los programadores del mundoa al trabajar en una industria tan reciente y en donde las reglas se conforman dia a dia. Coraline argumenta como los inicios de la Alquimia son analogos a los de esta nueva ciencia.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://contributor-covenant.org/&quot;&gt;Website&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/ContributorCovenant/contributor_covenant&quot;&gt;Github&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/simonv3/covenant-generator&quot;&gt;Covenant Generator&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://contributor-covenant.org/adopters/&quot;&gt;Lista de Proyectos que lo han Adoptado&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.ashedryden.com/blog/codes-of-conduct-101-faq&quot;&gt;FAQ Sobre Codigos de Conducta&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/sitio%20web/2017/03/06/ContributorCovenant.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/sitio%20web/2017/03/06/ContributorCovenant.html</guid>
+        
+        <category>OpenSource</category>
+        
+        <category>Programacion</category>
+        
+        <category>Github</category>
+        
+        <category>Git</category>
+        
+        <category>Internet</category>
+        
+        <category>Conducta</category>
+        
+        <category>Normas</category>
+        
+        
+        <category>Sitio Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Static Generators</title>
+        <description>&lt;p&gt;Cuando uno utiliza un generador de sitios estaticos como &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, no tarda en toparse con este util sitio que lista los generadores de sitios estaticos mas populares. En este momento Jekyll es el más popular, sin embargo existen varias alternativas con las que probablemente llegue a experimentar en el futuro.&lt;/p&gt;
+
+&lt;p&gt;Esta lista esta patrocinada por &lt;a href=&quot;https://www.netlify.com/pricing/&quot;&gt;Netlify&lt;/a&gt;, una plataforma para publicar sitios estaticos. Muy buenas opciones de almacenamiento para sitios Open Source, definitivamente voy a probar su servicio más tarde. Aunque es evidente la directa competencia con Github y Jekyll, agradesco su esfuerzo por incentivar la creacion de sitios web Open Source.&lt;/p&gt;
+
+&lt;p&gt;Probablemente realize un review de cada generador estatico que utilice, tambien debido a que no puedo utilizar Ruby Plugins en Github Pages, puede que sea la principal razon para echarle un vistaso a Netlify.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Lista de Algunos Generadores Estaticos:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;: Generador que uso y adoro. Simple, elegante, rapido y con una gran cantidad de diseños. Sin embargo creo que tiende a volverse exponencialmente complejo a medida que se van añadiendo plugins y herramientas adicionales.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gitbook.com/&quot;&gt;GitBook&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://octopress.org/&quot;&gt;OctoPress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/gatsbyjs/gatsby&quot;&gt;Gatsby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.getpelican.com/&quot;&gt;Pelican&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://brunch.io/&quot;&gt;Brunch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.metalsmith.io/&quot;&gt;MetalSmith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://middlemanapp.com/&quot;&gt;MiddleMan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://harpjs.com/&quot;&gt;Harp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Jack000/Expose&quot;&gt;Expose&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mkdocs.org/&quot;&gt;MkDocs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://assemble.io/&quot;&gt;Assemble&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wintersmith.io/&quot;&gt;WinterSmith&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docpad.org/&quot;&gt;DocPad&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nuxtjs.org/&quot;&gt;Nuxt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hubpress.io/&quot;&gt;HubPress&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.getlektor.com/&quot;&gt;Lektor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://phenomic.io/&quot;&gt;Phenomic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nanoc.ws/&quot;&gt;Nanoc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyde.github.io/&quot;&gt;Hyde&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://laktek.github.io/punch/&quot;&gt;Punch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://roots.cx/&quot;&gt;Roots&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.staticgen.com/&quot;&gt;Website&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/netlify/staticgen&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/sitio%20web/2017/03/05/StaticGen.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/sitio%20web/2017/03/05/StaticGen.html</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>Programacion</category>
+        
+        <category>Hugo</category>
+        
+        <category>HTML</category>
+        
+        <category>Web</category>
+        
+        <category>Internet</category>
+        
+        <category>Sitio</category>
+        
+        
+        <category>Sitio Web</category>
+        
+      </item>
+    
+      <item>
+        <title>Tiscali Wordscape</title>
+        <description>&lt;p&gt;Tiscali Wordscapees la pagina web personal de John and Muriel Higgins. En ella John a recolectado varias curiosidades linguisticas relacionadas con el ingles y me propuse a compartir algunas de ellas.&lt;/p&gt;
+
+&lt;h4 id=&quot;polyseme-polisemico&quot;&gt;Polyseme (Polisemico)&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To a mechanic, a ‘shot’ fanbelt was a worn one. To a bartender, a ‘shot’ was a one-ounce glass of whiskey. To a decathlon champion, a ‘shot’ was an iron ball to be thrown as far as he could throw it. To a tennis player, a ‘shot’ was what he stroked over the net. To a junkie or a physician, a ‘shot’ was an injection by hypodermic syringe. To a motion-picture director, a ‘shot’ was any given camera setup. And to Morris Bloom, a ‘shot’ was something fired from a gun you could buy off a shelf like a ripe banana. I was very happy I wasn’t learning English as a foreign language; I was far too old to be taking a shot at such a formidable task.  -  (&lt;a href=&quot;http://myweb.tiscali.co.uk/wordscape/museum/polyseme.html&quot;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Homonimo&lt;/dt&gt;
+  &lt;dd&gt;Palabras de distinto significado y origen etimologico que llegan a desarrollar la misma escritura (Homografo) o pronunciacion (Homofono). Ej. Vela puede significar un cilindro de cera o una tela usada en los barcos, ambos significados provienen etimologicamente de distintas palabras (&lt;em&gt;vigilare y velum&lt;/em&gt;).&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Polisemico&lt;/dt&gt;
+  &lt;dd&gt;Palabras con distintos significados pero con el mismo origen etimologico, es decir que su escritura y pronunciacion son las mismas porque surgen de la misma palabra original. Ej. Banco puede tener el significado de aciento u institucion financiera, ambos significados provienen etimologicamente de la misma palabra (&lt;em&gt;Bank&lt;/em&gt;).&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Homografo&lt;/dt&gt;
+  &lt;dd&gt;Palabras que tienen la misma escritura (grafia) pero distinto significado y pronunciacion. &lt;a href=&quot;http://www.minpairs.talktalk.net/graph.html&quot;&gt;Lista de Homografos en Ingles&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;Homofono&lt;/dt&gt;
+  &lt;dd&gt;Palabras que tienen la misma pronunciacion (fonos) pero distinto significado y escritura. &lt;a href=&quot;http://www.minpairs.talktalk.net/phone.html&quot;&gt;Lista de Homofonos en Ingles&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;En la epoca de tramision radiofonica, para poder deletrear claramente las letras se creron varios alfabetos foneticos, hoy en dia el más utilizado en el mundo para el idioma ingles es el alfabeto radiofonico &lt;a href=&quot;https://en.wikipedia.org/wiki/NATO_phonetic_alphabet&quot;&gt;NATO&lt;/a&gt;. &lt;a href=&quot;http://myweb.tiscali.co.uk/wordscape/museum/aviation.html&quot;&gt;Lista de Alfabetos Foneticos en Ingles&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;pares-minimos&quot;&gt;Pares Minimos&lt;/h4&gt;
+
+&lt;p&gt;Los pares minimos (Minimal Pairs) son pares de palabras cuya pronunciacion difiere en un minimo segmento, usualmente en una letra. Todas las combinaciones de Pares Minimos producen todas las variaciones en pronunciacion dentro de un idioma.  &lt;a href=&quot;http://www.minpairs.talktalk.net/minimal.html&quot;&gt;Lista de Pares Minimos para Ingles&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;alfabeto-silencioso&quot;&gt;Alfabeto Silencioso&lt;/h3&gt;
+
+&lt;p&gt;En ingles, dependiendo del orden de los caracteres, toda letra puede volverse un caracter silencioso, por lo que podemos crear un alfabeto usando como referencia la letra que no se pronuncia de cada palabra. (&lt;a href=&quot;http://myweb.tiscali.co.uk/wordscape/museum/silent.html&quot;&gt;Source&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A as in Bread&lt;/li&gt;
+  &lt;li&gt;B as in Debt&lt;/li&gt;
+  &lt;li&gt;C as in Indictment&lt;/li&gt;
+  &lt;li&gt;D as in Handkerchief&lt;/li&gt;
+  &lt;li&gt;E as in Give&lt;/li&gt;
+  &lt;li&gt;F as in Halfpenny&lt;/li&gt;
+  &lt;li&gt;G as in Gnaw&lt;/li&gt;
+  &lt;li&gt;H as in Hour&lt;/li&gt;
+  &lt;li&gt;I as in Friend&lt;/li&gt;
+  &lt;li&gt;J as in Marijuana&lt;/li&gt;
+  &lt;li&gt;K as in Know&lt;/li&gt;
+  &lt;li&gt;L as in Calm&lt;/li&gt;
+  &lt;li&gt;M as the first M in Mnemonic&lt;/li&gt;
+  &lt;li&gt;N as in Autumn&lt;/li&gt;
+  &lt;li&gt;O as in People&lt;/li&gt;
+  &lt;li&gt;P as in Psalm&lt;/li&gt;
+  &lt;li&gt;Q as in Colquhoun&lt;/li&gt;
+  &lt;li&gt;R as in Forecastle&lt;/li&gt;
+  &lt;li&gt;S as in Island&lt;/li&gt;
+  &lt;li&gt;T as in Castle&lt;/li&gt;
+  &lt;li&gt;U as in Guard&lt;/li&gt;
+  &lt;li&gt;V as in Milngavie&lt;/li&gt;
+  &lt;li&gt;W as in Wrong&lt;/li&gt;
+  &lt;li&gt;X as in Sioux&lt;/li&gt;
+  &lt;li&gt;Y as in Pepys&lt;/li&gt;
+  &lt;li&gt;Z as in Rendezvous&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href=&quot;http://myweb.tiscali.co.uk/wordscape/&quot;&gt;Website&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/sitio%20web/2017/03/04/TiscaliWordscape.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/sitio%20web/2017/03/04/TiscaliWordscape.html</guid>
+        
+        <category>Ingles</category>
+        
+        <category>Linguistica</category>
+        
+        <category>Palabras</category>
+        
+        <category>Fonetica</category>
+        
+        <category>Etimologia</category>
+        
+        <category>Frases</category>
+        
+        <category>Sitio</category>
+        
+        
+        <category>Sitio Web</category>
+        
+      </item>
+    
+      <item>
+        <title>IRC</title>
+        <description>&lt;p&gt;IRC o Internet Relay Chat es un &lt;em&gt;Protocolo de Internet&lt;/em&gt; para transferir mensajes de texto en un &lt;em&gt;Chat Room&lt;/em&gt; o &lt;em&gt;Channel&lt;/em&gt; (Canal), mismos que pueden ser accesados a travez de clientes IRC, de la misma forma que utilizamos clientes HTTP (Navegadores) para accesar a Internet.&lt;/p&gt;
+
+&lt;p&gt;Aunque es uno de los servicios mas antiguos del Internet su uso a decaido con la llegada de los mensajes instantaneos y las redes sociales, a pesar de ello sigue siendo usado para obtener ayuda en tiempo real para nichos de interes comun como Proyectos Open Source y Hobbies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Images/IRCChannel.png&quot; alt=&quot;IRC Channel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El mayor servidor de IRC es &lt;strong&gt;Freenode&lt;/strong&gt; con alrededor de 100,000 usuarios activos. Algunos de los clientes mas populares son &lt;a href=&quot;https://www.codeux.com/textual/&quot;&gt;Textual&lt;/a&gt; o &lt;a href=&quot;http://limechat.net/mac/&quot;&gt;LimeChat&lt;/a&gt; para Mac y &lt;a href=&quot;https://hexchat.github.io/&quot;&gt;HexChat&lt;/a&gt; o &lt;a href=&quot;http://www.mirc.com/get.html&quot;&gt;mIRC&lt;/a&gt; para Windows. Existen algunos clientes adicionales para navegadores como KiwiIRC o Mibbit.&lt;/p&gt;
+
+&lt;p&gt;Servicios como &lt;a href=&quot;https://botbot.me/&quot;&gt;BotBot&lt;/a&gt; archivan y decoran los canales de sus creadores para poder almacenar su actividad y que no se pierda al paso del tiempo ninguna idea importante.&lt;/p&gt;
+
+&lt;p&gt;Para unirse a un canal en &lt;a href=&quot;https://webchat.freenode.net/&quot;&gt;Freenode&lt;/a&gt; se recomienda estar registrado con &lt;strong&gt;NickServ&lt;/strong&gt;. Si queremos crear y registrar nuestro propio canal, Freenode tiene varios tutoriales. Mientras que NickServ registra los nombres de usuarios, &lt;strong&gt;ChanServ&lt;/strong&gt; se encarga de personalizar los canales y realizar tareas automaticas. Usuarios con un arroba (@) en sus nombres significa que son OP u Operadores del canal y tienen permisos especiales.&lt;/p&gt;
+
+&lt;p&gt;Lista de Comandos para IRC:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Unirse a un canal (Crear si no existe):
+/join #(Nombre del Canal)
+Registrar un Nombre de Usuario:
+/msg nickserv register (Contraseña) (Correo)
+Iniciar Sesion:
+/msg nickserv identify (Nickname) (Contraseña) 
+Enviar una accion:
+/me &#39;(Accion)&#39;
+Crear un Chat Privado:
+/msg (Nickname) (Mensaje)
+Cambiar tu Nombre de Usuario
+/nick (Nickname)
+Enviar un Mensaje Privado:
+/notice (Nickname) (Mensaje)
+Abrir Ventana de Mensajes Privados:
+/query (Nickname)
+Salir de un canal:
+/part
+Salir de todos los canales:
+/partall
+Ver el ping (Latencia) con otro usuario:
+/ping (Nickname)
+Salir del Cliente:
+/quit
+Bloquear otro usuario:
+/ignore (Nickname) 3
+Desbloquear usuario:
+/ignore -r (Nickname) 3
+Ver Info de Otro Usuario:
+/whois (Nickname)
+Abrir un Chat Directo:
+/chat (Nickname)
+Obtener Ayuda
+/help
+Cambiar Titulo o Tema:
+/topic #(Nombre del Canal) (Texto)
+Quitar a un usuario del Canal:
+/kick #(Nombre del Canal) (Nickname)
+Limpiar la pantalla:
+/clear
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Recursos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_Internet_Relay_Chat_commands&quot;&gt;Lista de Comandos IRC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://irc2go.com/&quot;&gt;Busca Canales IRC&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chanstat.net/&quot;&gt;Datos de Distintos Canales&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www2.irchelp.org/irchelp/irctutorial.html&quot;&gt;Tutorial Completo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 03 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/programacion/2017/03/03/IRC.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/programacion/2017/03/03/IRC.html</guid>
+        
+        <category>Chats</category>
+        
+        <category>Grupos</category>
+        
+        <category>Internet</category>
+        
+        <category>Historia</category>
+        
+        <category>Programadores</category>
+        
+        <category>OpenSource</category>
+        
+        
+        <category>Programacion</category>
+        
+      </item>
+    
+      <item>
+        <title>Clave Morse</title>
+        <description>&lt;p&gt;Con más de 160 años de antiguedad, el Codigo Morse o CW (Continuos Wave), es el medio de comunicacion electronico mas antiguo del mundo. Diseñado originalmente en 1838 por &lt;a href=&quot;https://es.wikipedia.org/wiki/Samuel_Morse&quot;&gt;Samuel Morse&lt;/a&gt; y perfeccionado por &lt;a href=&quot;https://es.wikipedia.org/wiki/Alfred_Vail&quot;&gt;Alfred Vail&lt;/a&gt;. Para transmitirlo Samuel y Alfred habian contribuido con la invencion del &lt;a href=&quot;https://es.wikipedia.org/wiki/Tel%C3%A9grafo&quot;&gt;telegrafo electrico&lt;/a&gt; en 1836.&lt;/p&gt;
+
+&lt;p&gt;El Codigo Morse más conocido es el mensaje de &lt;strong&gt;SOS&lt;/strong&gt; compuesto por tres puntos, tres guones y tres puntos (…—…). Oficialmente los puntos se llaman &lt;em&gt;Dits&lt;/em&gt; y los guiones &lt;em&gt;Dahs&lt;/em&gt;. El primer mensaje Oficial transmitido por telegrado fue de Washington a Baltimore en 1844, diciendo:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“What God Hath Wrought” (Lo que Dios ha forjado-hecho).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Conforme el codigo gano popularidad, en 1912 se diseño el primer &lt;a href=&quot;https://archive.org/details/Tm11-4591957&quot;&gt;Estandar Internacional&lt;/a&gt; de codigo morse.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Images/MorseCode.png&quot; alt=&quot;Codigo Morse Internacional&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para 1890 el codigo era utilizado internacionalmente en la comunicacion a larga distancia, incluso a una decada para que la transmision de voz por radio fuera posible. Para 1920 todas las fuerzas militares lo utilizaban, incluso los &lt;a href=&quot;http://marconiheritage.org/ww1-air.html&quot;&gt;ataques en Zeppelin&lt;/a&gt; de la Primer Guerra Mundial se realizaron con ordenes transmitidas en clave morse, posicionandolo como el unico medio de comunicacion aeronautica a principios del siglo XX.&lt;/p&gt;
+
+&lt;p&gt;No fue sino hasta el final del siglo XX que el codigo morse es completamente remplazado por la transmision de voz, los antiguos codigos maritimos y aereos se sustituyen por protocolos modernos (&lt;a href=&quot;https://en.wikipedia.org/wiki/Global_Maritime_Distress_and_Safety_System&quot;&gt;GMDSS&lt;/a&gt;) y Francia realiza su ultima transmicion oficial en Enero de 1997. Estados Unidos realizaria su ultima transmicion oficial en Julio de 1999.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;La duracion de cada sonido es vital para la correcta transmision y traduccion del codigo.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;El punto es la unidad basica de tiempo, el guion dura tres puntos.&lt;/li&gt;
+  &lt;li&gt;Entre cada punto o guion de un mismo caracter (Intracaracter) hay un silencio de un punto.&lt;/li&gt;
+  &lt;li&gt;Entre cada caracter hay un silencio de tres puntos.&lt;/li&gt;
+  &lt;li&gt;Entre cada palabra un silencio de siete puntos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cuando Morse y Vail diseñaron el codigo (En Ingles), intentaron que el tiempo para escribir cada letra fuera proporcionalmente inverso a la frecuencia con la que se usaba, aumentando la velocidad de transmision promedio. Para medir la velocidad de un operador se utilizan las palabras estandar PARIS y CODEX que contienen exactamente 50 elementos.&lt;/p&gt;
+
+&lt;p&gt;Para aprender Codigo Morse se han utilizado dos metodos estandar, el Metodo Koch y el Metodo Farnsworth.&lt;/p&gt;
+
+&lt;p&gt;El metodo Koch fue diseñado por Ludwig Koch en 1930 y consiste en ir aprendiendo progresivamente nuevas letras al dominar un par de letras con 90% de seguridad.&lt;/p&gt;
+
+&lt;p&gt;El metodo Farnsworth fue diseñado por Donald R. Farrsworth (WGTTB) y consiste en ir aumentando paulatinamente la velocidad a la que se interpreta un fragmento de texto.&lt;/p&gt;
+
+&lt;p&gt;Un metodo popular para traducir CW sin aprenderlo, es con el uso de un arbol de busqueda dicotomico:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Images/MorseCodeDiagram.png&quot; alt=&quot;Arbol de Busqueda Dicotomico&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Antiguamente se necesitaba poder traducir codigo morse a 5wpm (Cinco Palabras por Minuto) para obtener una licencia de radio amateur. Aunque en la realidad las estaciones de radio amateur utilzan una velocidad promedio de 20wpm y varias abreviaciones (&lt;a href=&quot;https://en.wikipedia.org/wiki/Q_code&quot;&gt;Qcodes&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Al recibir su licencia, toda estacion de radio comercial y amateur, recibe un &lt;strong&gt;Call Sign&lt;/strong&gt; o identificador unico que les permiten comunicarse con otras estaciones, en Mexico las estaciones en la frecuencia AM utilizan el prefijo XE en su Call Sign, mientras que las estaciones FM utilizan el prefijo XH.&lt;/p&gt;
+
+&lt;p&gt;Recursos:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lcwo.net/main&quot;&gt;Curso Online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://morsecode.scphillips.com/translator.html&quot;&gt;Herramienta Online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.scphillips.com/&quot;&gt;Blog del Programador de la Herramienta Anterior&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.websdr.org/&quot;&gt;Recibidores Online&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.9h1mrl.org/ukrae/arc_cd/extra/morse/index.htm&quot;&gt;Curso Completo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xsDk5_bktFo&quot;&gt;Video de Entrenamiento Militar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iC5RQNSSZH0&quot;&gt;Video de Entrenamiento Militar2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xcjgm6ctzAw&quot;&gt;Video de Historia del Codigo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.dxzone.com/qsy32208-codes-of-the-world&quot;&gt;Codigo Morse en otros Alfabetos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hamradioqrp.com/p/cw-abbreviations.html&quot;&gt;Abreviaciones&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://azarask.in/projects/algorithm-ink/#e0274a5c&quot;&gt;Patron Artistico&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mtechnologies.com/index.html&quot;&gt;Parafernalia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hamradioqrp.com/&quot;&gt;Blog de Radio Amateur&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ac6v.com/morseaids.htm&quot;&gt;Más Recursos Para su Estudio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packages.debian.org/sid/xdemorse&quot;&gt;Linux Decoder&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AE9RB/peaberry&quot;&gt;Crea tu Transmisor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gnuradio.org/&quot;&gt;Software para Radio Online&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://darioarzaba.github.io/lenguaje/2017/03/02/ClaveMorse.html</link>
+        <guid isPermaLink="true">http://darioarzaba.github.io/lenguaje/2017/03/02/ClaveMorse.html</guid>
+        
+        <category>Lenguaje</category>
+        
+        <category>Codigo</category>
+        
+        <category>Digital</category>
+        
+        <category>Historia</category>
+        
+        <category>Telegrafo</category>
+        
+        <category>Antiguo</category>
+        
+        
+        <category>Lenguaje</category>
+        
+      </item>
+    
+      <item>
         <title>La vida de Adéle</title>
         <description>&lt;p&gt;La vida de Adéle (2013), es una película de drama y romance dirigida por el director tunecino &lt;a href=&quot;https://en.wikipedia.org/wiki/Abdellatif_Kechiche&quot;&gt;Abdellatif Kechiche&lt;/a&gt;, adaptación del cómic “&lt;a href=&quot;https://www.amazon.es/El-Azul-Color-C%C3%A1lido-Emoci%C3%B3nate/dp/8492902442&quot;&gt;El azul es un color cálido&lt;/a&gt;” y protagonizada por  &lt;a href=&quot;http://www.imdb.com/name/nm2244205/&quot;&gt;Léa Seydoux&lt;/a&gt; y &lt;a href=&quot;https://en.wikipedia.org/wiki/Ad%C3%A8le_Exarchopoulos&quot;&gt;Adèle Exarchopoulos&lt;/a&gt;. La &lt;em&gt;Vida de Adéle&lt;/em&gt; logra capturar las dificultades que existen en la busqueda por darles significado a las relaciones, las emociones y la sexualidad.&lt;/p&gt;
 
@@ -97,452 +907,6 @@
         
         
         <category>Poesia</category>
-        
-      </item>
-    
-      <item>
-        <title>Canción del Sexo</title>
-        <description>&lt;p&gt;Puede que los altos y bajos de toda sinfonía erótica aparenten la ausencia de armonia, sobretodo en su origen desenfrenado y pasional, sin embargo me pregunto si la musica puede armonizar este vaiven. ¿Cuál es la mejor canción para hacer el amor?&lt;/p&gt;
-
-&lt;p&gt;Una &lt;em&gt;canción del sexo&lt;/em&gt;, tendría que tener cualidades especificas, ser melodia que despierte el libido, que incite sentimientos de protección en la pareja y que nos prepare emocionalmente para recibir sin medida los placeres que desenvocan en el acto sexual.&lt;/p&gt;
-
-&lt;p&gt;Charles Darwin, en el “&lt;em&gt;El Origen del Hombre&lt;/em&gt;” menciona que al igual que con el canto de las aves, posiblemente la música fue, en un inicio creada con el objetivo de llamar la atención del sexo opuesto. Tal vez esta sea la razón por la que tantos musicos parecen cargar con un inexplicable aura sexual.&lt;/p&gt;
-
-&lt;p&gt;Una investigacion del psicólogo &lt;a href=&quot;http://www.gold.ac.uk/psychology/staff/mullensiefen/&quot;&gt;Daniel Müllensiefen&lt;/a&gt; ahondo en este tema, entrevistando a 2000 personas sobre sus canciones preferidas para el sexo, el artista que recibió más votos fue &lt;a href=&quot;https://en.wikipedia.org/wiki/Marvin_Gaye&quot;&gt;Marvin Gaye&lt;/a&gt;, con sus canciones: Sexual Healing y Let’s Get It On. En fin, que mejor manera para explorar la creatividad y los gustos de la pareja que contruyendo un set de canciones que nos motive a seguir disfrutando de los dos grandes placeres de la humanidad.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rspb.royalsocietypublishing.org/content/281/1784/20140403&quot;&gt;Ciclo Menstrual y Musica (Ingles)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.bbc.com/mundo/noticias/2014/04/140425_vert_fut_ciencia_musica_sexo_np&quot;&gt;BBC Sexo y Musica&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://elitedaily.com/dating/psychology-behind-why-listening-to-music/917394/&quot;&gt;Elite Daily&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://news.spotify.com/us/2015/02/12/streams-of-love-your-top-valentines-day-music/&quot;&gt;Spotify&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://en.wikibooks.org/wiki/Sex_and_Music&quot;&gt;Wikibook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 27 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/articulo/2017/02/27/CancionDelSexo.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/articulo/2017/02/27/CancionDelSexo.html</guid>
-        
-        <category>Cancion</category>
-        
-        <category>Musica</category>
-        
-        <category>Sexo</category>
-        
-        <category>Opinion</category>
-        
-        <category>Articulo</category>
-        
-        
-        <category>Articulo</category>
-        
-      </item>
-    
-      <item>
-        <title>Felipe V de España</title>
-        <description>&lt;p&gt;Después de estar bajo el vergonzoso mandato de un rey moribundo y sin descendencia (&lt;a href=&quot;https://es.wikipedia.org/wiki/Carlos_II_de_Espa%C3%B1a&quot;&gt;Carlos II&lt;/a&gt;), la corte española se ve obligada a nombrar al trono al &lt;a href=&quot;https://es.wikipedia.org/wiki/Ducado_de_Anjou&quot;&gt;Duque de Anjou&lt;/a&gt;, debido a su sangre española por parte de su abuela &lt;a href=&quot;https://es.wikipedia.org/wiki/Mar%C3%ADa_Teresa_de_Austria&quot;&gt;Maria Tereza&lt;/a&gt;, hija de Felipe IV. La &lt;a href=&quot;https://es.wikipedia.org/wiki/Casa_de_Austria&quot;&gt;Casa de Austria&lt;/a&gt;, o Habsburgo en España, llega a su fin con la muerte de Carlos II y nombrando a &lt;a href=&quot;https://es.wikipedia.org/wiki/Felipe_V_de_Espa%C3%B1a&quot;&gt;Felipe V&lt;/a&gt; (1683 - 1746) como su sucesor en 1700 y proclamando el reinado de la &lt;a href=&quot;https://es.wikipedia.org/wiki/Casa_de_Borb%C3%B3n&quot;&gt;Casa Borbón&lt;/a&gt; hasta nuestros días.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Images/felipev.jpg&quot; alt=&quot;Felipe V de España&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;vida&quot;&gt;Vida&lt;/h3&gt;
-
-&lt;p&gt;El padre de Felipe fue el &lt;a href=&quot;https://es.wikipedia.org/wiki/Luis_de_Francia_(1661-1711)&quot;&gt;Gran Delfín Luis&lt;/a&gt; y su madre &lt;a href=&quot;https://es.wikipedia.org/wiki/Mar%C3%ADa_Ana_Victoria_de_Baviera&quot;&gt;María Ana de Baviera&lt;/a&gt;. Felipe se terminaría casando con &lt;a href=&quot;https://es.wikipedia.org/wiki/Mar%C3%ADa_Luisa_Gabriela_de_Saboya&quot;&gt;María Luisa Gabriela de Saboya&lt;/a&gt;, su prima, con la que tuvo cuatro hijos. Al morir María Luisa de manera súbita, se casa por segunda vez con &lt;a href=&quot;https://es.wikipedia.org/wiki/Isabel_de_Farnesio&quot;&gt;Isabel de Farnesio&lt;/a&gt;, misma con la que obtuvo otros siete hijos. Aunque su conexión familiar más influyente siempre fue la que tuvo con su abuelo &lt;a href=&quot;https://es.wikipedia.org/wiki/Luis_XIV_de_Francia&quot;&gt;Luis XIV&lt;/a&gt;, rey de Francia.&lt;/p&gt;
-
-&lt;p&gt;Del primer matrimonio con María Luisa dos hijos murieron prematuramente y los otros dos serian en un futuro sucesores al trono: &lt;a href=&quot;https://es.wikipedia.org/wiki/Luis_I_de_Espa%C3%B1a&quot;&gt;Luis I&lt;/a&gt; del 15 de Enero al 31 de Agosto de 1724, siendo su reinado el más corto en la historia de España y &lt;a href=&quot;https://es.wikipedia.org/wiki/Fernando_VI_de_Espa%C3%B1a&quot;&gt;Fernando VI&lt;/a&gt; que reinaría desde la muerte de su padre en 1746 hasta la suya en 1759.&lt;/p&gt;
-
-&lt;p&gt;De su segundo matrimonio con Isabel un infante murió a temprana edad, cinco fueron Aristócratas y el ultimo, &lt;a href=&quot;https://es.wikipedia.org/wiki/Carlos_III_de_Espa%C3%B1a&quot;&gt;Carlos III&lt;/a&gt;, termino siendo el sucesor a su medio hermano Fernando VI de 1759 hasta 1788.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;guerra&quot;&gt;Guerra&lt;/h3&gt;
-
-&lt;p&gt;La conexión entre Felipe V y Luis XIV genero una alianza entre ambas monarquías que ponia en peligro el poderío de la casa de Austria que ya no gobernaba en España. Gracias a esto, con apenas un año en el poder, los demás países europeos niegan a Felipe proponiendo al archiduque &lt;a href=&quot;https://es.wikipedia.org/wiki/Carlos_VI_del_Sacro_Imperio_Romano_Germ%C3%A1nico&quot;&gt;Carlos de Austria&lt;/a&gt; como el legitimo rey de Espala.&lt;/p&gt;
-
-&lt;p&gt;A través del &lt;a href=&quot;https://es.wikipedia.org/wiki/Primer_Tratado_de_Partici%C3%B3n&quot;&gt;Tratado de la Haya&lt;/a&gt; la “Gran Alianza” Europea le declara formalmente la guerra a España y a Francia con la intencion de derrocar a Felipe V, e iniciando la “&lt;a href=&quot;https://es.wikipedia.org/wiki/Guerra_de_Sucesi%C3%B3n_Espa%C3%B1ola&quot;&gt;Guerra de Sucesión&lt;/a&gt;”. La guerra tambien genero disputas internas ya que solo dos coronas españolas (Castilla y Navarra) aceptaban a Felipe V, por otra parte Aragón lonegaba fervientemente y Cataluña tuvo que ser arrasada por el ejército de Felipe antes de aceptarlo como el legitimo sucesor.&lt;/p&gt;
-
-&lt;p&gt;Parecia que España y Francia no tenian posibilidades de ganar la guerra, pero en 1713 Carlos de Austria hereda el trono de Alemania. Las potencias, ahora temerosas de un dominio total por parte de Carlos deciden firmar el tratado de paz en el &lt;a href=&quot;https://es.wikipedia.org/wiki/Tratado_de_Utrecht&quot;&gt;Tratado de Ultrecht&lt;/a&gt;; no sin antes aprovecharse del debilitado Imperio Español para quitárle todo territorio europeo no metropolitano ademas de sus dos islas, Gibraltar y Menorca, de las cuales se apropio el Imperio Británico. Con el territorio que le quedaba, Felipe impuso fuertes legislaciones para acabar con todo rastro de oposición a su gobierno.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;gobierno&quot;&gt;Gobierno&lt;/h3&gt;
-
-&lt;p&gt;Cuando Felipe llega a España con apenas 17 años y bajo la tutela de su abuelo Luis, es que aprende a gobernar. En esta epoca Felipe tiene grandes deseos de ser rey, ademas de contar con una mente ilustre y un carácter fuerte, fue amante del arte y educado en una Francia progresista. Estas actitudes las demostro como fundador de las actuales academias españolas de prestigio mundial. Nombra a ministros capaces, el más famoso de ellos &lt;a href=&quot;https://es.wikipedia.org/wiki/Jos%C3%A9_Pati%C3%B1o_Rosales&quot;&gt;José Patiño Rosales&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;En la guerra de sucesión Felipe peleaba con tanta energia por recuperar su trono que se le apodo Felipe el “Animoso”, pero esta actitud solo duraría hasta el termino de las guerras. Despues de su campaña Felipe empieza a tener síntomas de depresión, acentuándose con la muerte de su primer esposa. Su delicado estado emocional ocasiona que diversas personalidades políticas se aprovechen de el para tomar el control de las decisiones en el gobierno.&lt;/p&gt;
-
-&lt;p&gt;Felipe sabía que la corte lo manipulaba, en especial su esposa, quien tomaba todas sus decisiones, a causa de esto y en un intento por librarse de tan pesada carga, abdicaba en su hijo Luis I; sin embargo su hijo muere rápidamente de viruela y Felipe entra una depresión más pronunciada. Su esposa obliga a la corte a no darle la corona a su hermano Fernando VI y consigue que se le devuelvan a su esposo para poder seguir manipulandolo.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;muerte&quot;&gt;Muerte&lt;/h3&gt;
-
-&lt;p&gt;Atormentado por la depresión y otras enfermedades mentales, las cuales fueron agravadas debido a una prolongada reclusion. Felipe el “animoso” fue decayendo, solo aliviado en breves momentos por la música y el arte. Muere el 9 de Julio de 1746 en Madrid y por órdenes explicitas es trasladado al Palacio Real de la Granja de San Ildefonso. A su esposa la entierrarian años despues en el mismo lugar.&lt;/p&gt;
-
-&lt;p&gt;A pesar de no mejorar significativamente la economia española, Felipe logro impulsar nuevas legislaciones, un gobierno centralizado y un gran enfoque a las artes. Es así como termina la historia del rey animoso, un hombre que combatió y aspiro por encontrar la paz de su reino para terminar buscándola en el confinamiento de su cuerpo y mente.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.spanishsuccession.nl/felipe.html&quot;&gt;Guerra de Sucesion Española&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://factoriahistorica.wordpress.com/2013/10/21/felipe-v/&quot;&gt;Factoria Historica&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.cervantesvirtual.com/bib/historia/monarquia/felipe5.shtml&quot;&gt;Cervantes Virtual&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.biografiasyvidas.com/biografia/f/felipe_v.htm&quot;&gt;Biografias y Vidas&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://barbararosillo.com/2011/10/27/los-desordenes-mentales-de-felipe-v/&quot;&gt;Barbara Rosillo Blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 26 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/personaje/2017/02/26/FelipeV.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/personaje/2017/02/26/FelipeV.html</guid>
-        
-        <category>Personaje</category>
-        
-        <category>Rey</category>
-        
-        <category>España</category>
-        
-        <category>FelipeV</category>
-        
-        <category>Linaje</category>
-        
-        
-        <category>Personaje</category>
-        
-      </item>
-    
-      <item>
-        <title>Aulus Gellius</title>
-        <description>&lt;p&gt;La historia de Aulo Gelio (Aulus Gellius) esta compuesta por pequeños trazos de verdad y una gran cantidad de misterios. Autor de la obra maestr, “Noches Áticas“, este importante escritor y filosofo Romano puede que siga eludiendo a la historia.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Veo la barba y la capa, pero todavía no veo al filósofo.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Images/aulusgellius.jpg&quot; alt=&quot;Aulus Gellius&quot; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Aulus nacio entre 113 d.C. y 123 d.C. y es considerado uno de los mejores escritores Romanos de su epoca. Se sabe que vivio un tiempo en Atenas alrededor de 143 d.C. ya que menciona a &lt;a href=&quot;https://es.wikipedia.org/wiki/Herodes_%C3%81tico&quot;&gt;Herodes Atico&lt;/a&gt;, quien fue proclamado consul de Roma ese mismo año.&lt;/p&gt;
-
-&lt;p&gt;En Roma se enfoco al estudio de la gramática y de la retorica, su instructor, &lt;a href=&quot;https://es.wikipedia.org/wiki/Sulpicio_Apolinar&quot;&gt;Sulpicio Apolinar&lt;/a&gt;, tambien seria maestro del futuro emperador Romano &lt;a href=&quot;https://es.wikipedia.org/wiki/Pertinax&quot;&gt;Pertinax&lt;/a&gt;. Estudio retorica junto con &lt;a href=&quot;https://en.wikipedia.org/wiki/Marcus_Antonius_Julianus&quot;&gt;Antonius Julianus&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Castricia_(gens)&quot;&gt;Titus Castricius&lt;/a&gt; y posiblemente con &lt;a href=&quot;https://es.wikipedia.org/wiki/Marco_Cornelio_Front%C3%B3n&quot;&gt;Cornelio Fronton&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;La vida de Gelio al viajar a Grecia fue un constante balanceo entre arduo estudio y agradables placeres. Se sabe que su estancia duro por lo menos un año, ya que las cuatro estaciones. Al regresar a Roma continua su trabajo en filosofía, volviéndose amigo intimo de &lt;a href=&quot;https://es.wikipedia.org/wiki/Favorino&quot;&gt;Favorino&lt;/a&gt;, confidente del emperador &lt;a href=&quot;https://en.wikipedia.org/wiki/Hadrian&quot;&gt;Hadrian&lt;/a&gt;. Aulus habla con especial interés de Favorino, quien posiblemente lo ayudo a redactar parte de las “&lt;em&gt;&lt;a href=&quot;https://es.wikipedia.org/wiki/Aulo_Gelio#Noches_.C3.81ticas&quot;&gt;Noches Áticas&lt;/a&gt;&lt;/em&gt;”.&lt;/p&gt;
-
-&lt;p&gt;A lo largo de su vida se volveria amigo de varios poetas como Julius Paulus y &lt;a href=&quot;https://en.wikipedia.org/wiki/Titus_Annianus&quot;&gt;Titus Annianus&lt;/a&gt;, entre otros intelectuales de su tiempo. Su muerte probablemente sucedió apenas termino Noches Aticas, ya que no se sabe de la continuacion que el mismo promete.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Su apellido “&lt;em&gt;Gelio&lt;/em&gt;” tiene relación con el linaje de los &lt;a href=&quot;https://es.wikipedia.org/wiki/Pueblos_galos&quot;&gt;galos&lt;/a&gt;, provenientes de los diversos poblados celtas denominados “Gallia”, algunos de los cuales tomaron residencia en el Imperio Romano después de la &lt;a href=&quot;https://es.wikipedia.org/wiki/Segunda_guerra_p%C3%BAnica&quot;&gt;segunda guerra púnica&lt;/a&gt;, dando origen a “Gellius” o “Gelio” en español, nombre despues utilizado por algunas familias de la region de &lt;a href=&quot;https://es.wikipedia.org/wiki/Samnio&quot;&gt;Samnio&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Dos generales de este linaje, &lt;a href=&quot;https://en.wikipedia.org/wiki/Statius_Gellius&quot;&gt;Statius Gellius&lt;/a&gt; y &lt;a href=&quot;https://en.wikipedia.org/wiki/Egnatius&quot;&gt;Gellius Egnatius&lt;/a&gt;, pelearon en contra de los romanos en la primera y segunda guerras Samnitas. El primero fue derrotado y tomado prisionero en 305 a.C  mientras que el otro perdió la vida en la &lt;a href=&quot;https://es.wikipedia.org/wiki/Batalla_de_Sentino&quot;&gt;Batalla de Sentino&lt;/a&gt; de 295 a.C.&lt;/p&gt;
-
-&lt;p&gt;Tiempo después la familia Galli logra obtener el estatus de nobleza en el imperio, empezando con &lt;a href=&quot;https://es.wikipedia.org/wiki/Lucio_Gelio_Publ%C3%ADcola&quot;&gt;Lucio Gelio Publícola&lt;/a&gt; quien logra el puesto de Praetor en 94 a.C., Consul en 72 a.C. y Censor en 70 a.C. lucio fue quien propuso que la corona cívica le fuera otorgada a &lt;a href=&quot;https://es.wikipedia.org/wiki/Cicer%C3%B3n&quot;&gt;Cicerón&lt;/a&gt; por su ayuda en contra de la &lt;a href=&quot;https://es.wikipedia.org/wiki/Conspiraci%C3%B3n_de_Catilina&quot;&gt;conspiración de catalina&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;El mismo Aulus menciona a otro personaje, &lt;a href=&quot;https://en.wikipedia.org/wiki/Gnaeus_Gellius&quot;&gt;Gnaeus Gellius&lt;/a&gt;, historiador Romano y primer oponente de &lt;a href=&quot;https://en.wikipedia.org/wiki/Cato_the_Elder&quot;&gt;Cato el Censor&lt;/a&gt;. Notese que Aulus, cuidadoso de no indagar en su estado economico, familiar o social nunca menciona su relacion familiar con Gnaeus.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;noches-ticas&quot;&gt;Noches Áticas&lt;/h3&gt;
-
-&lt;p&gt;Las Noches Aticas (Noctes Atticae) es un importante compilatorio de conocimientos Romanos y fuente de incontables referencias culturales. Destaca su constante comparacion entre la cultura griega y la romana, abunda en citas y proverbios de ambas culturas, a la vez que expone los detalles de vida intelectual en sus élites.&lt;/p&gt;
-
-&lt;p&gt;Ejemplo de retorica y literatura romana, así como de la afamada filosofia ateniense, su titulo se refiere a las noches de invierno que Aulus paso en Atica y en donde comenzo a escribir la obra. En algun punto de la historia los rollos originales fueron transcritos a dos codices y en el proceso se perdio el octavo tomo, del cual solo sobrevive su indice.&lt;/p&gt;
-
-&lt;p&gt;Estructurado en 20 tomos y 400 capitulos, Aulus explora la historia, el arte, el derecho, la geografia, la filosofia y sobre todo la gramatica de su periodo.  Menciona a 275 autores romanos y griegos, muchos de los cuales no conoceriamos de no ser por su obra. Referente de la literatura clasica Romana, primer libro donde se acuña la idea de “Literatura Clasica” y primer referencia al uso de la palabra mas larga en Latin (&lt;a href=&quot;https://www.youtube.com/watch?v=KCt8vf-ybHw&quot;&gt;Subductisupercilicarptor&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://es.wikipedia.org/wiki/Agust%C3%ADn_de_Hipona&quot;&gt;Agustin de Hipona&lt;/a&gt;, en “&lt;em&gt;De Civ&lt;/em&gt;”, comenta:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Es un gran discurso sobre las diversas ciencias, dicho de forma elegante y elocuente”.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.redalyc.org/articulo.oa?id=59115484009&quot;&gt;Ensayo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://archive.org/details/atticnights00millrich&quot;&gt;Noches Aticas en Ingles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://la.wikisource.org/wiki/Noctes_Atticae&quot;&gt;Noches Aticas en Latin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 25 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/personaje/2017/02/25/AulusGellius.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/personaje/2017/02/25/AulusGellius.html</guid>
-        
-        <category>Filosofo</category>
-        
-        <category>Escritor</category>
-        
-        <category>Gramatica</category>
-        
-        <category>Linguistica</category>
-        
-        <category>Latin</category>
-        
-        <category>Palabras</category>
-        
-        
-        <category>Personaje</category>
-        
-      </item>
-    
-      <item>
-        <title>Michael Wolf</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://photomichaelwolf.com/&quot;&gt;Michael Wolf&lt;/a&gt; es un artista y fotógrafo Aleman que trabajo 8 años para la revista stern, antes de retirarse a proyectos independientes en los que captura temas relacionados con la arquitectura y la densidad de las mega ciudades.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Más allá de la belleza imponente de sus composiciones, los estudios de michael en la piel de concreto de las ciudades nos hacen reflexionar sobre las miles de personas que viven en el transfondo de cada foto.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Images/michaelwolf.jpg&quot; alt=&quot;Densidad Arquitectonica&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Michael abrió su estudio de fotografia en Hong Kong en espera de poder seguir mostrándo la cara más intimidarte de las mega ciudades y el anonimato que adquierimos dentro de ellas. El hombre se reduce a un producto, procesado y almacenado en pequeños departamentos, dentro de un patrón sin fin y un paisaje sin cielo.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“… De este modo se establece a el mismo, no solo como un fotógrafo de las estructuras urbanas, sino de las múltiples maneras en las que la gente se adapta a este cambiante entorno, lo que nos proporciona un fascinante y complejo retrato de la vida en la ciudad.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Curiosamente, es facil terminar por identificarse con la multitud de desconocidos, la galeria de rostros sin identidad y los miles de habitantes que caminan diariamente sin persibir su entorno urbano.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 24 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/artistas/2017/02/24/MichaelWolf.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/artistas/2017/02/24/MichaelWolf.html</guid>
-        
-        <category>Fotografia</category>
-        
-        <category>Arte</category>
-        
-        <category>Arquitectura</category>
-        
-        <category>Honk Kong</category>
-        
-        <category>Ciudades</category>
-        
-        
-        <category>Artistas</category>
-        
-      </item>
-    
-      <item>
-        <title>Lucia</title>
-        <description>&lt;p&gt;Lucia (2013) es una película de suspenso psicológico, en hindú Kannada, escrita y dirigida por &lt;a href=&quot;https://en.wikipedia.org/wiki/Pawan_Kumar_(director)&quot;&gt;Pawan Kumar&lt;/a&gt;. Patrocinada por medio de financiación masiva y protagonizando a &lt;a href=&quot;https://en.wikipedia.org/wiki/Sathish_Ninasam&quot;&gt;Satish Neenasam&lt;/a&gt; y &lt;a href=&quot;https://en.wikipedia.org/wiki/Sruthi_Hariharan&quot;&gt;Sruthi Hariharan&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/Images/lucia.jpg&quot; alt=&quot;Lucia Poster&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Un hombre que sufre de insomnio es engañado para comprar una droga, Lucia, esta droga hace sus deseos realidad en sus sueños, borrando la linea entre fantasía y realidad.” – IMDB&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;interpretacin&quot;&gt;Interpretación&lt;/h3&gt;
-
-&lt;p&gt;El concepto del sueño lucido, posible origen del titulo “Lucia”, es muy interesante y repleto de contenido para jugar con el concepto filosofico entre la real y lo abstracto. Al igual que en “&lt;a href=&quot;http://www.imdb.com/title/tt1375666/&quot;&gt;El Origen&lt;/a&gt;” o “&lt;a href=&quot;http://www.imdb.com/title/tt0120889/&quot;&gt;Más allá de los sueños&lt;/a&gt;”, experimentar visualmente esta relación provoca sentimientos de asombro y reflexión.&lt;/p&gt;
-
-&lt;p&gt;Lucia fue patrocinada gracias a un financiamiento masivo a través de Internet. Pawan Kumar lograba transitar exitosamente entre la realidad y el sueño utilizando una combinación de película a color y en blanco y negro.&lt;/p&gt;
-
-&lt;p&gt;“Al intentar esto estamos cambiando los viejos métodos para hacer cine. Nuestras películas ya no tendrán que ser mutiladas por productores ignorantes y estrellas de cine egoístas. Nuestra industria cinematográfica es una que se niega al camino, una que se niega al progreso y al soporte de nuevas ideas y talentos. Con esta iniciativa estamos poniendo un ejemplo que otros puedan seguir.” -Pawan Kumar&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hometalkies.com/lucia/&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.imdb.com/title/tt2358592/&quot;&gt;IMDB&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 23 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/peliculas/2017/02/23/Lucia.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/peliculas/2017/02/23/Lucia.html</guid>
-        
-        <category>Peliculas</category>
-        
-        <category>Abstracto</category>
-        
-        <category>India</category>
-        
-        <category>Crowdfunding</category>
-        
-        <category>Sueños</category>
-        
-        
-        <category>Peliculas</category>
-        
-      </item>
-    
-      <item>
-        <title>La Primavera Besaba</title>
-        <description>&lt;p class=&quot;centro&quot;&gt;La primavera besaba&lt;br /&gt;
-suavemente la arboleda,&lt;br /&gt;
-y el verde nuevo brotaba&lt;br /&gt;
-como una verde humareda.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;Las nubes iban pasando&lt;br /&gt;
-sobre el campo juvenil…&lt;br /&gt;
-Yo vi en las hojas temblando&lt;br /&gt;
-las frescas lluvias de abril.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;Bajo ese almendro florido,&lt;br /&gt;
-todo cargado de flor,&lt;br /&gt;
-yo he maldecido&lt;br /&gt;
-mi juventud sin amor.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;Hoy, en mitad de la vida,&lt;br /&gt;
-me he parado a meditar…&lt;br /&gt;
-¡Juventud nunca vivida,&lt;br /&gt;
-quién te volviera a soñar!&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;&lt;a href=&quot;https://es.wikisource.org/wiki/Antonio_Machado&quot;&gt;Antonio Machado&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;interpretacin&quot;&gt;Interpretación&lt;/h4&gt;
-
-&lt;p&gt;La juventud es la primavera de todo ser humano, un momento de calma en donde el tiempo pasa suavemente y brotan sueños por doquier. Toda juventud es un momento finito de inocencia, una delicada mente que entra por primera vez en contacto con el mundo, aunque en escencia, termmina siendo un calido recuerdo que abraza y consuela a la mente del adulto. Antonio maldice el no vivir una juventud llena de amor, cuando se da cuenta a la mitad de su vida, de que podria haber capturado ese amor en forma de un dulce recuerdo.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 22 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/02/22/LaPrimaveraBesaba.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/02/22/LaPrimaveraBesaba.html</guid>
-        
-        <category>Juventud</category>
-        
-        <category>AntonioMachado</category>
-        
-        <category>Poesia</category>
-        
-        <category>Primavera</category>
-        
-        
-        <category>Poesia</category>
-        
-      </item>
-    
-      <item>
-        <title>7 Dias con Valeria</title>
-        <description>&lt;p class=&quot;centro&quot;&gt;I&lt;br /&gt;
-Con tu fuerza y valerosidad&lt;br /&gt;
-has detenido los barrotes del tiempo.&lt;br /&gt;
-¿Quién intuiría tu inmensa salud?&lt;br /&gt;
-En ti hay un jarrón de flores y vida.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;II&lt;br /&gt;
-He encontrando una gran turbación &lt;br /&gt;
-y el mayor peligro de la vida:&lt;br /&gt;
-Entrar en la puerta circular,&lt;br /&gt;
-del limbo de tus ojos.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;III&lt;br /&gt;
-Un día, sin condenas ni condenados,&lt;br /&gt;
-la calma más áspera me persigue.&lt;br /&gt;
-Todo ruido gotea en mi cordura, yo sin salida,  &lt;br /&gt;
-¿Y tú?, caminando.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;IV&lt;br /&gt;
-Ocaso de soberbia y mendigo de profesión,&lt;br /&gt;
-así nos encontramos en algún lugar de la palabra.&lt;br /&gt;
-Unión de un saludo noble y un adiós,&lt;br /&gt;
-reposando sobre lapidas disonantes llenas de consuelo.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;V&lt;br /&gt;
-Completas mi ruta, que al filo de una aguja se sustenta,&lt;br /&gt;
-mientras tejes las rosas del deseo: &lt;br /&gt;
-cerremos la función con una luna diáfana,&lt;br /&gt;
-quedemos deseosos, joviales, sonrientes y cansados.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;VI&lt;br /&gt;
-¡Ya quiero acabar de recordarte!&lt;br /&gt;
-De pensar lo que habita el momento.&lt;br /&gt;
-Pero existe un último deseo, &lt;br /&gt;
-y sigo sin terminar.&lt;/p&gt;
-
-&lt;p class=&quot;centro&quot;&gt;VII&lt;br /&gt;
-Deseo tu emboscada,&lt;br /&gt;
-que pintemos,&lt;br /&gt;
-y tu palabra&lt;br /&gt;
-acariciando mi cuerpo.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 21 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/02/21/SieteDiasConValeria.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/02/21/SieteDiasConValeria.html</guid>
-        
-        <category>Poesia</category>
-        
-        <category>Siete</category>
-        
-        <category>Amor</category>
-        
-        <category>Valeria</category>
-        
-        <category>SinInterpretacion</category>
-        
-        
-        <category>Poesia</category>
-        
-      </item>
-    
-      <item>
-        <title>Alfabetismo Digital</title>
-        <description>&lt;p&gt;Cada dia que pasa hay más personas con acceso a internet y esto es &lt;a href=&quot;http://www.internetlivestats.com/watch/internet-users/&quot;&gt;un hecho&lt;/a&gt;. Sin embargo la brecha digital (&lt;a href=&quot;https://en.wikipedia.org/wiki/Digital_divide&quot;&gt;Digital Divide&lt;/a&gt;) no ha disminuido con la misma velocidad, dejando a la mayoria fuera de su potencial.&lt;/p&gt;
-
-&lt;p&gt;Entre las soluciones se ha propuesto establecer un curriculum educativo para nivel basico, que le enseñe a las siguentes generaciones como aprovechar correctamente el Internet. No es tan descabellado, especialmente hoy en dia, entender la importancia del internet en la vida diaria, entonces ¿Porqué nuestros sistemas educativos se niegan a implementar programas integrales enfocados a este tema?&lt;/p&gt;
-
-&lt;p&gt;La pedagogia esta de acuerdo con la enseñanza de tres pilares basicos: la escritura, la lectura y las matematicas. Debido al alcance y uso ubicuo del Internet, se ha propuesto incluir un cuarto pilar que nos permita alfabetizar, educar y guiar a los niños en su primer contacto con el mundo digital.&lt;/p&gt;
-
-&lt;p&gt;La fundacion &lt;a href=&quot;https://www.mozilla.org/en-US/&quot;&gt;Mozilla&lt;/a&gt;, se dio a la tarea de organizar en un mapa (&lt;a href=&quot;https://learning.mozilla.org/en-US/web-literacy&quot;&gt;Mapa de Alfabetizacion Digital&lt;/a&gt;) los valores y habilidades necesarias para que cualquier persona ejerza un uso integral del internet, haciendo crecer a su vez a la comunidad mundial que ahí cohabita.&lt;/p&gt;
-
-&lt;p&gt;Este mapa se basa en investigaciones que inicaron en los 90’s, acerca del aprendizaje atravez de medios digitales y que culminaron en los &lt;em&gt;Siete Pilares del Alfabetismo de la Informacion&lt;/em&gt;, publicado en &lt;a href=&quot;https://www.sconul.ac.uk/sites/default/files/documents/Seven_pillars2.pdf&quot;&gt;1999&lt;/a&gt; y actualizado en &lt;a href=&quot;https://www.sconul.ac.uk/sites/default/files/documents/Seven%20Pillars%20Review%202015.pdf&quot;&gt;2015&lt;/a&gt;. Hoy en dia entendemos que la alfabetizacion digital consiste en enseñar como es que el Internet nos sirve para contribuir, compartir, diseñar, programar, expresarnos, conectar, modificar y buscar informacion; siempre y cuando navegemos revisando, evaluando, sintetizando y protejiendonos de sus amenazas.&lt;/p&gt;
-
-&lt;p&gt;Ademas de que estos objetivos benefician a la lucha por los &lt;em&gt;ideales del Internet&lt;/em&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; ya que la tendencia del analfabeta digital a permanecer en un grupo limitado de sitios incentivan a las grandes corporaciones a centralizar la informacion, incrementando su capacidad de manipulacion y censura, ademas de que inculcar el uso de plataformas centradas en el uso de anuncios, individualismo y capitalizacion de la informacion publica y privada.&lt;/p&gt;
-
-&lt;p&gt;¿Comó podemos esperar que el Internet crezca y se diversifiqué si su usuario promedio no entiende el concepto de “URL” o las alternativas a Google para buscar informacion o redes sociales distintas a Facebook? Cuesta creerlo pero una gran parte de los internautas no sabe como moverse entre la jungla de botones, texto, imagenes, simbolos y demas artefactos solo reconocibles de forma instantania por una pequeña porcion de los usuarios.&lt;/p&gt;
-
-&lt;p&gt;Esta claro que el problema del analfabetismo digital esta bien delimitado y contamos con multiples soluciones, aquí el problema real se encuentra  en su implementacion cuando gran parte de los profesores tienen dificultades para mantenerse actualizados a las nuevas tecnologias y las escuelas prefieren bloquear los sitios en internet en vez de enseñarle a su alumnado a utilizar de forma responsable esta indispensable herramienta.&lt;/p&gt;
-
-&lt;p&gt;Más sobre educacion y el internet:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tidepodcast.org/&quot;&gt;Podcast sobre educacion y tecnologia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://internethealthreport.org/v01/about/&quot;&gt;La salud del internet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hopetillman.com/findqual.php&quot;&gt;Encontrar contenido de Calidad&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://novemberlearning.com/educational-resources-for-educators/information-literacy-resources/&quot;&gt;Herramientas de Alfabetizacion&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://literaci.es/&quot;&gt;Doug Belshaw Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.jonudell.net/&quot;&gt;Jon Udell Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://dmlcentral.net/why-we-need-a-4th-r-reading-writing-arithmetic-algorithms/&quot;&gt;Articulo de DlmCentral&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;Alfabetizacion Digital&lt;/dt&gt;
-  &lt;dd&gt;Habilidades y competencias necesarias para la lectura, escritura y participacion efectiva en Internet.&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-
-      &lt;ul&gt;
-        &lt;li&gt;Usar tecnologia publica, abierta y transparente.&lt;/li&gt;
-        &lt;li&gt;No existe autoridad central que controle el internet.&lt;/li&gt;
-        &lt;li&gt;Solo los autores pueden editar y controlar su contenido.&lt;/li&gt;
-        &lt;li&gt;Todos los ciudadanos del internet son iguales.&lt;/li&gt;
-        &lt;li&gt;El internet es neutral, no tiene preferencias u opiniones.&lt;/li&gt;
-        &lt;li&gt;El internet autoregula a sus usuarios con el uso de normas.&lt;/li&gt;
-        &lt;li&gt;Su acceso es un derecho humano.&lt;/li&gt;
-      &lt;/ul&gt;
-      &lt;p&gt;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 20 Feb 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/opinion/2017/02/20/AlfabetismoDigital.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/opinion/2017/02/20/AlfabetismoDigital.html</guid>
-        
-        <category>Web</category>
-        
-        <category>Tecnologia</category>
-        
-        <category>Digital</category>
-        
-        <category>Educacion</category>
-        
-        <category>Filosofia</category>
-        
-        <category>Mozilla</category>
-        
-        
-        <category>Opinion</category>
         
       </item>
     
