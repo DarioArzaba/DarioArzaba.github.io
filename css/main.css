@@ -2,7 +2,7 @@
 body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure{margin:0;padding:0}
 h1,h2,h3,h4,h5,h6,p,blockquote,pre,ul,ol,dl,figure,.highlight{margin-bottom:25px}
 .wrapper{max-width:720px;margin:0 auto;padding:0 25px}
-ul,ol{margin-left:50px;padding:0}
+ul,ol{margin-left:40px;padding:0}
 body{font-weight:400;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;color:#333;background-color:#fff;margin:0}
 h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:700;line-height:1;color:inherit;text-rendering:optimizelegibility;}
 .subtext,ul.post-meta li{font-size:16px;color:#A19797}
@@ -27,19 +27,20 @@ a.header-btn:hover{text-decoration:none;opacity:1;cursor:pointer}
 .footer{font-size:14px;background-color:#000;color:#FFF;margin:50px 0 0;padding:1px 0}
 .footer .copyright{text-align:center;margin-top:25px}
 .footer .copyright a{color:#FFF}
-.post{padding:25px 0}
+.post{padding:20px 0}
 .post h2 a:hover{text-decoration:none}
 h1.post-title{font-weight:700;text-align:center;line-height:1;font-family:Georgia,"Times New Roman",Times,serif;font-size:4em;letter-spacing:.05em;color:#333;margin-bottom:13px}
-h2 a span{color:#333}
-h2 a:hover span{color:#999;text-decoration:none;transition:.3s linear}
+h2 a span{color:#18154a; font-family:"Raleway"}
+h2 a:hover span{ color: rgba(24, 21, 74, 0.83); text-decoration: none; padding: 2px; border-bottom: 2px dotted #ca2f2f;}
 h2{text-align:center;font-size:30px;margin:4px}
 ul.post-meta{list-style:none;display:block;text-align:center;font-size:12px;margin:0}
 ul.post-meta li{display:inline-block;text-transform:uppercase;font-size:1em;letter-spacing:.1em;font-family:'Noto Serif';margin:16px}
-.content{text-align:center;font-size:15px;font-family:'Noto Serif';border-bottom:1px dotted lightgray;background-color:#fff;margin:14px 0 0}
+.content{text-align:justify;font-size:15px;font-family:'Noto Serif';border-bottom:2px dotted lightgray;background-color:#fff;margin:14px 0 0}
 .content img{max-width:100%;display:block;margin:auto}
 .content blockquote{padding-right:25px}
 .content blockquote p{margin-bottom:0;font-size:16px;font-weight:300;line-height:25px;font-style:italic}
 div[itemprop="articleBody"] p{text-align:justify;font-family:'Noto Serif';line-height:22px;font-size:15px;margin:15px 0 10px}
+div[itemprop="articleBody"] p::selection { background: #fff2a8; color:inherit; }
 .paginator{text-align:center;color:#A19797}
 .paginator .paginator-older,.paginator .paginator-newer{text-transform:uppercase;font-size:13px;display:inline-block;margin:25px 25px 0}
 .paginator .paginator-older a,.paginator .paginator-newer a{border:1px solid #000;border-radius:10px;padding:5px 16px}
@@ -55,7 +56,7 @@ ul.social-share li a.twitter{background:#00A0D1}
 ul.social-share li a.linkedin{background:#4875B4}
 ul.social-share li a.rss{background:#FA9B39}
 ul.social-share li a:hover{text-decoration:none;opacity:0.8}
-.related-posts{margin-top:30px;border-bottom:1px dotted slategrey;border-top:1px dotted slategrey}
+.related-posts{margin-top:40px;border-bottom:1px dotted slategrey;border-top:1px dotted slategrey}
 .related-posts h3{text-align:center;margin-bottom:10px;margin-top:10px}
 .related-posts ul{list-style:none;margin-left:0}
 .related-posts a.related-post{font-size:1.6em;display:block}
@@ -191,7 +192,7 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"]{width:.75em}
 #post-pagination{font-family:Georgia,"Times New Roman",Times,serif;margin-bottom:3em}
 .home-icon{font-size:2.5em;margin:1.5em 0 -1.1em}
 .post h5{font-family:'Noto Serif';text-transform:uppercase;font-weight:400;letter-spacing:.6em;margin:5em 0 -6em}
-.post h2{font-family:Georgia,"Times New Roman",Times,serif;font-size:3.3em;letter-spacing:.05em;}
+.post h2{font-family:Georgia,"Times New Roman",Times,serif;font-size:2.3em;letter-spacing:.01em;}
 .post section{font-family:'Noto Serif';line-height:1.9em}
 footer .container{font-family:'Noto Serif';color:#fff;font-size:.8em;padding:2em 0}
 footer .container a{color:#fff;text-decoration:underline}
@@ -199,13 +200,15 @@ table{border-spacing:0;position:relative;left:50%;line-height:1.9em;transform:tr
 table tr:last-child td:first-child{border-bottom-left-radius:10px}
 table tr:last-child td:last-child{border-bottom-right-radius:10px}
 .wrapper:after,.header .wrapper:after{content:"";display:block;clear:both}
-a,.post a{color:#08c;text-decoration:none}
-a:hover,.post a:hover{color:#005580;text-decoration:underline}
+a,.post a{color:#3366BB;text-decoration:none}
+a:hover,.post a:hover{color:#A55858;text-decoration:underline}
+a:visited{color:#a61dbd;}
 .highlight,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] h3,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] ul,div[itemprop="articleBody"] ol{text-align:justify}
 .header a.header-btn,[class*="span"].pull-right,.row-fluid [class*="span"].pull-right,.pull-right{float:right}
-div[itemprop="articleBody"] img,.related-posts ul li,.pagination-centered,.centro{text-align:center}
+.related-posts ul li,.pagination-centered,.centro{text-align:center}
+div[itemprop="articleBody"] img {text-align:center; padding-top: 25px; padding-bottom: 25px;}
 audio:not([controls]),[class*="span"].hide,.row-fluid [class*="span"].hide{display:none}
-div[itemprop="description"]{ margin: 5px 0 0px; padding-bottom: 40px;}
+div[itemprop="description"]{ margin: 5px 0 0px; padding-bottom: 20px;}
 .row:before,.row:after,.row-fluid:before,.row-fluid:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.dl-horizontal:before,.dl-horizontal:after,.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
 .row:after,.row-fluid:after,.container:after,.container-fluid:after,.dl-horizontal:after,.clearfix:after{clear:both}
 .container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container,.span12{width:940px}
