@@ -27,20 +27,22 @@ a.header-btn:hover{text-decoration:none;opacity:1;cursor:pointer}
 .footer{font-size:14px;background-color:#000;color:#FFF;margin:50px 0 0;padding:1px 0}
 .footer .copyright{text-align:center;margin-top:25px}
 .footer .copyright a{color:#FFF}
-.post{padding:20px 0}
+.post{padding:20px 0;}
 .post h2 a:hover{text-decoration:none}
 h1.post-title{font-weight:700;text-align:center;line-height:1;font-family:Georgia,"Times New Roman",Times,serif;font-size:4em;letter-spacing:.05em;color:#333;margin-bottom:13px}
 h2 a span{color:#18154a; font-family:"Raleway"}
 h2 a:hover span{ color: rgba(24, 21, 74, 0.83); text-decoration: none; padding: 2px; border-bottom: 2px dotted #ca2f2f;}
 h2{text-align:center;font-size:30px;margin:4px}
-ul.post-meta{list-style:none;display:block;text-align:center;font-size:12px;margin:0}
+ul.post-meta{list-style:none;display:block;text-align:center;font-size:12px;margin:0; }
 ul.post-meta li{display:inline-block;text-transform:uppercase;font-size:1em;letter-spacing:.1em;font-family:'Noto Serif';margin:16px}
-.content{text-align:justify;font-size:15px;font-family:'Noto Serif';border-bottom:2px dotted lightgray;background-color:#fff;margin:14px 0 0}
+.content{text-align:justify;font-size:15px;font-family:'Noto Serif'; background-color:#fff;margin:14px 0 0}
 .content img{max-width:100%;display:block;margin:auto}
 .content blockquote{padding-right:25px}
 .content blockquote p{margin-bottom:0;font-size:16px;font-weight:300;line-height:25px;font-style:italic}
 div[itemprop="articleBody"] p{text-align:justify;font-family:'Noto Serif';line-height:22px;font-size:15px;margin:15px 0 10px}
 div[itemprop="articleBody"] p::selection { background: #fff2a8; color:inherit; }
+div[itemprop ="articleBody"] {margin: 2em 0 5em 0;}
+.postSeparator {border-bottom: 2px dotted lightgray; margin-top: 1.4em;}
 .paginator{text-align:center;color:#A19797}
 .paginator .paginator-older,.paginator .paginator-newer{text-transform:uppercase;font-size:13px;display:inline-block;margin:25px 25px 0}
 .paginator .paginator-older a,.paginator .paginator-newer a{border:1px solid #000;border-radius:10px;padding:5px 16px}
@@ -206,6 +208,7 @@ a:visited{color:#a61dbd;}
 .highlight,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] h3,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] ul,div[itemprop="articleBody"] ol{text-align:justify}
 .header a.header-btn,[class*="span"].pull-right,.row-fluid [class*="span"].pull-right,.pull-right{float:right}
 .related-posts ul li,.pagination-centered,.centro{text-align:center}
+.poesia{font-size: 19px!important; line-height: 33px!important; margin: 50px 0 20px !important;}
 div[itemprop="articleBody"] img {text-align:center; padding-top: 25px; padding-bottom: 25px;}
 audio:not([controls]),[class*="span"].hide,.row-fluid [class*="span"].hide{display:none}
 div[itemprop="description"]{ margin: 5px 0 0px; padding-bottom: 20px;}
@@ -307,7 +310,10 @@ input[type="checkbox"],input[type="radio"]{border:1px solid #ccc}
 .carousel-caption{position:static}
 }
 
-@media only screen and (max-width: 600px) {
-.header-btn{display:none;}
+@media only screen and (max-width: 680px) {
+	.header-btn{display:none;}
+	iframe {display: none;}
+	canvas {display: none;}
+	.header h1{float:none; text-align:center;}
 }
 .centro{text-align:center!important;}

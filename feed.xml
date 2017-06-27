@@ -3,8 +3,8 @@
   <channel>
     <title>Dario Arzaba</title>
     <description></description>
-    <link>http://darioarzaba.github.io</link>
-    <atom:link href="http://darioarzaba.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Relojero Sin Camino</title>
@@ -27,8 +27,8 @@ Como la pasta de mi plato &lt;br /&gt;
 que no ha parado de llorar.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Apr 2017 00:00:00 -0500</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/04/03/RelojeroSinCamino.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/04/03/RelojeroSinCamino.html</guid>
+        <link>http://localhost:4000/poesia/2017/04/03/RelojeroSinCamino.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/04/03/RelojeroSinCamino.html</guid>
         
         <category>Relojero</category>
         
@@ -64,8 +64,8 @@ la media noche, se ha vuelto mecánica,&lt;br /&gt;
 tangente.&lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Apr 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/04/02/DespedidaYaPensada.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/04/02/DespedidaYaPensada.html</guid>
+        <link>http://localhost:4000/poesia/2017/04/02/DespedidaYaPensada.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/04/02/DespedidaYaPensada.html</guid>
         
         <category>Mujer</category>
         
@@ -104,8 +104,8 @@ el maíz se decolora.&lt;/p&gt;
 y realizo mi obra.&lt;/p&gt;
 </description>
         <pubDate>Sat, 01 Apr 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/04/01/DespuesDeLaCulpa.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/04/01/DespuesDeLaCulpa.html</guid>
+        <link>http://localhost:4000/poesia/2017/04/01/DespuesDeLaCulpa.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/04/01/DespuesDeLaCulpa.html</guid>
         
         <category>Culpa</category>
         
@@ -146,8 +146,8 @@ poder sentir porfin.&lt;/p&gt;
 ¡Y tocar!&lt;/p&gt;
 </description>
         <pubDate>Fri, 31 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/03/31/EroticadeOro.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/03/31/EroticadeOro.html</guid>
+        <link>http://localhost:4000/poesia/2017/03/31/EroticadeOro.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/31/EroticadeOro.html</guid>
         
         <category>Erotica</category>
         
@@ -198,8 +198,8 @@ a todos los hombres nos han legado.&lt;/p&gt;
 
 </description>
         <pubDate>Thu, 30 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/03/30/PoemaParaArquitectos.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/03/30/PoemaParaArquitectos.html</guid>
+        <link>http://localhost:4000/poesia/2017/03/30/PoemaParaArquitectos.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/30/PoemaParaArquitectos.html</guid>
         
         <category>Arquitectura</category>
         
@@ -245,8 +245,8 @@ te han dejado un mar de nostalgia como compañia
 y muerte.&lt;/p&gt;
 </description>
         <pubDate>Wed, 29 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/03/29/MujerTriste.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/03/29/MujerTriste.html</guid>
+        <link>http://localhost:4000/poesia/2017/03/29/MujerTriste.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/29/MujerTriste.html</guid>
         
         <category>Mujer</category>
         
@@ -280,8 +280,8 @@ se viajan dos grandes distancias.&lt;/p&gt;
 &lt;p&gt;Adriana Romero&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/03/28/AdrianaPensamiento.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/03/28/AdrianaPensamiento.html</guid>
+        <link>http://localhost:4000/poesia/2017/03/28/AdrianaPensamiento.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/28/AdrianaPensamiento.html</guid>
         
         <category>Escuela</category>
         
@@ -301,32 +301,39 @@ se viajan dos grandes distancias.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Cumpleaños Amiga</title>
-        <description>&lt;p&gt;Un breve poema que escribi para el cumpleaños de una amiga a la que estimo mucho.&lt;/p&gt;
-
+        <title>La Primavera Besaba</title>
+        <description>&lt;p&gt;WEBBY AWARDS
+&lt;a class=&quot;showdown&quot;&gt;   Webby Awards&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;hidedown&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://webbyawards.com/features/&quot; target=&quot;_blank&quot;&gt;http://webbyawards.com/features/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Los Webby Awards son reconocimientos que desde 1997 se otorgan a sitios web que sobresalen en alguna de las categor�as relacionadas con el dise�o, contenido e impacto.&lt;/p&gt;&lt;p&gt;La &lt;span data-title=&quot;International Academy of Digital Arts and Sciences&quot; class=&quot;tooltip&quot;&gt;academia&lt;/span&gt; (&lt;a href=&quot;https://www.iadas.net/&quot; target=&quot;_blank&quot;&gt;IADAS&lt;/a&gt;) adem�s otorga premios a personalidades, videos, marketing, aplicaciones m�vil y eventos relacionados con el mundo digital, tomando en cuenta su contenido, estructura, navegaci�n, funcionalidad, interactividad y creatividad.&lt;/p&gt;&lt;p&gt;El proceso de elecci�n es auxiliado por &lt;a href=&quot;https://electology.org/&quot; target=&quot;_blank&quot;&gt;The Center for Election Science&lt;/a&gt; utilizando su sistema Score Voting. Al recibir un premio los ganadores tienen derecho a dar un &lt;a href=&quot;https://www.youtube.com/watch?v=kR2UXgKgHQ4&quot; target=&quot;_blank&quot;&gt;discurso&lt;/a&gt; de 5 palabras (Cringe Warning).&lt;/p&gt;&lt;p&gt; Ademas de la interesante lista de sitios web que han sido galardonados, (&lt;a href=&quot;http://webbyawards.com/winners&quot; target=&quot;_blank&quot;&gt;Lista de Ganadores&lt;/a&gt;), los Webby Awards publican art�culos relacionados con Internet, trending sites y consejos de dise�o. Uno de mis posts favoritos es en el que exploran los Home Screens de algunas personas reconocidas (&lt;a href=&quot;http://webbyawards.com/lists/webby-judges-home-screens-which-apps-made-the-cut/&quot; target=&quot;_blank&quot;&gt;Articulo&lt;/a&gt;) utilizando &lt;a href=&quot;http://homescreen.is/&quot; target=&quot;_blank&quot;&gt;homescreen.is&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Un sitio que gana un Webby puede promover su premio en redes sociales, incluir un sello de calidad webby en sus productos e incluir el premio en las descripciones de los productos. El concurso ha sido duramente criticado por las tarifas obligatorias que necesarias para inscribir un sitio ($400) y por la exagerada cantidad de ganadores lo cual resta valor a los premios, haciendo que parescan simples art�culos publicitarios.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Personas Reconocidas:&lt;/b&gt;&lt;span data-title=&quot;Podcaster de The Ringer&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://theringer.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Bill Simmons&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Inventor formato GIF&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;https://en.wikipedia.org/wiki/Steve_Wilhite&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Steve Wilhite&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Host &amp;quot;The Late Show&amp;quot;&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/StephenAtHome&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Stephen Colbert&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Protagonista &amp;quot;Orange is the new black&amp;quot;&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/tayschilling?lang=en&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Taylor Schilling&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Inventor de la Web!&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/timberners_lee&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Tim Berners Lee&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;CEO Trend Micro&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.instagram.com/evachen212/?hl=en&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Eva Chen &lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Host &amp;quot;Jimmy Kimmel Live&amp;quot;&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/jimmykimmel&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Jimmy Kimmel&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Cofundandor Creative Commons&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/lessig&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Lawrence Lessing&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Protagonista &amp;quot;Unbreakable Kimmy Schmidt&amp;quot;&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/KimmySchmidt&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Kimmy Schmidt&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Autor &amp;quot;Design by Numbers&amp;quot;&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.maedastudio.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; John Maeda&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sitios Reconocidos:&lt;/b&gt;&lt;span data-title=&quot;Dise�adores del sitio de Webby Awards&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.codeandtheory.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Code &amp;amp; Theory&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Dise�adores de Sitios Web&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://pokelondon.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Poke London&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Donaciones (Shut Down)&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://dollaraday.co/#nonprofits&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Dollar a Day&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Medio Ambiente&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.bbc.com/earth/world&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; BBC Earth&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Museo Metropolitano&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.metmuseum.org/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; The Met Museum&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Comida, Recetas y Tutoriales&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.tastemade.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Tastemade&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Equidad de Genero en Progamacion&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://girlswhocode.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Girls Who Code&lt;/a&gt; &lt;/span&gt;&lt;span data-title=&quot;Revista de Arquitectura&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.dezeen.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Dezeen&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Fashion and Style&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.refinery29.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Refinery29&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Revista Social&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.vice.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Vice&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Sitio web y repositorio de GIF's&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://giphy.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Giphy&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Agencia Mercadotecnia&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://droga5.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Droga5&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Agencia Mercadotecnia&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;http://www.wk.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Wieden+Kennedy&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Agencia Mercadotecnia&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;http://www.bigspaceship.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Big Spaceship&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Agencia Mercadotecnia&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.rga.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; R-GA&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Agencia Mercadotecnia&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;http://www.cpbgroup.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; CP+B&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Show de televicion enfocado en 5 personas con discapacidades&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.the-specials.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; The Specials&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Ilustrador y dise�ador de comics&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;http://andywarnercomics.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Andy Warner&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Dise�ador de experiencias de realidad virtual&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://milk.co/vr&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Chris Milk&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Abogada especializada en tecnologia&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://scrawford.net/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Susan Crawford&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Fundadora de Huffpost&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twitter.com/ariannahuff&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Arianna Huffington&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Campa�a publicitaria de los Webby Awards. Flashing images&quot; class=&quot;tooltip2&quot;&gt; &lt;a href=&quot;http://theinternetcantbestopped.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; The Internet Cant be Stopped&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Especial de San Valentin:&lt;/b&gt; &lt;span data-title=&quot;Color Palettes y Dise�o&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.colourlovers.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Colour Lovers&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Sitio Contra la Depresion&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://twloha.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; To Write Love On Her Arms&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Sitio Contra el Abuso en el Noviazgo&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.loveisrespect.org/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Love Is Respect&lt;/a&gt;&lt;span data-title=&quot;Woman Period Information&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://glowing.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Glow&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span data-title=&quot;Cortometraje&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://vimeo.com/27754373&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Quiet Signs of Love&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Cortometraje&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=80hEjYqYTDE&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; I Love You&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Podcasts:&lt;/b&gt;&lt;span data-title=&quot;Story Driven Podcast&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://99percentinvisible.org/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; 99 Percent Invisible&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Curiosity of Things&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.stuffyoushouldknow.com/podcasts&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; How Stuff Works&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Social and Political&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.recode.net/recode-decode-podcast-kara-swisher&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Recode Decode&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Tech Podcast&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://gimletmedia.com/reply-all/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Repply All&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Week Podcast from the Magazine&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;https://www.wnyc.org/shows/tnyradiohour&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; New Yorker Radio Hour&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-
-&lt;p class=&quot;centro&quot;&gt;Los pájaros posando sobre viejas hileras.&lt;br /&gt;
-La vida en reposo,  sobre un manantial.&lt;br /&gt;
-Pescar un hermoso recuerdo,&lt;br /&gt;
-Y hacer una pausa  al decirte:&lt;br /&gt;
-Amiga, cuanto te quiero.&lt;/p&gt;
+&lt;h3&gt;Bussiness Online Tips&lt;/h3&gt;
+&lt;p&gt;Usando &lt;a href=&quot;http://www.harrispollonline.com/&quot; target=&quot;_blank&quot;&gt;Harrys Poll&lt;/a&gt; y 2500 participantes aprendimos que 93% ha comprado en linea, 60% lo hizo por conveniencia y 37% por que era la unica manera de obtener el servicio o producto por internet. 70% comparte una publicacion cuando cree que util para los demas, 37% comparte causas sociales y 26% comparte noticias. 71% regresa a un sitio por segunda vez si le fue util, 55% si el contenido es entrenido, 27% si el contenido es gracioso y 23% si el sitio es popular.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Los usuarios prefieren que las empresas trasladen sus servicios en linea porque quieren poder rastrar su producto en tiempo real, quieren que la atencion sea inmediata, el pago m�s simple, no tener que interactuar, dar retroalimentacion instantanea, recibir el producto rapidamente, recibir sujerencias de compra y tener una infinidad de opciones para personalizar la compra.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cuando un usuario abre el perfil de una empresa, esta tienen que dar una buena primera impresion, el usuario debe ser capaz de reconocer inmediatamente la marca, sentirse en un ambiente seguro, amigable y social. Ya no basta con detalles curiosos, chistosos o adorables para llamar la atencion del consumidor moderno.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Las imagenes son vitales para producir articulos de interes, reciben hasta 7 veces m�s visitas que posts sin imagenes. Por lo general se recomienda utilizar entre 100 y 119 palabras. Las redes sociales no son plataformas para anunciar noticias relacionadas con la empresa, en realidad son el principal medio de comunicacion con la comunidad que utiliza el servicio. Se recomienda publicar encuestas, opiniones, entrevistas, videos, datos interesantes, giveaways, valores, ideales y el estido de vida que busca la empresa.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Se recomienda publicar premios, recomendaciones, sellos de calidad y acreditaciones de la empresa para aumentar la credibilidad. Los iconos sociales tambien deben de estar actualziados y a la vista del usuario en cualquier momento. La interaccion con los usuarios debe de estar supervisada, ser cordial, amable y con un sentido de servidumbre, atendiendo las preguntas de los consumidores para que la red social sea un lugar en donde se puedan expresar quejas, preocupaciones y felicitaciones.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Categorizar las publicaciones en series constantes como foto del dia, consejo del dia o dato interesante al inicio, ayuda al consumidor a identificar en instantes el contenido de la publicacion, tambien se recomienda crear memes de tu producto para dar una divertida prueba instantanea de tu contenido. Finalmente se recomienda repostear para no sobresaturar tu feed con tu propio contenido.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;b&gt;Redes Sociales:&lt;/b&gt;&lt;a href=&quot;https://www.youtube.com/user/TheWebbyAwards&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; YouTube&lt;/a&gt;&lt;a href=&quot;https://www.facebook.com/thewebbyawards&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Facebook&lt;/a&gt;&lt;a href=&quot;https://www.instagram.com/thewebbyawards/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Instagram&lt;/a&gt;&lt;a href=&quot;https://www.flickr.com/photos/webbys/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Flickr&lt;/a&gt;&lt;a href=&quot;https://twitter.com/TheWebbyAwards&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Twitter&lt;/a&gt;&lt;a href=&quot;https://plus.google.com/+TheWebbyAwards&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Google+&lt;/a&gt;&lt;a href=&quot;http://tumblr.webbyawards.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Tumblr&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
         <pubDate>Mon, 27 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/poesia/2017/03/27/PoemaAmiga.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/poesia/2017/03/27/PoemaAmiga.html</guid>
+        <link>http://localhost:4000/poesia/2017/03/27/WebbyAwards.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/27/WebbyAwards.html</guid>
         
         <category>Juventud</category>
         
-        <category>Amiga</category>
+        <category>AntonioMachado</category>
         
-        <category>Vida</category>
+        <category>Poesia</category>
         
-        <category>Manantial</category>
-        
-        <category>Despedida</category>
-        
-        <category>Cumpleaños</category>
+        <category>Primavera</category>
         
         
         <category>Poesia</category>
@@ -334,276 +341,53 @@ Amiga, cuanto te quiero.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Calculadora Basica</title>
-        <description>&lt;p&gt;Borra todos los ajustes y la memoria: &lt;code class=&quot;highlighter-rouge&quot;&gt;Shift/9/3/=&lt;/code&gt; Para borrar solo la memoria &lt;code class=&quot;highlighter-rouge&quot;&gt;Shift/9/2/=&lt;/code&gt; Para ajustar el contraste de la pantalla utilizar: &lt;code class=&quot;highlighter-rouge&quot;&gt;Shift/Mode/Abajo/5&lt;/code&gt;. Después se utilizan las flechas laterales para ajustar el contraste. Aceptar el ajuste utilizando &lt;code class=&quot;highlighter-rouge&quot;&gt;(AC)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;La fx-82ES Plus Requiere de una batería triple AAA modelo Ro3 (UM-4). La cual dura aproximadamente 17,000 horas de vida consumiendo 0.0002W. La calculadora pesa 100 gramos. Para encender la calculadora se utiliza (ON). Para apagar la calculadora se utiliza (Shift + AC) La calculadora se apaga automáticamente después de 10 minutos de inactividad.&lt;/p&gt;
-
-&lt;p&gt;Indicadores:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;S&lt;/strong&gt;: Significa que se a presionado la tecla (Shift).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;: Significa que se ha presionado la tecla (Alpha).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;M&lt;/strong&gt;: Existe un valor en la memoria.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;D&lt;/strong&gt;: La unidad por defecto es Grados.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;R&lt;/strong&gt;: La unidad por defecto es Radianes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;G&lt;/strong&gt;: La unidad por defecto es Gradianes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;STO&lt;/strong&gt;: La calculadora está esperando un símbolo para utilizar como variable. Aparece después de activar la asignación de una variable (Shift RCL)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;RCL&lt;/strong&gt;: La calculadora está esperando el símbolo de una variable ya guardada para utilizar su valor. Aparece después de activar el generar variable (RCL).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;STAT&lt;/strong&gt;: La calculadora está en Modo de Estadística.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;FIX&lt;/strong&gt;: Se asignó un número máximo de decimales a generar en el resultado.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;SCI&lt;/strong&gt;: Se asignó un número máximo de dígitos totales a generar en el resultado.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Math&lt;/strong&gt;: Se activó el uso de Natural Display (Como aparece en los apuntes).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;(Flechas)&lt;/strong&gt;: Existe un historial al que se puede retroceder o adelantar.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disp&lt;/strong&gt;: La pantalla solo esta mostrando uno de los resultados de un cálculo múltiple.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;MthIO (Default)&lt;/strong&gt;: Formato para fracciones e irracionales. Aparecen como aparecerían en papel. Se puede seleccionar que el resultado sea también fraccionario o decimal (Prefiero Decimal)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;LineIO&lt;/strong&gt;: Opción de formato para fracciones e irracionales. Aparecen en una sola línea de Input. Se activa automáticamente al entrar en el (Modo Stat).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deg (Default)&lt;/strong&gt;: Formato para la unidad angular. Establece el uso de grados.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Rad&lt;/strong&gt;: Formato para la unidad angular. Establece el uso de radianes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Gra&lt;/strong&gt;: Formanto para la unidad angular. Establece el uso de Gradianes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Fix&lt;/strong&gt;: Cantidad de decimales relevantes para el resultado. Establece un valor de 0 a 9 para la cantidad máxima de decimales a mostrar en el resultado. En 9 por default.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Sci&lt;/strong&gt;: Opción de cantidad de dígitos relevantes para el resultado. Establece un valor de 1 a 10 para la cantidad relevante de dígitos en un cálculo que resulta en notación científica.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Norm&lt;/strong&gt;: Opción de utilizar en el resultado notación científica o decimal cuando se está en el modo lineal. Cuando se está en el modo natural esta opción se selecciona en la misma opción 1.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ab/c&lt;/strong&gt;: Establece el modo en el que se representan los resultados fraccionarios. Ya sea en forma mixta (Primer Opción) o Impropia (Segunda Opción, default).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;d/c&lt;/strong&gt;: Establece si se activa o no la columna de frecuencias cuando se activa el modo STAT.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;STAT&lt;/strong&gt;: Establece si se utiliza un Punto o una Coma para separar los decimales. Nótese que cuando  Punto esta activado la separación de múltiples resultados en una computación múltiple se separan con comas, pero si se activa la Coma entonces estos resultados múltiples se separaran con puntos y comas.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disp&lt;/strong&gt;: Ajusta el Contraste&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;reglas-bsicas&quot;&gt;Reglas Básicas&lt;/h3&gt;
-
-&lt;p&gt;Los input tienen 99 bytes de &lt;strong&gt;memoria&lt;/strong&gt;, casi toda operación y numero requiere de 1 byte aunque las funciones requieren de 3 hasta 13. El cursor cambia a un cuadrado cuando quedan menos de 10 bytes.&lt;/p&gt;
-
-&lt;p&gt;En el modo lineal uno puede &lt;strong&gt;cambiar el cursor&lt;/strong&gt; de insertar por uno de remplazo utilizando (Shift/Del).&lt;/p&gt;
-
-&lt;p&gt;Para cambiar el resultado de &lt;strong&gt;fracción a decimal&lt;/strong&gt; se puede usar el botón &lt;code class=&quot;highlighter-rouge&quot;&gt;(SD)&lt;/code&gt;. Luego, para cambiar de fracción impropia a mixta se puede utilizar &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/SD)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;utilizar porcentajes&lt;/strong&gt; se utiliza &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/()&lt;/code&gt;, por ejemplo para saber el 20% de 150 escribirmos: &lt;code class=&quot;highlighter-rouge&quot;&gt;150*20%=30&lt;/code&gt;. Por otro lado para saber que porcentaje representa un numero (660) de otro (880) utilizamos una division en vez de multiplicar &lt;code class=&quot;highlighter-rouge&quot;&gt;660/880%=75&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;sumar o restar porcentajes&lt;/strong&gt; (En impuestos o descuentos), por ejemplo para sumar el 15% de 2500 a 1000 escribimos: &lt;code class=&quot;highlighter-rouge&quot;&gt;1000+(2500*15%)=1375&lt;/code&gt;. Por otro lado para restar 25% a 3500 escribimos &lt;code class=&quot;highlighter-rouge&quot;&gt;3500-(3500*25%)=2625&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para realizar &lt;strong&gt;cálculos múltiples&lt;/strong&gt; se utiliza el separador de doble punto (:) en el input, esto dividirá las operaciones dando los resultados por separado. Por ejemplo cuando escribimos: 3+3:3*3=6,9.&lt;/p&gt;
-
-&lt;p&gt;Cuando un número está en notación científica podemos &lt;strong&gt;mover el punto decimal&lt;/strong&gt; a la derecha tres lugares apretando &lt;code class=&quot;highlighter-rouge&quot;&gt;(ENG)&lt;/code&gt; después de que se haya realizado el cálculo. Si queremos mover el punto decimal a la izquierda simplemente apretamos &lt;code class=&quot;highlighter-rouge&quot;&gt;Shift/ENG&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;La calculadora cuenta con las &lt;strong&gt;variables&lt;/strong&gt; ABCDEFX y Y para que guardes cualquier valor numérico y que las puedas utilizar en tus cálculos. Por ejemplo para asignar el resultado de 3+5 a la variable A escibiriamos: &lt;code class=&quot;highlighter-rouge&quot;&gt;3+5(Shift/RCL)A=8&lt;/code&gt;. Ahora que se guardo el resultado 8 en la variable A la podemos utilizar en cálculos posteriores: &lt;code class=&quot;highlighter-rouge&quot;&gt;A*10=80&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para &lt;strong&gt;mostrar el contenido&lt;/strong&gt; de la variable A simplemente utilizamos el botón (RCL) y la variable: &lt;code class=&quot;highlighter-rouge&quot;&gt;(RCL) A = 8&lt;/code&gt;. Para limpiar los contenidos de la variable simplemente asignamos un cero a dicha variable. &lt;code class=&quot;highlighter-rouge&quot;&gt;0(Shift/RCL)A=0&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Al calcular ángulos podemos representarlos en &lt;strong&gt;forma sexagesimal&lt;/strong&gt; (Grados, Minutos y Segundos) se utiliza la tecla &lt;code class=&quot;highlighter-rouge&quot;&gt;(.,,,)&lt;/code&gt; o Triple Coma &lt;code class=&quot;highlighter-rouge&quot;&gt;(TC)&lt;/code&gt; la cual esta arriba de ENG. Por ejemplo si quisiéramos sumar 2 grados 20 minutos y 30 segundos con 39 minutos, 30 segundos realizaríamos lo siguiente: &lt;code class=&quot;highlighter-rouge&quot;&gt;2(TC)20(TC)30(TC)+0(TC)39(TC)+30(TC)=&lt;/code&gt; 3 Grados 0 Minutos 0 Segundos.&lt;/p&gt;
-
-&lt;p&gt;Para convertir un número &lt;strong&gt;sexagesimal a decimal&lt;/strong&gt; o viceversa utilizamos el mismo símbolo del Triple Coma (TC) que esta arriba de ENG después de realizar la operación. Por ejemplo para pasar de 2 Grados 15 Minutos y 18 Segundo a decimal, escribimos lo siguiente: &lt;code class=&quot;highlighter-rouge&quot;&gt;2(TC)15(TC)18(TC)  = 2G15M18S(TC) = 2.255&lt;/code&gt;. Para volver a transformar el resultado a sexagesimal simplemente volvemos a apretar (TC). &lt;code class=&quot;highlighter-rouge&quot;&gt;2.255(TC)=2G15M18S.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Memoria+&lt;/strong&gt;: Uno puede insertar resultados directamente en la Memoria sin necesidad de utilizar variables utilizando la tecla (M). Para limpiar los contenidos de M también le asignamos un cero: &lt;code class=&quot;highlighter-rouge&quot;&gt;0(Shift/RCL)M+=0&lt;/code&gt; Para añadir el resultado de 10*5 a la memoria: &lt;code class=&quot;highlighter-rouge&quot;&gt;10*5(M+)=50&lt;/code&gt;. Para restar 10+5 de la memoria (50) utilizamos &lt;code class=&quot;highlighter-rouge&quot;&gt;10+5(Shift/M+)=15&lt;/code&gt;. Para mostrar el contenido de la memoria simplemente utilizamos RCL: &lt;code class=&quot;highlighter-rouge&quot;&gt;RCL M+ = 35&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Se puede &lt;strong&gt;factorizar&lt;/strong&gt; un número (máximo 10 dígitos) en sus factores primos de hasta 3 dígitos. Por ejemplo para factorizar 1014 en sus factores primos: &lt;code class=&quot;highlighter-rouge&quot;&gt;1014(Shift/TC) = 2*3*13*13&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Si el número a factorizar tiene una parte que requiere un factor de mas de tres dígitos como por ejemplo &lt;code class=&quot;highlighter-rouge&quot;&gt;4104676 (2*2*1013*1013)&lt;/code&gt;. Debido a que esta función no puede representarlo, en este caso (1013) va a dejar la parte que corresponde a este factor entre paréntesis: &lt;code class=&quot;highlighter-rouge&quot;&gt;4104676 = 4104676(Shift/TC) = 2*2*(1026169)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;funciones-extra&quot;&gt;Funciones Extra&lt;/h3&gt;
-
-&lt;p&gt;Para utilizar la función de &lt;strong&gt;número al azar&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;(Ran#)&lt;/code&gt; primero se especifica el rango superior y después se utiliza &lt;code class=&quot;highlighter-rouge&quot;&gt;(RAN#)&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1000(Shift + .) = Número integral al azar integral de menos de 1000.&lt;/li&gt;
-  &lt;li&gt;100(Shift + .) = Número al azar menor a 100 con un decimal.&lt;/li&gt;
-  &lt;li&gt;10(Shift + .) = Número al azar menor a 10 con dos decimales.&lt;/li&gt;
-  &lt;li&gt;1(Shift + .) = Número al azar entre 0 y 1 con tres decimales.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Para obtener números al azar en un rango más específico se utiliza (RANINT#): &lt;code class=&quot;highlighter-rouge&quot;&gt;Alpha/RanInt#/1/Shift/)/6/)/=&lt;/code&gt;. Lo anterior obtiene un número al azar entre 1 y 6.&lt;/p&gt;
-
-&lt;p&gt;Para determinar &lt;strong&gt;permutaciones o combinaciones&lt;/strong&gt; utilizamos &lt;code class=&quot;highlighter-rouge&quot;&gt;(NPR)&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;(NCR)&lt;/code&gt; que son los Shift para multiplicación y división. Por ejemplo si quisiera saber el número de permutaciones o combinaciones al seleccionar 4 personas de un grupo de 10 escribiría: &lt;code class=&quot;highlighter-rouge&quot;&gt;10(Shift/*)4=5040&lt;/code&gt; Permutaciones. &lt;code class=&quot;highlighter-rouge&quot;&gt;10(Shift//)4=210&lt;/code&gt; Combinaciones.&lt;/p&gt;
-
-&lt;p&gt;Para pasar de &lt;strong&gt;coordenadas rectangulares a polares&lt;/strong&gt; utilizamos &lt;code class=&quot;highlighter-rouge&quot;&gt;(Pol)&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;(Rec)&lt;/code&gt;. Por ejemplo para pasar de las coordenadas rectangulares &lt;code class=&quot;highlighter-rouge&quot;&gt;(Raiz(2)+Raiz(2))&lt;/code&gt; a su equivalente polar escribimos: &lt;code class=&quot;highlighter-rouge&quot;&gt;Pol(Raiz2,Raiz2)=(r=2,Grados=45)&lt;/code&gt;. Inversamente para pasar de polares a rectangulares utilizamos: &lt;code class=&quot;highlighter-rouge&quot;&gt;Rec(Raiz2,45)=(x=1,y=1)&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;La calculadora &lt;strong&gt;elimina lo recursivo&lt;/strong&gt; y lo redondea al resultado exacto, lo cual es lo correcto sin embargo si quisiéramos que nos mostrará el resultado aproximado en vez del exacto necesitamos utilizar &lt;code class=&quot;highlighter-rouge&quot;&gt;(RND)&lt;/code&gt;. Por ejemplo si quisiéramos que no redondeará la operación &lt;code class=&quot;highlighter-rouge&quot;&gt;(10/3)*3=10&lt;/code&gt; entonces escribimos: &lt;code class=&quot;highlighter-rouge&quot;&gt;RND(10/3)*3=9.9999999&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para insertar el símbolo de &lt;strong&gt;grados, radianes o gradianes&lt;/strong&gt; respectivamente a nuestro input lo podemos realizar utilizando el botón &lt;code class=&quot;highlighter-rouge&quot;&gt;DGR&lt;/code&gt; el cual es el Shift de ANS. Por ejemplo, &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/Ans/1)=&lt;/code&gt; Inserta símbolo de grados.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Crear una tabla&lt;/strong&gt;: Seleccionar el modo de Tabla. Introduce una función utilizando la variable roja (X), recuerda  que no se pueden insertar Pol o Rec. Cuando se termine de introducir el valor deseado presionar igual. Luego se preguntara el inicio y final de la tabla así como cuanto se debe avanzar en cada paso. Al finalizar y presionar  igual se generara la tabla de valores X junto a la tabla de valores Y.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;modo-estadistica&quot;&gt;Modo Estadistica&lt;/h3&gt;
-
-&lt;p&gt;Cuando entramos en este modo podremos realizar distintos tipos de fórmulas de regresión. Regresion de una variable, lineal, cuadrática, logarítmica, exponencial, AB, Potencia, Inversa.&lt;/p&gt;
-
-&lt;p&gt;Una vez que se seleccionó el tipo de operación que se requiere realizar se procede a introducir los datos. Se cuentan con 40 filas para introducir datos. Las filas se van agregando automáticamente, si se desea eliminar una fila simplemente se oprime &lt;code class=&quot;highlighter-rouge&quot;&gt;Del&lt;/code&gt;. Si se quiere agregar una fila manualmente se oprime: &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/1)/3/1&lt;/code&gt; Por otro lado para borrar todos los datos de la tabla se utiliza: &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/1)/3/2&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Una vez que se terminó de crear la tabla se procede a oprimir &lt;code class=&quot;highlighter-rouge&quot;&gt;(AC)&lt;/code&gt;. Saldremos del editor de la tabla sin embargo el indicador de &lt;code class=&quot;highlighter-rouge&quot;&gt;STAT&lt;/code&gt; nos dice que en la memoria existe una tabla a la que podemos aplicar una fórmula estadística: Para accesar las fórmulas estadísticas oprimimos: &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift + 1)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Las fórmulas disponibles son:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Sum&lt;/strong&gt;: Sumas Totales.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Variables&lt;/strong&gt;: n (Número de datos), x (Media X), y (Media Y), Gx (Desviación estándar Poblacional) Sx (Desviación Estándar Muestra)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reg&lt;/strong&gt;: Regresión de Coeficientes A o B, Regresión del Coeficiente (r) Valores estimados de X y Y.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Por ejemplo para obtener la media y la desviación estándar primero entramos al modo estadístico (Mode/2), luego seleccionamos el tipo de regresión (1-Var), llenamos la  tabla de valores de (X), y la de frecuencia.&lt;/p&gt;
-
-&lt;p&gt;Luego Podemos cambiar el tipo de regresión, los datos de la tabla o aplicar fórmulas con &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/1)&lt;/code&gt;. En este caso queremos ocupar la formula de Media y Desviación que se encuentran en &lt;code class=&quot;highlighter-rouge&quot;&gt;(Shift/1/4)&lt;/code&gt;. Al escoger una fórmula simplemente ponemos &lt;code class=&quot;highlighter-rouge&quot;&gt;(=)&lt;/code&gt; y se aplicará a la tabla guardada en memoria.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;jerarqua&quot;&gt;Jerarquía&lt;/h3&gt;
-
-&lt;p&gt;Nota: Si se va a multiplicar o potenciar un número negativo se recomienda encerrarlo entre paréntesis.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Paréntesis&lt;/li&gt;
-  &lt;li&gt;Funciones Preinstaladas como las Trigonométricas&lt;/li&gt;
-  &lt;li&gt;Potencias y Raíces.&lt;/li&gt;
-  &lt;li&gt;Fracciones&lt;/li&gt;
-  &lt;li&gt;Signo negativo&lt;/li&gt;
-  &lt;li&gt;Valores del modo Stat&lt;/li&gt;
-  &lt;li&gt;Multiplicación sin el signo (implícitas)&lt;/li&gt;
-  &lt;li&gt;Permutaciones y Combinaciones&lt;/li&gt;
-  &lt;li&gt;Multiplicación y División&lt;/li&gt;
-  &lt;li&gt;Sumas y Restas&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;errores&quot;&gt;Errores&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Math Error&lt;/strong&gt;: El resultado excede el rango de calculación, el input excede el rango de input o la calculación contiene una operación ilegal (División entre Zero). La solución está en checar que no haya operaciones inválidas o reducir la cantidad de dígitos. (0/0)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Stack Error&lt;/strong&gt;: Uso de paréntesis exesivo, volcó la memoria. La solución esta en reducir la cantidad de paréntesis, normalmente dividiendo la operación en dos partes.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Syntax Error&lt;/strong&gt;: Faltan argumentos o argumentos no validos en las operaciones. Revisar el Input en busca del argumento no valido. (++)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Insufficient MEM&lt;/strong&gt;: En el modo Table la calculación fue demasiado para que la memoria la pudiera guardar. La solución es reducir el rango o pasos de cálculo. (Range 0.1)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Argument Error&lt;/strong&gt;: Un número no integral se intentó introducir como input de la función de generar numeros al azar(RANINT#). La solución es cambiar el argumento por uno integral. (RANINT 0.1)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Esta informacion aplica para muchas calculadoras modernas pero basicas como la fx-82ESPlus de Casio. Para aplicaciones más serias recomiendo las siguientes calculadoras cientificas no-graficadoras:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://education.ti.com/en/products/calculators/scientific-calculators/ti-36x-pro&quot;&gt;Texas Instruments TI-36xPro&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;http://www.casio.com/products/calculators/fraction-and-scientific/fx-115esplus&quot;&gt;Casio Fx-115ESPlus&lt;/a&gt;&lt;/p&gt;
-
+        <title>La Primavera Besaba</title>
+        <description>&lt;p&gt;&lt;a class=&quot;showdown&quot;&gt;   Transparencia Legislativa&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;hidedown&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.transparencialegislativa.org/&quot; target=&quot;_blank&quot;&gt;http://www.transparencialegislativa.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Blog de transparencia legislativa en latinoamerica, para ello se enfocan en la regulacion de los &lt;a href=&quot;http://www.transparencialegislativa.org/faqs-links/&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;, y definen claramente la funcion del &lt;a href=&quot;http://www.transparencialegislativa.org/congresos/congreso-mexico/&quot; target=&quot;_blank&quot;&gt;Congreso de Mexico&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Sitios Recomendados: &lt;/b&gt;&lt;span data-title=&quot;Revision del sistema legislativo.&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://visionlegislativa.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Vision Legislativa&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Organizaciones luchando por un parlamento abierto.&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.parlamentoabierto.mx/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Parlamento Abierto&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Recomendaciones para cumplir Ley de Archivo&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://colectivoporlatransparencia.org/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Colectivo por la Transparencia&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Monitor del trabajo legislativo en Mexico&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://www.impactolegislativo.org.mx/sitio/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Impacto Legislativo&lt;/a&gt;&lt;/span&gt;&lt;span data-title=&quot;Promueve la transparencia y la comunicacion con el gobierno.&quot; class=&quot;tooltip2&quot;&gt;&lt;a href=&quot;http://fundar.org.mx/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Fundar&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Sun, 26 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/tecnologia/2017/03/26/CalculadoraBasica.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/tecnologia/2017/03/26/CalculadoraBasica.html</guid>
+        <pubDate>Mon, 27 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/poesia/2017/03/27/TransparenciaLegislativa.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/27/TransparenciaLegislativa.html</guid>
         
-        <category>Calculadora</category>
+        <category>Juventud</category>
         
-        <category>Notacion</category>
+        <category>AntonioMachado</category>
         
-        <category>Matematicas</category>
+        <category>Poesia</category>
         
-        <category>Funciones</category>
-        
-        <category>Tecnologia</category>
-        
-        <category>Manual</category>
-        
-        <category>Simbologia</category>
+        <category>Primavera</category>
         
         
-        <category>Tecnologia</category>
+        <category>Poesia</category>
         
       </item>
     
       <item>
-        <title>Henri Sivonen</title>
-        <description>&lt;p&gt;Henri Sivonen es un desarrollador de software basado en Helsinki, Finlandia. Trabaja para Mozilla y a realizado varios proyectos en torno al desarrollo web y a un validador de HTML5.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;medidas-reales-en-css&quot;&gt;Medidas reales en CSS&lt;/h3&gt;
-
-&lt;p&gt;Hace más de dos decadas las &lt;a href=&quot;https://en.wikipedia.org/wiki/Macintosh_II&quot;&gt;Macintosh-II&lt;/a&gt; contaban con una pantalla de 9 pulgadas y una resolución de 512x384. La resolución neta era de 72ppi con lo que el sistema operativo llego a utilizar la medida para inferir otras medidas reales (Pulgadas, Centímetros, Puntos).&lt;/p&gt;
-
-&lt;p&gt;Tiempo después las Mac obtendrán mejores pantallas con resoluciones más altas, sin embargo el OS continuó por mucho tiempo utilizando la resolución de 72ppi como referencia. En Windows pasaría algo similar, el OS continuaría utilizando su anticuada resolucion de 80ppi para calcular medidas reales.&lt;/p&gt;
-
-&lt;p&gt;Para los desarrolladores de sitios web, esto significaba que distintos dispositivos con distintas pantallas y distintos sistemas operativos interpretan una medida real de distinta forma. A pesar de que los OS actuales interpretan &lt;em&gt;correctamente&lt;/em&gt; las medidas reales, ha quedado un estigma en su uso con relación al desarrollo de sitios web.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Content Sink&lt;/strong&gt;: Objeto que se encuentra entre el parser y el DOM. Este objeto especial es el encargado de tomar los tokens que genero el parser e ir construyendo el DOM. En un servidor XML se consideran constructores &lt;a href=&quot;https://en.wikipedia.org/wiki/Simple_API_for_XML&quot;&gt;SAX-DOM&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Cuando un documento XML (SVG, MathML, XHTML), es cargado en la memoria del navegador queremos que se construye incrementalmente en el caso de que el tiempo de renderizado del DOM tome demasiado. Actualmente este es el caso con HTML5 pero no con todas las implementaciones de XML.&lt;/p&gt;
-
-&lt;p&gt;Otro caso es cuando el documento se refiere e una transformación &lt;a href=&quot;https://en.wikipedia.org/wiki/XSLT&quot;&gt;XSLT&lt;/a&gt;, en este caso el objeto (Content Sink) no debe de entregar el código al &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_browser_engine&quot;&gt;Layout Engine&lt;/a&gt;, lo que debe de hacer es construir el DOM sin el Layout y pasarlo intacto al XSLT Engine, ya será él quien se encarga de enviarlo al Layout.&lt;/p&gt;
-
-&lt;p&gt;En caso de que el documento no tenga CSS, XSLT o una interfaz para el DOM, entonces el objeto debe eliminar el todo &lt;a href=&quot;https://en.wikipedia.org/wiki/Prettyprint&quot;&gt;XML Pretty Printer&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://wiki.mozilla.org/Gecko:Overview#Document_rendering_pipeline&quot;&gt;Mozilla Explanation&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Transport_Layer_Security&quot;&gt;SSL/TLS&lt;/a&gt;: Supuestamente debe ayudar a identificar &lt;a href=&quot;https://en.wikipedia.org/wiki/DNS_spoofing&quot;&gt;DNS Spoofing&lt;/a&gt;. Irónicamente &lt;a href=&quot;https://www.verisign.com/&quot;&gt;VeriSign&lt;/a&gt; es un DNS y CA, esto es totalmente injusto y problemático pues centraliza el único vector de seguridad.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“IM [Instant Messaging] logs are just like home sex tapes: they are private, as long as the other party likes you. Once they don’t, all bets are off.” – &lt;a href=&quot;http://lu.is/blog/&quot;&gt;Luis Villa&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Atom_(standard)&quot;&gt;Atom&lt;/a&gt;, by Sam Ruby (formerly known as Pie, Echo and Necho). En mi sitio utilizó un &lt;a href=&quot;https://en.wikipedia.org/wiki/Cron&quot;&gt;Cron&lt;/a&gt; Job que corre un &lt;a href=&quot;http://www.jython.org/&quot;&gt;Jython Script&lt;/a&gt; que genera el RSS y Atom feed.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;el-servidor-ideal&quot;&gt;El Servidor Ideal&lt;/h3&gt;
-
-&lt;p&gt;Era una tarde en la que mi servidor privado corriendo, uno de los discos duros falla, tengo que realizar un &lt;a href=&quot;https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts#Power_management&quot;&gt;apagado forzoso&lt;/a&gt; con &lt;code class=&quot;highlighter-rouge&quot;&gt;Cmd-Ctrl-Power&lt;/code&gt;. Después del reinicio la computadora se niega a encender (Ni idea si esta congelado o corriendo &lt;a href=&quot;https://en.wikipedia.org/wiki/Fsck&quot;&gt;FSCK&lt;/a&gt;). &lt;a href=&quot;https://en.wikipedia.org/wiki/Reset_(computing)&quot;&gt;Reinicio&lt;/a&gt; desde el DVD pero la utilidad no puede reparar la &lt;a href=&quot;https://en.wikipedia.org/wiki/System_partition_and_boot_partition&quot;&gt;partición de Boot&lt;/a&gt;. Utilizo el snapshot de mi &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_Machine_(macOS)&quot;&gt;TimeMachine&lt;/a&gt; y sorpresa… esta corrupto.  Se que ejecutar FSCK desde el DVD tomara todo el dia, opto por descargar mi Backup OffSite y reiniciar desde ahí.&lt;/p&gt;
-
-&lt;p&gt;Esta clase de cuestiones no debería suceder, necesitamos un &lt;a href=&quot;https://en.wikipedia.org/wiki/Network-attached_storage&quot;&gt;NAS&lt;/a&gt; que exponga la info en &lt;a href=&quot;https://en.wikipedia.org/wiki/Network_File_System&quot;&gt;NFS&lt;/a&gt; y utilice &lt;a href=&quot;https://en.wikipedia.org/wiki/RAID&quot;&gt;RAID&lt;/a&gt; para la redundancia. Que el sistema de archivos sea &lt;a href=&quot;https://en.wikipedia.org/wiki/ZFS&quot;&gt;ZFS&lt;/a&gt; (Snapshots automáticos) y que puedan ser utilizados en &lt;a href=&quot;https://en.wikipedia.org/wiki/Network_File_System&quot;&gt;NFS&lt;/a&gt;. Tambien seria ideal &lt;a href=&quot;https://en.wikipedia.org/wiki/Hardware-based_full_disk_encryption&quot;&gt;encriptar&lt;/a&gt; fácilmente con un USB y que el &lt;a href=&quot;https://en.wikipedia.org/wiki/Network-attached_storage&quot;&gt;NAS&lt;/a&gt; realice un &lt;a href=&quot;https://en.wikipedia.org/wiki/Obnam&quot;&gt;Obnam&lt;/a&gt; - &lt;a href=&quot;https://en.wikipedia.org/wiki/Incremental_backup&quot;&gt;Incremental&lt;/a&gt; - &lt;a href=&quot;https://en.wikipedia.org/wiki/GNU_Privacy_Guard&quot;&gt;GPG-Backup&lt;/a&gt; de forma local para lugo subirlo a un &lt;a href=&quot;https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol&quot;&gt;SFTP&lt;/a&gt; remoto. Finalmente que todo esté integrado a una &lt;a href=&quot;https://en.wikipedia.org/wiki/Uninterruptible_power_supply&quot;&gt;UPS&lt;/a&gt; inteligente y que nos permita cambiar fácilmente de cuenta de trabajo (&lt;a href=&quot;https://en.wikipedia.org/wiki/Network-attached_storage&quot;&gt;NAS&lt;/a&gt; Local) a una cuenta de viaje (&lt;a href=&quot;https://en.wikipedia.org/wiki/Sparse_image&quot;&gt;Sparse Image&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Ese seria el servidor ideal.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“No hay manera fácil de decir esto: Cualquiera que no pueda hacer un feed de redifusión web en XML bien escrito es un incompetente. Tal vez sea cruel y elitista de mí, pero creo que cualquiera que no puede o no implemente estas medidas es, como se mencionó anteriormente, un imbécil.” - &lt;a href=&quot;https://www.tbray.org/ongoing/&quot;&gt;Tim Bray&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Recursos:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hsivonen.fi&quot;&gt;Sitio Web&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/hsivonen&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/hsivonen&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.flickr.com/photos/hsivonen/&quot;&gt;Flickr&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hsivonen.fi/cms/te/&quot;&gt;Engine para Contruir Paginas Web del DOM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hsivonen.fi/thesis/&quot;&gt;Tesis enfocada a un Validador para HTML&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
+        <title>La Primavera Besaba</title>
+        <description>&lt;p&gt;&lt;a class=&quot;showdown&quot;&gt;   Synaptic Stimuli&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;hidedown&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://synapticstimuli.com/&quot; target=&quot;_blank&quot;&gt;http://synapticstimuli.com/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Synaptic Stimuli es un sitio web dedicado a divulgar el trabajo de artistas (&lt;a href=&quot;http://synapticstimuli.com/&quot; target=&quot;_blank&quot;&gt;Lista&lt;/a&gt;), enfocandoce sobre todo en el arte que logra &lt;i&gt;&quot;Transmitir el significado de la conciencia&quot;&lt;/i&gt;. Un sitio que alberga a artistas exepcionalmente creativos y edgy, me encanta que presenten todas las imagenes de muestra en alta definicion, muy recomendable. &lt;/p&gt;&lt;p&gt;El proyecto pertenece a un network de sitios que distribuyen arte, Synaptic Stimuli recomienda a otros integrantes del network en &lt;a href=&quot;http://www.synapticstimuli.com/selections&quot; target=&quot;_blank&quot;&gt;esta lista&lt;/a&gt;. El host del sitio es una plataforma gratuita denominada (&lt;a href=&quot;http://cargocollective.com/info&quot; target=&quot;_blank&quot;&gt;Cargo Collective&lt;/a&gt;) que le permite a artistas talentosos publicar sus portafolios de arte en sitios web con dise�os profesionales.&lt;/p&gt;&lt;p&gt;Cargo Collective (WordPress para Artistas) es un proyecto &lt;a href=&quot;http://cargocollective.com/opensource&quot; target=&quot;_blank&quot;&gt;OpenSource&lt;/a&gt; que fue dise�ado por un grupo de desarolladores cuando terminaron de trabajar en el sitio &lt;a href=&quot;http://spacecollective.org/&quot; target=&quot;_blank&quot;&gt;Space Collective&lt;/a&gt;. El siguiente proyecto del grupo es otro Site Builder denominado &lt;a href=&quot;https://persona.co/&quot; target=&quot;_blank&quot;&gt;Persona&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Para finalizar me gustaria mencionar que el otro proyecto denominado &lt;a href=&quot;http://spacecollective.org/&quot; target=&quot;_blank&quot;&gt;Space Collective&lt;/a&gt; es un sitio dedicado a la preservacion de la cultura humana y al debate filosofico debido al lanzamiento del Voyayer y el mensaje de Carl Sagan.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Redes Sociales:&lt;/b&gt;&lt;a href=&quot;https://www.facebook.com/SynapticStimuli&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Facebook&lt;/a&gt;&lt;a href=&quot;https://www.instagram.com/synaptic_stimuli/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Instagram&lt;/a&gt;&lt;a href=&quot;https://www.pinterest.com/synapticstimul/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Pinterest&lt;/a&gt;&lt;a href=&quot;https://twitter.com/synapticstimuli&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Twitter&lt;/a&gt;&lt;a href=&quot;http://deliciousdimension.tumblr.com/&quot; target=&quot;_blank&quot;&gt;&amp;nbsp;&amp;bull;&amp;nbsp; Tumblr&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
-        <pubDate>Sat, 25 Mar 2017 00:00:00 -0600</pubDate>
-        <link>http://darioarzaba.github.io/sitio%20web/2017/03/25/HenriSivonen.html</link>
-        <guid isPermaLink="true">http://darioarzaba.github.io/sitio%20web/2017/03/25/HenriSivonen.html</guid>
+        <pubDate>Mon, 27 Mar 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/poesia/2017/03/27/SynapticStimuli.html</link>
+        <guid isPermaLink="true">http://localhost:4000/poesia/2017/03/27/SynapticStimuli.html</guid>
         
-        <category>Internet</category>
+        <category>Juventud</category>
         
-        <category>Validacion</category>
+        <category>AntonioMachado</category>
         
-        <category>Programacion</category>
+        <category>Poesia</category>
         
-        <category>HTML</category>
-        
-        <category>Diseñador</category>
-        
-        <category>Docs</category>
-        
-        <category>HTML5</category>
+        <category>Primavera</category>
         
         
-        <category>Sitio Web</category>
+        <category>Poesia</category>
         
       </item>
     
