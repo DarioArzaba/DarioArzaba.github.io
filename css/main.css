@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:700;line-height:1;color:inheri
 .icon.linkedin:before{background-image:url(/img/svg/linkedin.svg)}
 .icon.linkedin-white:before{background-image:url(/img/svg/linkedin_white.svg)}
 .icon.email:before{background-image:url(/img/svg/email.svg)}
-.header{width:100%;margin-bottom:50px;background-color:#000;padding:75px 0 20px}
+.header{width:100%;margin-bottom:50px;background-color:#000;padding:82px 0 48px}
 .header h1{font-size:250%;text-shadow:0 0 10px rgba(0,0,0,0.3);float:left;line-height:1}
 .header h1 a{color:#FFF;opacity:0.9}
 .header h1 a:hover{text-decoration:none;opacity:1}
@@ -65,6 +65,7 @@ ul.social-share li a:hover{text-decoration:none;opacity:0.8}
 #disqus_thread{margin-top:50px;box-shadow:0 0 12px 1px rgba(150,150,150,0.25);background-color:rgba(0,28,152,0.02);padding:26px}
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,main,section{display:block}
 audio,canvas,video{display:inline;zoom:1}
+canvas{height: 190px !important}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 a:focus{outline:5px auto 0;outline-offset:-2px}
 a:hover,a:active{outline:0}
@@ -206,7 +207,9 @@ a,.post a{color:#3366BB;text-decoration:none}
 a:hover,.post a:hover{color:#A55858;text-decoration:underline}
 a:visited{color:#a61dbd;}
 .highlight,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] h3,div[itemprop="articleBody"] h2,div[itemprop="articleBody"] ul,div[itemprop="articleBody"] ol{text-align:justify}
-.header a.header-btn,[class*="span"].pull-right,.row-fluid [class*="span"].pull-right,.pull-right{float:right}
+.header a.header-btn,[class*="span"].pull-right,.row-fluid [class*="span"].pull-right,.pull-right{float:right; text-transform: uppercase;
+ font-weight: 900; margin-top: 4px;}
+a.header-btn:visited{color:white}
 .related-posts ul li,.pagination-centered,.centro{text-align:center}
 .poesia{font-size: 19px!important; line-height: 33px!important; margin: 50px 0 20px !important;}
 div[itemprop="articleBody"] img {text-align:center; padding-top: 25px; padding-bottom: 25px;}
@@ -216,7 +219,7 @@ div[itemprop="description"]{ margin: 5px 0 0px; padding-bottom: 20px;}
 .row:after,.row-fluid:after,.container:after,.container-fluid:after,.dl-horizontal:after,.clearfix:after{clear:both}
 .container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container,.span12{width:940px}
 strong,dt{font-weight:700}
-h3,h1 small{font-size:24px}
+h3,h1 small{font-size:24px; margin-top: 30px;}
 h3 small,h4 small{font-size:14px}
 dl,pre.prettyprint{margin-bottom:20px}
 .dl-horizontal,.clearfix{zoom:1}
