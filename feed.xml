@@ -12,13 +12,13 @@
   &lt;p&gt;Atom, el editor de texto hackeable del siglo 21.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Atom es un editor de texto &lt;a href=&quot;https://github.com/atom&quot;&gt;open source&lt;/a&gt;, multiplataforma, modular y hackeable creado en HTML, CSS (&lt;a href=&quot;http://lesscss.org/&quot;&gt;Less&lt;/a&gt;) y JS (&lt;a href=&quot;http://coffeescript.org/&quot;&gt;CoffeScript&lt;/a&gt;, &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;). Diseñado por &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; con el &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Framework Electron&lt;/a&gt; sobre el &lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;Chromium Engine &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Atom es un editor de texto &lt;a href=&quot;https://github.com/atom&quot;&gt;open source&lt;/a&gt;, multiplataforma, modular y hackeable creado en HTML, CSS (&lt;a href=&quot;http://lesscss.org/&quot;&gt;Less&lt;/a&gt;) y JavaScript (&lt;a href=&quot;http://coffeescript.org/&quot;&gt;CoffeScript&lt;/a&gt;, &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;Node&lt;/a&gt;). Diseñado por &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; utilizando el &lt;a href=&quot;https://electron.atom.io/&quot;&gt;Framework Electron&lt;/a&gt; sobre el &lt;a href=&quot;https://www.chromium.org/Home&quot;&gt;Chromium Engine &lt;/a&gt;.&lt;/p&gt;
 
-&lt;!-- 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y7aEiVwBAdk&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
---&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Y7aEiVwBAdk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Para instalar en Windows se descarga AtomSetup.exe desde el &lt;a href=&quot;https://atom.io&quot;&gt;sitio principal&lt;/a&gt; o desde el &lt;a href=&quot;https://github.com/atom/atom/releases&quot;&gt;repositorio&lt;/a&gt; en Github. El instalador añade los comandos &lt;code class=&quot;highlighter-rouge&quot;&gt;atom&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;apm&lt;/code&gt; al &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; del entorno. Atom es el programa principal y Apm es el administrador de paquetes (Atom Package Manager).&lt;/p&gt;
+&lt;h3 id=&quot;instalación&quot;&gt;Instalación&lt;/h3&gt;
+
+&lt;p&gt;Para instalar en &lt;strong&gt;Windows&lt;/strong&gt; primero se descarga AtomSetup.exe desde el &lt;a href=&quot;https://atom.io&quot;&gt;sitio principal&lt;/a&gt; o desde el &lt;a href=&quot;https://github.com/atom/atom/releases&quot;&gt;repositorio&lt;/a&gt; en Github. El instalador añade los comandos &lt;code class=&quot;highlighter-rouge&quot;&gt;atom&lt;/code&gt; y &lt;code class=&quot;highlighter-rouge&quot;&gt;apm&lt;/code&gt; al &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; del entorno. Atom es el programa principal y Apm es el administrador de paquetes (Atom Package Manager).&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Aplication Folder: %LOCALAPPDATA%\atom
 Configuration Folder: %USERPROFILE%\.atom
@@ -30,9 +30,9 @@ Registro: HKEY_CLASSES_ROOT*\shell
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;El programa se puede utilizar de forma portable al extraer el archivo extraible (Zip o Tar) y agregar un directorio en el mismo nivel denominado &lt;code class=&quot;highlighter-rouge&quot;&gt;.atom&lt;/code&gt;. La variable que controla la ubicacion de este directorio, por defecto &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%&lt;/code&gt;, es &lt;code class=&quot;highlighter-rouge&quot;&gt;ATOM_HOME&lt;/code&gt;. Opcionalmente se recomienda agregar el switch &lt;code class=&quot;highlighter-rouge&quot;&gt;--portable&lt;/code&gt; al ejecutable.&lt;/p&gt;
+&lt;p&gt;El programa se puede utilizar de forma &lt;strong&gt;portable&lt;/strong&gt; al extraer el archivo extraible (Zip o Tar) y agregar un directorio en el mismo nivel denominado &lt;code class=&quot;highlighter-rouge&quot;&gt;.atom&lt;/code&gt;. La variable que controla la ubicacion de este directorio, por defecto &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%&lt;/code&gt;, es &lt;code class=&quot;highlighter-rouge&quot;&gt;ATOM_HOME&lt;/code&gt;. Opcionalmente se recomienda agregar el switch &lt;code class=&quot;highlighter-rouge&quot;&gt;--portable&lt;/code&gt; al ejecutable.&lt;/p&gt;
 
-&lt;p&gt;Si se desea instalar desde el codigo fuente se necesita Node, Python y Visual Studio con Visual C++ y Windows SDK. Opcionalmente la variable &lt;code class=&quot;highlighter-rouge&quot;&gt;GYP_MSVS_VERSION&lt;/code&gt; debe corresponder a la version de Visual Studio.&lt;/p&gt;
+&lt;p&gt;Si se desea instalar desde el &lt;strong&gt;codigo fuente&lt;/strong&gt; se necesita Node, Python y Visual Studio con Visual C++ y Windows SDK. Opcionalmente la variable &lt;code class=&quot;highlighter-rouge&quot;&gt;GYP_MSVS_VERSION&lt;/code&gt; debe corresponder a la version de Visual Studio.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd C:\
 git clone https://github.com/atom/atom.git
@@ -41,7 +41,7 @@ script\build --create-windows-installer
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;La opcion del ultimo comando genera los mismos instaladores que el sitio principal. La carpeta Bin del codigo fuente debe ser agregada a &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; para poder utilizar &lt;code class=&quot;highlighter-rouge&quot;&gt;atm&lt;/code&gt; correctamente.&lt;/p&gt;
+&lt;p&gt;La opcion del ultimo comando genera los mismos instaladores que el sitio principal. La carpeta Bin del codigo fuente debe ser agregada a &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; para poder utilizar &lt;code class=&quot;highlighter-rouge&quot;&gt;atm&lt;/code&gt; correctamente. Comandos del script:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;–code-sign: Firma la aplicacion con el certificado de Github.&lt;/li&gt;
@@ -49,11 +49,13 @@ script\build --create-windows-installer
   &lt;li&gt;–install[=dir]: Instala la aplicacion en &lt;code class=&quot;highlighter-rouge&quot;&gt;${dir}\Atom\app-dev&lt;/code&gt; en donde Div es por defecto &lt;code class=&quot;highlighter-rouge&quot;&gt;%LOCALAPPDATA%&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;En el caso de que el firewall produsca errores de instalacion SSL, utilizar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config set strict-ssl false&lt;/code&gt;. En el caso de que el proxy produsca errores de HTTPS, utilizar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config set https-proxy (Proxy Adress)&lt;/code&gt;. Probar la configuracion del proxy con &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config get https-proxy&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;En caso de que el &lt;strong&gt;firewall&lt;/strong&gt; produzca errores de instalacion SSL, utilizar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config set strict-ssl false&lt;/code&gt;. En el caso de que el proxy produzca errores de HTTPS, utilizar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config set https-proxy (Proxy Adress)&lt;/code&gt;. Probar la configuracion del proxy con &lt;code class=&quot;highlighter-rouge&quot;&gt;apm config get https-proxy&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Para instalar paquetes de forma manual es necesario clonar su repositorio, extraer en &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%\.atom&lt;/code&gt; y ejecutar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;atm install (Nombre)&lt;/code&gt; o &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt; el nombre se refiere al nombre del paquete y puede ser opcional.&lt;/p&gt;
+&lt;p&gt;Para instalar &lt;strong&gt;paquetes&lt;/strong&gt; de forma manual es necesario clonar su repositorio, extraer en &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%\.atom&lt;/code&gt; y ejecutar el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;atm install (Nombre)&lt;/code&gt; o &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install&lt;/code&gt; el nombre se refiere al nombre del paquete y puede ser opcional.&lt;/p&gt;
 
-&lt;p&gt;El programa incluye varias herramientas como un buscador de simbolos. Si se quieren buscar simbolos en el proyecto se puede instalar la utilidad &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctags Utility&lt;/code&gt; para crear un archivo &lt;em&gt;tags&lt;/em&gt; que configure la generacion de tags simbolicos dentro del editor. Para mayor configuracion editar el archivo &lt;em&gt;ctags&lt;/em&gt; dentro de &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROILE%\.ctags&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;El programa incluye varias herramientas como un &lt;strong&gt;buscador de simbolos&lt;/strong&gt;. Si se quieren buscar simbolos en el proyecto se puede instalar la utilidad &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctags Utility&lt;/code&gt; para crear un archivo &lt;em&gt;tags&lt;/em&gt; que configure la generacion de tags simbolicos dentro del editor. Para mayor configuracion editar el archivo &lt;em&gt;ctags&lt;/em&gt; dentro de &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROILE%\.ctags&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;herramientas&quot;&gt;Herramientas&lt;/h3&gt;
 
 &lt;p&gt;Con el uso de &lt;strong&gt;Snipets&lt;/strong&gt; podemos aumentar la productividad, estos comandos son autocompletados con la tecla &lt;code class=&quot;highlighter-rouge&quot;&gt;tab&lt;/code&gt; y nos permiten escribir secciones de codigo rapidamente. Para definir Snippets personalizados primero se define el &lt;em&gt;Scope&lt;/em&gt; del paquete de cada lenguaje, los siguientes niveles definen el nombre, descripcion, abreviacion y contenido. La posicion del mouse se puede personalizar con &lt;code class=&quot;highlighter-rouge&quot;&gt;$1&lt;/code&gt;, numerando cada posicion siguiente.&lt;/p&gt;
 
@@ -64,9 +66,11 @@ script\build --create-windows-installer
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;En el ejemplo anterior el cursor tendra seleccionada la informacion entre corchetes. El body se puede encerrar entre triples comillas &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&quot;&lt;/code&gt; si se compone de varias lineas, mientras que para escapar caracteres se utilizan dobles diagonales &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt;. Cabe mencionar que desde 1.13 fueron eliminados del DOM los elementos Shadow que incluian a: ::shadow, /deep/ y :host. Tambien provoco que fuera necesario el prefijo .syntax para todo elemento gramatical.&lt;/p&gt;
+&lt;p&gt;En el ejemplo anterior el cursor tendra seleccionada la informacion entre llaves. El body se puede encerrar entre triples comillas &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;&quot;&quot;&lt;/code&gt; si se compone de varias lineas, mientras que para escapar caracteres se utilizan dobles diagonales &lt;code class=&quot;highlighter-rouge&quot;&gt;\\&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Atom viene integrado con herramientas para trabajar en Git y Github. En los paneles de Git y Github podemos accesar a los repositorios locales y remotos de un proyecto. Los siguientes comandos basicos nos permiten crear un repositorio remoto o uno local.&lt;/p&gt;
+&lt;p&gt;Cabe mencionar que desde 1.13 fueron eliminados del DOM los elementos Shadow que incluian a: ::shadow, /deep/ y :host. Esto tambien provoco que en los &lt;strong&gt;style&lt;/strong&gt; fuera necesario el prefijo .syntax para todo elemento gramatical.&lt;/p&gt;
+
+&lt;p&gt;Atom viene integrado con herramientas para trabajar en &lt;strong&gt;Git&lt;/strong&gt; y &lt;strong&gt;Github&lt;/strong&gt;. En los paneles de Git y Github podemos accesar a los repositorios locales y remotos de un proyecto. Los siguientes comandos basicos nos permiten crear un repositorio remoto o uno local.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Crear repositorio local y vincularlo a uno remoto.
 git init
@@ -80,9 +84,9 @@ git push origin master
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;h3 id=&quot;modificar-atom&quot;&gt;Modificar Atom&lt;/h3&gt;
+&lt;h3 id=&quot;paquetes&quot;&gt;Paquetes&lt;/h3&gt;
 
-&lt;p&gt;Al ejecutar &lt;code class=&quot;highlighter-rouge&quot;&gt;atom.exe&lt;/code&gt; se carga el Script &lt;code class=&quot;highlighter-rouge&quot;&gt;init.coffee&lt;/code&gt; que se encuentra dentro de &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%\.atom&lt;/code&gt; y que nos permite ejecutar CoffeeScript o Javascript personalizado (cambiando la extension de coffee a js).&lt;/p&gt;
+&lt;p&gt;Al ejecutar &lt;code class=&quot;highlighter-rouge&quot;&gt;atom.exe&lt;/code&gt; se carga primero el Script &lt;code class=&quot;highlighter-rouge&quot;&gt;init.coffee&lt;/code&gt; que se encuentra dentro de &lt;code class=&quot;highlighter-rouge&quot;&gt;%USERPROFILE%\.atom&lt;/code&gt; y que nos permite ejecutar CoffeeScript o Javascript personalizado (cambiando la extension de coffee a js).&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Ejecutar un sonido cada vez que se ejecute atom.
 atom.beep()
@@ -95,9 +99,9 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;El comando (Create Package) nos permite crear un nuevo paquete de Atom. Este paquete estara constituido por &lt;em&gt;keymaps&lt;/em&gt;, &lt;em&gt;lib&lt;/em&gt;, &lt;em&gt;menus&lt;/em&gt;, &lt;em&gt;spec&lt;/em&gt;, &lt;em&gt;styles&lt;/em&gt; y un archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;. El ultimo archivo contiene el metadata del paquete, es decir su nombre, modulo principal, version, descripcion, repositorio, licencias, engines, dependencias, activationCommands y activationHooks.&lt;/p&gt;
+&lt;p&gt;El comando &lt;strong&gt;Create Package&lt;/strong&gt; nos permite crear un nuevo paquete de Atom. Este paquete estara constituido por &lt;em&gt;keymaps&lt;/em&gt;, &lt;em&gt;lib&lt;/em&gt;, &lt;em&gt;menus&lt;/em&gt;, &lt;em&gt;spec&lt;/em&gt;, &lt;em&gt;styles&lt;/em&gt; y un archivo &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;. El ultimo archivo contiene el metadata del paquete, es decir su nombre, modulo principal, version, descripcion, repositorio, licencias, engines, dependencias, activationCommands y activationHooks.&lt;/p&gt;
 
-&lt;p&gt;El modulo principal controla la logica y todas las vistas o paneles del paquete. Este archivo fundamental tiene acceso por defecto a los siguientes metodos:&lt;/p&gt;
+&lt;p&gt;El &lt;strong&gt;modulo principal&lt;/strong&gt; controla la logica y todas las vistas o paneles del paquete. Este archivo fundamental tiene acceso por defecto a los siguientes metodos:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Activate(state): Ejecutado al inicio del paquete. Si implementa serialize() puede recibir el estado de la ultima ventana. Realiza el trabajo de inicializacion como crear elementos DOM o ligar eventos con otro metodos.&lt;/li&gt;
@@ -106,26 +110,31 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
   &lt;li&gt;Deactivate(): Ejecutado al cerrar la ventana. Desactiva todo enlace con recursos externos, todo lo del paquete que no dependa de informacion externa es desactivado automaticamente por Atom.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Los estilos que modifique el paquete se incluyen en forma de Less dentro de la carpeta de Styles. Seran iniciados justo al terminar la carga del DOM. Los estilos de todos los componentes vienen predefinidos por Atom y por el tema actual, accesibles bajo el Styleguide. Se recomienda mantener dicho estilo.&lt;/p&gt;
+&lt;p&gt;Los &lt;strong&gt;estilos&lt;/strong&gt; que modifique el paquete se incluyen en forma de Less dentro de la carpeta de Styles. Seran iniciados justo al terminar la carga del DOM. Los estilos de todos los componentes vienen predefinidos por Atom y por el tema actual, accesibles bajo el Styleguide. Se recomienda mantener dicho estilo.&lt;/p&gt;
 
-&lt;p&gt;La combinacion de teclas que active algun comando del paquete se agrega dentro de la carpeta de Keymaps. Los menus incorporan la activacion de los comandos del paquete gracias a un menu contexual o a uno en la barra de herramientas.&lt;/p&gt;
+&lt;p&gt;La combinacion de &lt;strong&gt;teclas&lt;/strong&gt; que active algun comando del paquete se agrega dentro de la carpeta de Keymaps. Los menus incorporan la activacion de los comandos del paquete gracias a un menu contexual o a uno en la barra de herramientas.&lt;/p&gt;
 
-&lt;p&gt;Flowork de Ejecucion:&lt;/p&gt;
+&lt;p&gt;Flowork de Ejecucion para un paquete:&lt;/p&gt;
+
 &lt;ol&gt;
   &lt;li&gt;Atom Inicia&lt;/li&gt;
-  &lt;li&gt;Abre Paquetes&lt;/li&gt;
+  &lt;li&gt;Abre Paquete(s)&lt;/li&gt;
   &lt;li&gt;Ejecuta sus Package.json&lt;/li&gt;
   &lt;li&gt;Carga Keymaps, Menus, Styles y Main Module&lt;/li&gt;
   &lt;li&gt;Termina de Cargar Paquetes&lt;/li&gt;
-  &lt;li&gt;Uusario ejecuta comando&lt;/li&gt;
-  &lt;li&gt;Ejecutar Activate del Paquete&lt;/li&gt;
-  &lt;li&gt;Ejecutar Metodo del Comando&lt;/li&gt;
-  &lt;li&gt;Uusario ejecuta otro comando&lt;/li&gt;
-  &lt;li&gt;Ejecutar Metodo del Comando&lt;/li&gt;
-  &lt;li&gt;Ventana es Cerrada. Ejecutar Serializacion.&lt;/li&gt;
+  &lt;li&gt;Usuario ejecuta comando del paquete.&lt;/li&gt;
+  &lt;li&gt;Ejecutar metodo Activate del Paquete&lt;/li&gt;
+  &lt;li&gt;Ejecutar metodo con el comando del usuario.&lt;/li&gt;
+  &lt;li&gt;Usuario ejecuta otro comando&lt;/li&gt;
+  &lt;li&gt;Ejecutar metodo con el otro comando del usuario.&lt;/li&gt;
+  &lt;li&gt;Ventana del paquete es cerrada. Ejecutar Serializacion.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Si se tienen problemas con Atom se puede empezar por iniciar el programa en modo seguro con &lt;code class=&quot;highlighter-rouge&quot;&gt;atom --safe&lt;/code&gt;. De esta manera podemos descartar que sea un problema con los paquetes oficiales. Podemos despues ir modificando el Script &lt;code class=&quot;highlighter-rouge&quot;&gt;init.coffee&lt;/code&gt; o ir desactivando los paquetes comunitarios y los temas. Si ninguno de estos pasos resuelve el problema podemos intentar borrar el cache (window state) de la aplicacion &lt;code class=&quot;highlighter-rouge&quot;&gt;atom --clear-window-state&lt;/code&gt;. Finalmente se puede intentar cambiar el nombre o borrar la carpeta de configuracion &lt;code class=&quot;highlighter-rouge&quot;&gt;.atom&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Si se tienen problemas con Atom se puede empezar por iniciar el programa en modo seguro con &lt;code class=&quot;highlighter-rouge&quot;&gt;atom --safe&lt;/code&gt;. De esta manera podemos descartar que sea un problema con los paquetes oficiales. Podemos despues ir modificando el Script &lt;code class=&quot;highlighter-rouge&quot;&gt;init.coffee&lt;/code&gt; o ir desactivando los paquetes comunitarios y los temas.&lt;/p&gt;
+
+&lt;p&gt;Si ninguno de estos pasos resuelve el problema podemos intentar borrar el cache (window state) de la aplicacion &lt;code class=&quot;highlighter-rouge&quot;&gt;atom --clear-window-state&lt;/code&gt;. Finalmente se puede intentar cambiar el nombre o borrar la carpeta de configuracion &lt;code class=&quot;highlighter-rouge&quot;&gt;.atom&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;teclas&quot;&gt;Teclas&lt;/h3&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -314,6 +323,8 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;Recursos:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -422,21 +433,21 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;h3 id=&quot;prologo&quot;&gt;Prologo&lt;/h3&gt;
 
-&lt;p&gt;El Oficial Tecnico &lt;em&gt;Sam Marcus&lt;/em&gt; es despertado por el Jefe Tecnico &lt;em&gt;Thom Shephard&lt;/em&gt; para despertar a alguien de stasis criogenica. Sam sabia que la situacion era deseperada, apenas habia podido dormir en tres dias y un tercio de los ingenieros habian muerto en la ultima batalla de Reach.&lt;/p&gt;
+&lt;p&gt;El Oficial Tecnico &lt;strong&gt;Sam Marcus&lt;/strong&gt; es despertado por el Jefe Tecnico &lt;strong&gt;Thom Shephard&lt;/strong&gt; para despertar a alguien de stasis criogenica. Sam sabia que la situacion era deseperada, apenas habia podido dormir en tres dias y un tercio de los ingenieros habian muerto en la ultima batalla de Reach.&lt;/p&gt;
 
 &lt;p&gt;A pesar de su cansancio, Sam y todos en la nave trabajan sin quejarse ya que le debian su vida al capitan Keyes por haberlos sacado de Reach a tiempo. Thom le envio a Sam un archivo encriptado con los detalles de la persona que tenia que despertar, al leerlo Sam se apresuro con renovada energia al Crio 2.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Las naves alienigenas, a diferencia de las humanas, tenian sus centros de mando en el centro de la nave. La nave maestra que perseguia al Pillar of Autumn estaba comandada por &lt;em&gt;Orna ‘Fulsamee&lt;/em&gt;. Sin embargo un profeta menor y su asistente &lt;em&gt;Bako ‘Ikaporamme&lt;/em&gt; se interpusieron con sus ordenes de lanzar torpedos para destruir a los humanos ya que aquello ponia en peligro al anillo, le recomendaron que en este caso seria más seguro abordar la nave y tomar control de ella.&lt;/p&gt;
+&lt;p&gt;Las naves alienigenas, a diferencia de las humanas, tenian sus centros de mando en el centro de la nave. La nave maestra que perseguia al Pillar of Autumn estaba comandada por &lt;strong&gt;Orna ‘Fulsamee&lt;/strong&gt;. Sin embargo un profeta menor y su asistente &lt;strong&gt;Bako ‘Ikaporamme&lt;/strong&gt; se interpusieron con sus ordenes de lanzar torpedos para destruir a los humanos ya que aquello ponia en peligro al anillo, le recomendaron que en este caso seria más seguro abordar la nave y tomar control de ella.&lt;/p&gt;
 
 &lt;h3 id=&quot;capitulo-1&quot;&gt;Capitulo 1&lt;/h3&gt;
 
-&lt;p&gt;El Pillar of Autumn temblo cuando un objeto no identificado impacto contra el Titanium A. El capitan &lt;em&gt;Jacob Keyes&lt;/em&gt; supo que no habia sido un torpedo de plasma, o la nave hubiera dejado de existir.  Lieutenant Hikowa informo que habia sido una nave Seraph que se habia logrado infiltrar. Hikowa rapidamente dio las coordenadas del nuevo enemigo a los pilotos humanos y el Seraph fue destruido.&lt;/p&gt;
+&lt;p&gt;El Pillar of Autumn temblo cuando un objeto no identificado impacto contra el Titanium A. El capitan &lt;strong&gt;Jacob Keyes&lt;/strong&gt; supo que no habia sido un torpedo de plasma, o la nave hubiera dejado de existir.  Lieutenant &lt;strong&gt;Hikowa&lt;/strong&gt; informo que habia sido una nave Seraph que se habia logrado infiltrar. Hikowa rapidamente dio las coordenadas del nuevo enemigo a los pilotos humanos y el Seraph fue destruido.&lt;/p&gt;
 
 &lt;p&gt;Keyes no lograba entender como es que el Covenant sabia en donde estaban, a penas habian salido de Slipspace habia 20 minutos y esos minutos los habian logrado al esconderse en la sombra del gigante de gas Threshold. Keyes no tenia opciones, sin un lugar a donde escapar lo unico que podian hacer es sobrevivir lo suficiente para dar una ultima batalla al enemigo.&lt;/p&gt;
 
-&lt;p&gt;Keyes puso un curso alrededor del planeta. Su mente militar esperaba un crusero alienigena al otro lado del planeta, esperandolos listos para destruirlos, sin embargo nunca se imagino lo que encontraria. Una gigantesca estructura en forma de anillo orbitaba entre Threshold y su luna Basis. El capitan pregunto a Cortana, la inteligencia artificial de la nave, que era esa estructura. Si dicha estructura era una base Covenant entonces su ultima batalla seria mucho más corta.&lt;/p&gt;
+&lt;p&gt;Keyes puso un curso alrededor del planeta. Su mente militar esperaba un crusero alienigena al otro lado del planeta, esperandolos listos para destruirlos, sin embargo nunca se imagino lo que encontraria. Una gigantesca estructura en forma de anillo orbitaba entre Threshold y su luna Basis. El capitan pregunto a &lt;strong&gt;Cortana&lt;/strong&gt;, la inteligencia artificial de la nave, que era esa estructura. Si dicha estructura era una base Covenant entonces su ultima batalla seria mucho más corta.&lt;/p&gt;
 
 &lt;p&gt;Cortana le informo que la estructura tenia 10,000 kilometros de diametro y 23.3 kilometros de grosor. Tambien le informo que los materiales de construccion no pertenecian a ningun material Covenant. Al parecer tenia su propia gravedad artificial y una variedad de climas similares a los que se encontraban en la tierra. A pesar de todo Cortana no podia decifrar su proposito. Keyes contemplo la estructura y encencio su pipa.&lt;/p&gt;
 
@@ -446,7 +457,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;p&gt;El programa habia sido ultra secreto, sin embargo fue desclasificado para subir la moral de las colonias humanas. La guerra habia resultado una serie de derrotas interminables y los humanos estaban al borde de la extincion. Los Spartan fueron por un breve momento la unica esperanza de la humanidad, sin embargo fueron tan pocos los Spartan que fueron entrenados que muchos creyeron que eran tan solo una leyenda.&lt;/p&gt;
 
-&lt;p&gt;El jefe maestro se encontraba soñando en las ultimas etapas antes de ser revivido. Soñaba con su planeta de origen, Eridanus II. Soñaba con la Dr. &lt;em&gt;Chatherine Halsey&lt;/em&gt; llamandolo John, la unica figura maternal que recordaba de aquel duro entrenamiento. Soñaba tambien con Cortana. Sin embargo la presencia de un nuevo enemigo lo acechaba entre las sombras.&lt;/p&gt;
+&lt;p&gt;El jefe maestro se encontraba soñando en las ultimas etapas antes de ser revivido. Soñaba con su planeta de origen, Eridanus II. Soñaba con la Dr. &lt;strong&gt;Chatherine Halsey&lt;/strong&gt; llamandolo John, la unica figura maternal que recordaba de aquel duro entrenamiento. Soñaba tambien con Cortana. Sin embargo la presencia de un nuevo enemigo lo acechaba entre las sombras.&lt;/p&gt;
 
 &lt;p&gt;El jefe maestro por fin se desperto y salio del tubo. Sam se apresuro a revisar su traje de combate MJOLNIR. Al parecer habia sido puesto en stasis con el traje puesto. El traje era una maravilla de la tecnologia, hecho con los materiales mas duros, escudos de energia, un gel interno inteligente y una matriz cristalina con suficiente espacio para albergar a una inteligencia artificial.&lt;/p&gt;
 
@@ -460,23 +471,23 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;El Elite &lt;em&gt;Isna ‘Nosolee&lt;/em&gt; estaba al comando de uno de los grupos de abordaje. Sin embargo tenia ordenes directas de activar su camuflaje activo y no entablar combate a menos que fuera absolutamente necesario. Su mision era capturar la inteligencia artificial de la nave, humanos de alto rango y video sobre el comportamiento humano. Todo esto particularmente dificultoso desde que la guerra con los humanos habia iniciado.&lt;/p&gt;
+&lt;p&gt;El Elite &lt;strong&gt;Isna ‘Nosolee&lt;/strong&gt; estaba al comando de uno de los grupos de abordaje. Sin embargo tenia ordenes directas de activar su camuflaje activo y no entablar combate a menos que fuera absolutamente necesario. Su mision era capturar la inteligencia artificial de la nave, humanos de alto rango y video sobre el comportamiento humano. Todo esto particularmente dificultoso desde que la guerra con los humanos habia iniciado.&lt;/p&gt;
 
 &lt;p&gt;El elite era clasificado como un Ossoona o “Ojos del Profeta” y habia entrenado para obtener informacion, algo contrario a la cultura guerrera de los Elites.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;El jefe maestro habia obtenido un MA5B de 7.62mm y se encontraba combatiendo ferozmente a las fuerzas alienigenas. Continuando su camino se encontro con un marine herido que recordo de la batalla en Reach.  Sus heridas eran demaciado graves y no habia nada que hacer. Al subir unas escaleras de metal se encontro con un Elite a corta distancia que intento golpearlo con su arma pero los reflejos de John le dieron tiempo de evadir el golpe, y descargar todo un cartucho en el costado del alienigena.&lt;/p&gt;
+&lt;p&gt;El jefe maestro habia obtenido un MA5B de 7.62mm y se encontraba combatiendo ferozmente a las fuerzas alienigenas. Continuando su camino se encontro con un marine herido que le recordo de la batalla en Reach. Sus heridas eran demaciado graves y no habia nada que hacer. Al subir unas escaleras de metal se encontro con un Elite a corta distancia que intento golpearlo con su arma pero los reflejos de John le dieron tiempo de evadir el golpe, y descargar todo un cartucho en el costado del alienigena.&lt;/p&gt;
 
 &lt;p&gt;Tan pronto como una bala atravezo la espina dorsal del Elite, este cayo y dos de sus compañeros fijaron su atencion en al nueva amenaza. Sin poder recargar, John decidio utilizar su pistola. Esta pausa era la que los Marines necesitaban y el contrataque con granadas de fragmentacion termino rapidamente con el par de Elites. Las capsulas habian comenzado a partir, el jefe maestro acelero el paso.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;La Oficial de Vuelo, Capitan &lt;em&gt;Carol Rawley&lt;/em&gt;, mejor conocida como &lt;em&gt;Foehammer&lt;/em&gt; estaba al frente de un grupo de pilotos que intentaba llegar al angar y salir del Pillar of Autumn en sus naves D77-TC “Pelican”. Preferible morir detras de los familiares controles del transporte universal a dejar su suerte en manos de los pilotos de las capsulas salvavidas.&lt;/p&gt;
+&lt;p&gt;La Oficial de Vuelo, Capitan &lt;strong&gt;Carol Rawley&lt;/strong&gt;, mejor conocida como &lt;em&gt;Foehammer&lt;/em&gt; estaba al frente de un grupo de pilotos que intentaba llegar al angar y salir del Pillar of Autumn en sus naves D77-TC “Pelican”. Preferible morir detras de los familiares controles del transporte universal a dejar su suerte en manos de los pilotos de las capsulas salvavidas.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;La batalla por el control de la nave continuaba ferozmente, un grunt llamado &lt;em&gt;Yapyap&lt;/em&gt; era el lider de un pequeño grupo de grunts. Al llegar a una pila de cuerpos de su raza hizo una pequeña reverencia por sus muertes, historicamente los numerosos grunts habian estado al servicio incondicional de las demas razas alienigenas y su uso en combate era principalmente para absorber el fuego enemigo.&lt;/p&gt;
+&lt;p&gt;La batalla por el control de la nave continuaba ferozmente, un grunt llamado &lt;strong&gt;Yapyap&lt;/strong&gt; era el lider de un pequeño grupo de grunts. Al llegar a una pila de cuerpos de su raza hizo una pequeña reverencia por sus muertes, historicamente los numerosos grunts habian estado al servicio incondicional de las demas razas alienigenas y su uso en combate era principalmente para absorber el fuego enemigo.&lt;/p&gt;
 
 &lt;p&gt;Escucho que uno de los cuerpos se quejaba y penso que uno de sus camaradas, sin embargo al acercase resulto ser un Elite negro de las fuerzas especiales. Por ley los Elites debian de ser benerados como los mensajeros de los profetas, sin embargo en el campo de batalla la ley era más flexible.&lt;/p&gt;
 
@@ -484,11 +495,11 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Las fuerzas especiales humanas consistian de ODST (Orbital Drop Shock Troopers) o “Helljumpers”. Los que iban a bordo del Pillar of Autumn estaban encargados de protejer a toda costa la planta de energia experimental que alimentaba a los motores de fusion. El jefe de la resistencia humana en esa seccion era el Mayor &lt;em&gt;Antonio Silva&lt;/em&gt;. Entre los heridos del ultimo asalto se encontraba la Lieutenant &lt;em&gt;Melissa Mackay&lt;/em&gt;, el ultimo miembro de su escuadron de combate y deseosa de vengar la muerte de sus compañeros.&lt;/p&gt;
+&lt;p&gt;Las fuerzas especiales humanas consistian de ODST (Orbital Drop Shock Troopers) o “Helljumpers”. Los que iban a bordo del Pillar of Autumn estaban encargados de protejer a toda costa la planta de energia experimental que alimentaba a los motores de fusion. El jefe de la resistencia humana en esa seccion era el Mayor &lt;strong&gt;Antonio Silva&lt;/strong&gt;. Entre los heridos del ultimo asalto se encontraba la Lieutenant &lt;strong&gt;Melissa MacKay&lt;/strong&gt;, el ultimo miembro de su escuadron de combate y deseosa de vengar la muerte de sus compañeros.&lt;/p&gt;
 
 &lt;p&gt;Silva recibio las ordenes de Keyes de que todos evacuaran mientras intentaba aterrizar la nave en el anillo. Mientras los marines y la tripulacion abordaba las capsulas salvavidas, los ODST’s estaban entrenados para salir disparados en capsulas individuales y caer directamente en la tierra listos para el combate.&lt;/p&gt;
 
-&lt;p&gt;Todos los sobrevivientes se dirigieron a sus capsulas y fueron disparadoas hacia el anillo. Mientras alguien utilizaba la frecuencia de las capsulas para poner musica y aplacar la angustia de que algunos moririan en el impacto.&lt;/p&gt;
+&lt;p&gt;Todos los sobrevivientes se dirigieron a sus capsulas y fueron disparadoas hacia el anillo. Mientras alguien utilizaba la frecuencia de las capsulas para poner musica y aplacar la angustia de los que moririan en el impacto.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -498,7 +509,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Foahammer, su copiloto &lt;em&gt;Frye&lt;/em&gt;, el jefe de tripulacion Chief &lt;em&gt;Cullen&lt;/em&gt; y el resto del grupo llegaron al hangar, al cual no habian llegado todavia los alienigenas. Subieron rapidamente a sus Pelican y despegaron. El Pillar de Autumn estaba entrando a la superficie del anillo por lo para salir del angar tuvieron que atravezar una pared de fuego debido a la friccion acomulada, con la temperatura en el maximo permitido a penas y pudieron controlar a los transportes.&lt;/p&gt;
+&lt;p&gt;Foahammer, su copiloto &lt;strong&gt;Frye&lt;/strong&gt;, el jefe de tripulacion Chief &lt;strong&gt;Cullen&lt;/strong&gt; y el resto del grupo llegaron al hangar, al cual no habian llegado todavia los alienigenas. Subieron rapidamente a sus Pelican y despegaron. El Pillar de Autumn estaba entrando a la superficie del anillo por lo para salir del angar tuvieron que atravezar una pared de fuego debido a la friccion acomulada, con la temperatura en el maximo permitido a penas y pudieron controlar a los transportes.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -518,7 +529,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;h3 id=&quot;capitulo-2&quot;&gt;Capitulo 2&lt;/h3&gt;
 
-&lt;p&gt;El HEV (Human Entry Vehicle) de Silva, asi como el resto de las capsulas estaban controladas por una inteligencia artificial clase C denominada &lt;em&gt;Wellsley&lt;/em&gt;. Esta inteligencia artifical habia identificado una estructura sobre la sima de una montaña que serviria perfectamente como el cuartel general de los supervivientes. Silva nombro a la estructura “Alpha Base”. Los HEV ajustaron su curso hacia la estructura, la cual ya estaba controlada por el Covenant sin embargo los ODST tenian el elemento sorpresa de su lado.&lt;/p&gt;
+&lt;p&gt;El HEV (Human Entry Vehicle) de Silva, asi como el resto de las capsulas estaban controladas por una inteligencia artificial clase C denominada &lt;strong&gt;Wellsley&lt;/strong&gt;. Esta inteligencia artifical habia identificado una estructura sobre la sima de una montaña que serviria perfectamente como el cuartel general de los supervivientes. Silva nombro a la estructura “Alpha Base”. Los HEV ajustaron su curso hacia la estructura, la cual ya estaba controlada por el Covenant sin embargo los ODST tenian el elemento sorpresa de su lado.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -534,7 +545,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Tal vez fue la habilidad de &lt;em&gt;Lovell&lt;/em&gt; o mera suerte pero el desenso a la superficie dentro de la capsula salvavidas para la tripulacion del puente transcurrio sin incidentes. Intentaron aterrizar cerca a un cañon para poder tener un poco de covertura de las patruyas aereas, sin saber que al punto de aterrizaje ya se acercaban vehiculos terrestres llamados “Ghosts” tripulados por Elites.&lt;/p&gt;
+&lt;p&gt;Tal vez fue la habilidad de &lt;strong&gt;Lovell&lt;/strong&gt; o mera suerte pero el desenso a la superficie dentro de la capsula salvavidas para la tripulacion del puente transcurrio sin incidentes. Intentaron aterrizar cerca a un cañon para poder tener un poco de covertura de las patruyas aereas, sin saber que al punto de aterrizaje ya se acercaban vehiculos terrestres llamados “Ghosts” tripulados por Elites.&lt;/p&gt;
 
 &lt;p&gt;Una vez dentro del cañon le ordeno a todos que cargaran cuanto pudieran y tomaran tanta distancia como fuera posible del bote salvavidas. Tiraron el cuerpo del elite a un agujero y Keyes observo como el Pillar of Autumn aterrizaba burdamente hacia el sur. Tan pronto como la nave se detuvo en la superficie recibio un mensaje automatizado, enviado por fragmento de cortana que se quedo a aterrizar la nave, el cual informaba que solo ocho porciento de la nave se encontraba operacional, todo lo demas estaba dañado.&lt;/p&gt;
 
@@ -548,9 +559,9 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;p&gt;Yayap se encontraba descanzando en una camara de metano puro despues de haber rescatado el cuerpo del Elite. Su dedicacion por salvar al capitan y salir de la mision suicida fue en extremo peligrosa, al grado de que tuvo que amenazar al piloto para que se desprendiera de la nave enemiga y regresara a la  covenant. Por lo pronto se encontraba enroscado, soñando con su planeta hogar, subitamente Gagaw lo desperto para informarle que el Elite al que habia salvado lo estaba llamando.&lt;/p&gt;
 
-&lt;p&gt;Yayap corrio a su encuentro para descubrir que el Elite de las fuerzas especiales covenant &lt;em&gt;Zuka Zamamee&lt;/em&gt; queria reclutarlo como su asistente personal. Esta oferta normalmente seria considerada un honor, atraeria mejores raciones y un rango unico para un grunt el cual seria grabado en los registros sagrados. Sin embargo para Yayap esta oferta unicamente le atraeria una muerte prematura. No tenia otra opcion mas que la de aceptar.&lt;/p&gt;
+&lt;p&gt;Yayap corrio a su encuentro para descubrir que el Elite de las fuerzas especiales covenant &lt;strong&gt;Zuka ‘Zamamee&lt;/strong&gt; queria reclutarlo como su asistente personal. Esta oferta normalmente seria considerada un honor, atraeria mejores raciones y un rango unico para un grunt el cual seria grabado en los registros sagrados. Sin embargo para Yayap esta oferta unicamente le atraeria una muerte prematura. No tenia otra opcion mas que la de aceptar.&lt;/p&gt;
 
-&lt;p&gt;Zuka Zamamme le informo que recogiera sus cosas porque pronto irian con el consejo maestro a pedir la autorizacion de cazar personalmente al humano aumentado que le habia proporcionado las mortales heridas.&lt;/p&gt;
+&lt;p&gt;Zuka ‘Zamamme le informo que recogiera sus cosas porque pronto irian con el consejo maestro a pedir la autorizacion de cazar personalmente al humano aumentado que le habia proporcionado las mortales heridas.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -566,15 +577,15 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;h3 id=&quot;capitulo-3&quot;&gt;Capitulo 3&lt;/h3&gt;
 
-&lt;p&gt;El jefe maestro avanzo hasta una estructura alienigena que lanzaba destellos de algun tipo de plazma hacia el espacio, su proposito era un misterio. Dentro de esta estructura y a sus alrededores un grupo de sobrevivientes intentaba defenderse de las hordas de alienigenas que asaltaban la instalacion.  El jefe maestro se apresuro a ayudar la defenza de los marines al atraer el fuego de los alienigenas.  Antes de que el ultimo grupo pudiera encontrar al Jefe Mestro e intentar un contrataque el grupo de Marines presiono el ataque liderados por el Sargento Johnson.&lt;/p&gt;
+&lt;p&gt;El jefe maestro avanzo hasta una estructura alienigena que lanzaba destellos de algun tipo de plazma hacia el espacio, su proposito era un misterio. Dentro de esta estructura y a sus alrededores un grupo de sobrevivientes intentaba defenderse de las hordas de alienigenas que asaltaban la instalacion.  El jefe maestro se apresuro a ayudar la defenza de los marines al atraer el fuego de los alienigenas.  Antes de que el ultimo grupo pudiera encontrar al Jefe Mestro e intentar un contrataque el grupo de Marines presiono el ataque liderados por el &lt;strong&gt;Sargento Johnson&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cortana le informo a Johnson que los ODST estaban por asegurar una fortaleza alienigena y establecer el cuartel general, a la vez de que un pelican ya estaba de camino para evacuar a los supervivientes. Antes de que llegara el Pelican un grupo de naves de desenso enemigas comenzaron a aterrizar infanteria alrededor de la instalacion, el jefe maestro hizo lo que pudo para eliminar sistematicamente a los atacantes.&lt;/p&gt;
 
-&lt;p&gt;Finalmente llego Echo 419, el Pelican de evacuacion y Cortana detecto otros tres grupos de supervivientes que habian aterrizado cerca y se encontraban en una situacion similar. Cortana le pidio a Foahammer que soltara el Warthog y esperara ordenes para evacuar a los demas supervivientes. Tan pronto como el jefe maestro se subio al Warthon uno de los soldados de Johnson llamado &lt;em&gt;Fitzgerald&lt;/em&gt; se subio y tomo el lugar de la torreta antiaerea LAAG 12.7x99mm&lt;/p&gt;
+&lt;p&gt;Finalmente llego Echo 419, el Pelican de evacuacion y Cortana detecto otros tres grupos de supervivientes que habian aterrizado cerca y se encontraban en una situacion similar. Cortana le pidio a Foahammer que soltara el Warthog y esperara ordenes para evacuar a los demas supervivientes. Tan pronto como el jefe maestro se subio al Warthon uno de los soldados de Johnson llamado &lt;strong&gt;Fitzgerald&lt;/strong&gt; se subio y tomo el lugar de la torreta antiaerea LAAG 12.7x99mm&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;A pesar de que la proteccion del cañon resulto ideal al inicio no paso mucho tiempo para que el covenant encontrara al grupo de supervivientes e iniciara una mision de captura. Era evidente de que su objetivo no era matarlos sino capturarlos, mientras tanto los constantes ataques que hasta el momento habian resultado inefectivos fisicamente habian logrado quebrar la moral y estado mental del grupo. Dowski estaba al borde de la locura y pensaba que lo mejor seria rendirse para evitar que el coventant cambiara de opinion y los matara en un instante.&lt;/p&gt;
+&lt;p&gt;A pesar de que la proteccion del cañon resulto ideal al inicio no paso mucho tiempo para que el covenant encontrara al grupo de supervivientes e iniciara una mision de captura. Era evidente de que su objetivo no era matarlos sino capturarlos, mientras tanto los constantes ataques que hasta el momento habian resultado inefectivos fisicamente habian logrado quebrar la moral y estado mental del grupo. &lt;strong&gt;Dowski&lt;/strong&gt; estaba al borde de la locura y pensaba que lo mejor seria rendirse para evitar que el coventant cambiara de opinion y los matara en un instante.&lt;/p&gt;
 
 &lt;p&gt;Keyes estaba harto de sus constantes quejas y decidio amarrarlo para dejarlo a su suerte. Si lo que queria era rendirse le concedio su deseo, mientras tanto el y su grupo intentarian escapar hasta el ultimo aliento. Dowski pronto fue encontrado por el grupo de Elites que perseguia a Keyes.&lt;/p&gt;
 
@@ -602,11 +613,11 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;A pesar de que la nave maestra Truth and Reconciliation se encontraba en reparaciones urgentes debido al encuentro con el Pillar of Autumn, se habia posicionado peligrosamente cerca del anillo para servir como base de las operaciones terrestres destinadas a exterminar a los humanos. Zuka Zamamee se apresuraba por llegar temprano a su reunion con el Consejo de Maestros para pedir su autorizacion y bendicion en la mision de asesinato.&lt;/p&gt;
+&lt;p&gt;A pesar de que la nave maestra Truth and Reconciliation se encontraba en reparaciones urgentes debido al encuentro con el Pillar of Autumn, se habia posicionado peligrosamente cerca del anillo para servir como base de las operaciones terrestres destinadas a exterminar a los humanos. Zuka ‘Zamamee se apresuraba por llegar temprano a su reunion con el Consejo de Maestros para pedir su autorizacion y bendicion en la mision de asesinato.&lt;/p&gt;
 
-&lt;p&gt;Finalmente, despues de una eternidad de espera pudo reunirse con el Profeta de la nave y con su asistente Soha Rolamee. Ambos escucharon su caso pero el Profeta pronto determino que los reportes del exepcional humano tendrian que ser exageraciones y le prohibio entablar su mision suicida. Mientras se retiraba a su cuartel se encontro con una procesion de alienigenas que cargaban al capitan Keyes a su celda despues de su tercer interrogamiento. Su entrenamiento para la tortura habia resultado efectivo hasta el momento, pero solo seria cuestion de tiepo para que el covenant obtuvieran lo que buscaban de su corteza neuronal.&lt;/p&gt;
+&lt;p&gt;Finalmente, despues de una eternidad de espera pudo reunirse con el Profeta de la nave y con su asistente &lt;strong&gt;Soha ‘Rolamee&lt;/strong&gt;. Ambos escucharon su caso pero el Profeta pronto determino que los reportes del exepcional humano tendrian que ser exageraciones y le prohibio entablar su mision suicida. Mientras se retiraba a su cuartel se encontro con una procesion de alienigenas que cargaban al capitan Keyes a su celda despues de su tercer interrogamiento. Su entrenamiento para la tortura habia resultado efectivo hasta el momento, pero solo seria cuestion de tiepo para que el covenant obtuvieran lo que buscaban de su corteza neuronal.&lt;/p&gt;
 
-&lt;p&gt;En un acto de deseperacion Zuka Zamamee asalto de un golpe a Keyes y le pregunto la ubicacion del SPARTAN. Keyes vio la herida en el cuerpo del elite y le dijo que desconocia su hubicacion, pero que si pensaba en volver a reunirse con el que la proxima vez intentara cubrirse más rapido. Era evidente que esto era una provocacion para que el elite perdiera el control y le disparara, sin embargo Zamamee supo controlarse y dejo que la procesion continuara.&lt;/p&gt;
+&lt;p&gt;En un acto de deseperacion Zuka ‘Zamamee asalto de un golpe a Keyes y le pregunto la ubicacion del SPARTAN. Keyes vio la herida en el cuerpo del elite y le dijo que desconocia su hubicacion, pero que si pensaba en volver a reunirse con el que la proxima vez intentara cubrirse más rapido. Era evidente que esto era una provocacion para que el elite perdiera el control y le disparara, sin embargo Zamamee supo controlarse y dejo que la procesion continuara.&lt;/p&gt;
 
 &lt;h3 id=&quot;capitulo-4&quot;&gt;Capitulo 4&lt;/h3&gt;
 
@@ -616,7 +627,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;p&gt;Una vez que llegaron al elevador, el jefe maestro se subio a un Shade y despejo el area y los multiples refuerzos enemigos con el uso de la torreta. Una vez que todos los refuerzos provenientes de naves de desenso murieron, es cuando comenzaron a llegar refuerzos directamente del elevador, incluyendo Hunters.&lt;/p&gt;
 
-&lt;p&gt;Los marines, bajo el comando del &lt;em&gt;Sargento Parkers&lt;/em&gt; mantenieron su posicion pero no podian derribar a los Hunters. Usando el Shade el Jefe maestro logro matar a uno, sin embargo su compañero logro un disparo directo a la torreta del jefe maestro, lanzandolo por los aires. Al recobrar su compostura el Hunter habia corrido hacia el para aplastarlo con su escudo, sin embargo el jefe logro esquivarlo en el ultimo segundo y descargar un clip de MA5B en la unica seccion no blindada del alienigena. Llegaron los refuerzos, todos se reunieron en el elevador gravitatorio y una vez dentro de la nave Cortana localizo a Keyes mediante su CNI (Command Neural Interface).&lt;/p&gt;
+&lt;p&gt;Los marines, bajo el comando del &lt;strong&gt;Sargento Parkers&lt;/strong&gt; mantenieron su posicion pero no podian derribar a los Hunters. Usando el Shade el Jefe maestro logro matar a uno, sin embargo su compañero logro un disparo directo a la torreta del jefe maestro, lanzandolo por los aires. Al recobrar su compostura el Hunter habia corrido hacia el para aplastarlo con su escudo, sin embargo el jefe logro esquivarlo en el ultimo segundo y descargar un clip de MA5B en la unica seccion no blindada del alienigena. Llegaron los refuerzos, todos se reunieron en el elevador gravitatorio y una vez dentro de la nave Cortana localizo a Keyes mediante su CNI (Command Neural Interface).&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -638,9 +649,9 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;El pelican 206 y el 136 del Lieutenant &lt;em&gt;Cookie Peterson&lt;/em&gt; puso al grupo de ODST’s de McKay a un klick del Pillar of Autumn. Por un momento McKay sintio duda en el exito de la mision, pero logro recordar el mejor consejo que su instructor le habia dado muchos años antes: “Cuando seas lider, mira a tu alrededor y preguntate quien es el mejor para que se logre el trabajo correctamente. No el mejor del mundo, simplemente el mejor a tu alrededor. Si esa persona existe, pideles que sean los lideres y apoyalos en la mejor manera posible. Si esa persona no existe has tu mejor esfuerzo. Eso es lo unico que todos podemos hacer.”&lt;/p&gt;
+&lt;p&gt;El pelican 206 y el 136 del Lieutenant &lt;strong&gt;Cookie Peterson&lt;/strong&gt; puso al grupo de ODST’s de McKay a un klick del Pillar of Autumn. Por un momento McKay sintio duda en el exito de la mision, pero logro recordar el mejor consejo que su instructor le habia dado muchos años antes: “Cuando seas lider, mira a tu alrededor y preguntate quien es el mejor para que se logre el trabajo correctamente. No el mejor del mundo, simplemente el mejor a tu alrededor. Si esa persona existe, pideles que sean los lideres y apoyalos en la mejor manera posible. Si esa persona no existe has tu mejor esfuerzo. Eso es lo unico que todos podemos hacer.”&lt;/p&gt;
 
-&lt;p&gt;En el grupo el &lt;em&gt;Sargento Lister&lt;/em&gt; y &lt;em&gt;Lieutenant Oros&lt;/em&gt; eran los unicos que se reportaban directamente con McKay. Un pequeño grupo de reconocimiento iria hasta enfrente de ambos platones de tropas e informarian en cadena cualquier actividad enemiga. Avanzar tardaria tiempo pero les permitiria evitar una emboscada directa.&lt;/p&gt;
+&lt;p&gt;En el grupo el &lt;strong&gt;Sargento Lister&lt;/strong&gt; y &lt;strong&gt;Lieutenant Oros&lt;/strong&gt; eran los unicos que se reportaban directamente con McKay. Un pequeño grupo de reconocimiento iria hasta enfrente de ambos platones de tropas e informarian en cadena cualquier actividad enemiga. Avanzar tardaria tiempo pero les permitiria evitar una emboscada directa.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -652,7 +663,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Zuka Zamamee y Yayap se sorprendieron del increiblemente reforzado perimetro que se encontraba alrededor del elevador gravitatorio. Se apresuraron a su cita con el consejo de Elites quienes le mostraron los videos de seguridad.&lt;/p&gt;
+&lt;p&gt;Zuka ‘Zamamee y Yayap se sorprendieron del increiblemente reforzado perimetro que se encontraba alrededor del elevador gravitatorio. Se apresuraron a su cita con el consejo de Elites quienes le mostraron los videos de seguridad.&lt;/p&gt;
 
 &lt;p&gt;Las camaras de video y el conteo preliminar sugeria que el humano aumentado habia matado a 60 veteranos mientras que solo habian muerto 36 humanos. Debido a los recientes eventos, Zuka tenia el permiso del consejo para asesinar al humano a toda costa. Rolamee, el asistente del profeta le dijo que habia recibido reportes que en la mayor batalla desde que la guerra habia iniciado la mayoria de los humanos aumentados habian muerto. Este podria ser el ultimo de su especie.&lt;/p&gt;
 
@@ -676,7 +687,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Zuka Zamamme habia analizado arduamente la red Covenant y descubierto que la Inteligencia Artificial humana se habia interesado en analizar la informacion relacionada con la busqueda del Cuarto de Control del anillo. Suponiendo que habian obtenido la localizacion era de esperarse que enviarian al humano aumentado a capturar este punto critico para el covenant.&lt;/p&gt;
+&lt;p&gt;Zuka ‘Zamamme habia analizado arduamente la red Covenant y descubierto que la Inteligencia Artificial humana se habia interesado en analizar la informacion relacionada con la busqueda del Cuarto de Control del anillo. Suponiendo que habian obtenido la localizacion era de esperarse que enviarian al humano aumentado a capturar este punto critico para el covenant.&lt;/p&gt;
 
 &lt;p&gt;Fue de inmediato a la isla que daba acceso al interior del anillo y comenzo a contruir la emboscada que esperaba mataria al humano aumentado.&lt;/p&gt;
 
@@ -708,9 +719,9 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Zuka Zamamee salio de su escondite con una gran grupo de grunts para terminar el trabajo si los Hunters eran derribados por el humano. Sin embargo antes de que los Hunters pudieran atacar al humano un grunt denominado Linglin se puso nervioso y vacio su pistola de plasma en la direccion del humano matando de un tiro a uno de los Hunters, el cual al caer tiro al otro y le dio la oportundiad al jefe maestro de dispararle a las partes vulnerables del alienigena caido.&lt;/p&gt;
+&lt;p&gt;Zuka ‘Zamamee salio de su escondite con una gran grupo de grunts para terminar el trabajo si los Hunters eran derribados por el humano. Sin embargo antes de que los Hunters pudieran atacar al humano un grunt denominado Linglin se puso nervioso y vacio su pistola de plasma en la direccion del humano matando de un tiro a uno de los Hunters, el cual al caer tiro al otro y le dio la oportundiad al jefe maestro de dispararle a las partes vulnerables del alienigena caido.&lt;/p&gt;
 
-&lt;p&gt;Zuka Zamamee anticipando que el desorganizado grupo de grunts serian eliminados en poco tiempo decidio esconderse junto con yayap en uno de los contenedores.&lt;/p&gt;
+&lt;p&gt;Zuka ‘Zamamee anticipando que el desorganizado grupo de grunts serian eliminados en poco tiempo decidio esconderse junto con yayap en uno de los contenedores.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -730,7 +741,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Ado Mortumee observaba al grupo humano que se acercaba lentamente a su posicion. Ado era uno de los mensajeros del profeta, enviado para observar y dar un informe detallado de la victoria del comandante Noga Putumee. Noga inicio el ataque.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ado ‘Mortumee&lt;/strong&gt; observaba al grupo humano que se acercaba lentamente a su posicion. Ado era uno de los mensajeros del profeta, enviado para observar y dar un informe detallado de la victoria del comandante &lt;strong&gt;Noga ‘Putumee&lt;/strong&gt;. Noga inicio el ataque.&lt;/p&gt;
 
 &lt;p&gt;Una oleada de banshees se acerco al grupo pero no podian contra el fuego concentrado de los Warthogs. Noga ordeno que se dispersaran y unicamente atacaran cuando se sintieran seguros de que no podrian ser alcanzados por el fuego humano. Mientras tanto los tanques del covenant, denominados Wraiths comenzaron a disparar sus lentos orbes de plasma hacia el enemigo.&lt;/p&gt;
 
@@ -740,7 +751,7 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Corporal &lt;em&gt;Snaky Jones&lt;/em&gt; estaba perdido. Uno de los disparos del banshee habia volteado su warthog y el radio habia dejado de funcionar. El grupo principal de vehiculos no se podia detener y lo dieron por muerto. Ahora se encontraba solo, unicamente con su equipo individual de supervivencia, muchisima municion y su rifle francotirador.&lt;/p&gt;
+&lt;p&gt;Corporal &lt;strong&gt;“Snaky” Jones&lt;/strong&gt; estaba perdido. Uno de los disparos del banshee habia volteado su warthog y el radio habia dejado de funcionar. El grupo principal de vehiculos no se podia detener y lo dieron por muerto. Ahora se encontraba solo, unicamente con su equipo individual de supervivencia, muchisima municion y su rifle francotirador.&lt;/p&gt;
 
 &lt;p&gt;Se dio cuenta de que si corria lo suficientemente rapido podria alcanzar a subir el risco del cañon al que habia entrado el grupo, encontrar una cueva y disparar al otro lado del cañon al campamento covenant de donde habia surgido la oleada frontal de ghosts.&lt;/p&gt;
 
@@ -756,107 +767,61 @@ atom.commands.add 'atom-text-editor', 'markdown:paste-as-link', -&amp;gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;El hunter &lt;em&gt;Igido Nosa Hurru * y *Ogada Nosa Fasu&lt;/em&gt; era la linea de defensa frontal contra el humano aumentado que habia matado recientemente a cuatro de sus hermanos.  Cuando el warthog que llevaba al jefe maestro aparecio&lt;/p&gt;
+&lt;p&gt;El hunter &lt;strong&gt;Igido Nosa Hurru&lt;/strong&gt; y &lt;strong&gt;Ogada Nosa Fasu&lt;/strong&gt; era la linea de defensa frontal contra el humano aumentado que habia matado recientemente a cuatro de sus hermanos.  Cuando el warthog que llevaba al jefe maestro aparecio&lt;/p&gt;
 
 &lt;h3 id=&quot;chapter-7&quot;&gt;Chapter 7&lt;/h3&gt;
 
-&lt;p&gt;Zuka’ Zamamee entered the Council once again and found ‘Rolamee’s head on a pedestal, a prophet then told him that if he failed again on his mission he would end up as ‘Rolamee.
-Master Chief enter via the pelican inside Halo’ sub corridors and approached the location of the control room, when the pelican couldn’t maneuver anymore they dropped him in the nearest platform and continued his way inside a huge chamber with its own snowy climate patterns, he helped with Fire team Zuly (A lost patrol from Alpha Base), who in return helped Master Chief arrive at the Control room.
--
-On Alpha Base they captured an unknown grunt and maintained him alive by orders of McKay, it was Yayap setting another trap for Master Chief.
--
-Once Master Chief arrived at the Control Room and Cortana was plugin into the ring’s system she warned him about Captain Keyes being in danger and send Master Chief to rescue him.
-CHAPTER 8
-Without any more info Master Chief arrived at the last known location of Keyes.
--
-Keyes was slowly forgetting everything by an induced amnesia from the flood.
--
-With little opposition Master Chief fallowed Keyes team inside the construct, when he arrived to Private Jenkins recording of what happened. 
-The flood had ambushed them as they passed throw the last door that Master Chief just crossed.
--
-In Alpha Base Charlie 217 flown by Lieutenant Rick Hale asked permission to land, in reality it was Zuka ‘Zamamee’s infiltration team. 
-After landing the elites and with their camouflage gear they started looking for the special Human signaled by Yayap. But unable to find him he decided to search for Yayap instead to ask he about his location which yayap did, telling him about the human guarding some banshees. 
-Up in the air Field Master ‘Putumee commanded the covenant dropships but was soon killed by his inexperience dealing with scorpions fire. When Zamamee and Yayap arrived at the banshees the grunt became a revel and ordered his superior elite to pilot the banshee so that they could escape the human base.
-The battle had ended on Alpha Base.
--
-The Spartan fought this new enemy throw the structure and was amazed by its quality to remain alive but with time and the power of his shotgun he was able to escape into the surface. Foehammer pointed a landing zone for Master Chief and the remaining marines that had survived the flood attack.
--
-Keyes fought for his memories but they all faded away as the other mind consumes them but there was a memory he couldn’t consume: earth’s location was protected by his commander neuro implant. So by remembering his name he would be able to resist the flood total mind control.
-CHAPTER 9
-Master Chief found the extraction point but 343 Guilt Spark took him to the library and explained that in order to contain the flood they needed to activate Halo’s defense system and in order to do that they needed the index.
--
-Silva with Keyes having disappeared again, took command and ordered McKay to set a trap for the covenant, they would start their first offensive move but in the middle of the human attack on a covenant drop ship the flood attacked both sides, killing half of his platoon. Jenkins now as a combat forma was captured, contrary to his only wish of getting killed and finally ending his suffering.
--
-After recovering the index Master Chief and Guilty Spark returned to the control center where Cortana was the last time. She explained to Master Chief that the purpose of Halo was to eliminate all sentient life at the point in which Guilty Spark became hostile seeing that Master Chief wouldn’t be of any use anymore.
-CHAPTER 10
-Master Chief learned how to deal with Spark’s sentinels and got out of Halo’s control room. Once outside Cortana warned him of the possibility of Guilty spark activating Halo without the Index so she explained that they would need to destroy the weapon pulse generators to buy some time. Then they would reach the Pillar of Autumn and create a chain reaction on the fusion reactors so the explosion could destroy Halo.
-Cortana neutralize the first generator using Master Chief’s active shield.
--
-Mckay explained to Major Silva about the new flood threat and its three principal forms, the infection form, the combat form and the carrier form.
--
-Zuka Zamamee was out of options and fallowed Yayap’s advice of getting inside of the Pillar of Autumn and using a false identity to get some water and food.
--
-Jenkins was held up inside a heavily guarded cell and had attempted suicide twice but Mckay knew that he was different and tried to make contact with him, the only thing that Jenkins could do was point down and nod. Silva interpreted it as the flood planning on attack bellow the butte, so they organized an expedition to the basement and left Jenkins to his suffering.
--
-Master Chief passed throw the raging fight between covenant and flood and continue to neutralize the second and third generator using a banshee to travel faster.
-When he finished the job Cortana warned him that they would use his suits portable fusion reactor to teleport him throw Halo into the last known location of Keyes, because they needed his CNI to activate the Pillar of Autumn reactors.
-CHAPTER 11
-Master Chief arrived close to Keyes that was held by the flood in Truth and Reconciliation, by the teleportation system Cortana had used. Once inside they hear Keyes but he was losing his mind so they started searching for him.
--
-Keyes almost lost his name this time. The alien force trying to consume his had almost won. It wouldn’t be too long now.
--
-They started advancing slowly until they got near a hole but they were too many enemies and Master Chief fell in the hole and into a pool of coolant under the Ship. 
-But the battle was worse on the ground, the flood was all over the place he barely survived but had no time to rest because he needed to get back into the ship by the central gravity lift.
--
-McKay jumped down into the lower platform of the butt and meet Sargent Lister with the Entry Team. They shoed McKay a hole in the section below them and a pile of Covenant weapons, the flood was gaining intelligence and they were trying to cut throw the metal using the plasma weapons, in one or two days they could had entered and invade the butt.
--
-Once inside the Pillar of Autumn ‘Zamamee and Yayap got the flood and rest they needed. The elite named ‘Ontome placed them into work quickly because they were low on personnel since the recent flood attack. ‘Zamamee now “Huki ‘Unamee” was afraid of being discovered so he relegated his responsibilities to Yayap.
-Yayap ordered the Jackals to open and checked each module for flood that could be hiding, the Jackals unpleased by this order coming from a grunt felt the opposite when Yayap proved right and the flood tried to ambush hiding inside the crates. He gained the respect of the Jackals.
-Mckay Company cut throw the last opening the flood had been trying to open to place some charges and close the door. Silva then entered the scene and told the Helljumpers that once the door was sealed they could all try to conquer Truth and Reconciliation and get out of Halo.
-The flood attacked but a concentration of plasma grenades and full automatic fire gave them the time they needed to seal the shaft.  For a day or two at least.
--
-Master Chief reentry the covenant ship and quickly ran to save Keyes but it was too late Keyes screamed: NOO! And so he died. 
-Master Chief searched for his neural implant on the captain’s skull and once they got the code he returned to the shuttle bay and steal a banshee, a lot of fire tried to put down the banshee but Master Chief managed to avoid it and got out alive. He was extremely tired of all the combat he had been throw.
-CHAPTER 12
-Master Chief arrived at the Pillar of Autumn and attempted to land on a lifeboat pod when the banshee engine stopped, giving enough time for master chief to enter but the human vessel but the banshee crashed into the autumn’s hull.
-They needed to get into the bridge fast but the in a mix of covenant, flood and sentinels they were slowly advancing. The monitor was also on the ship.
-When they arrived at the bridge and Cortana started the countdown the monitor showed his presence by disabling the countdown and trying to neutralize the ship’s fusion reactor. Cortana was out of option she couldn’t do anything from the bridge so she and Master Chief went to Engineering and try to destabilize the reactor manually by the explosion of a grenade.
--
-Major Silva prepared the assault on Truth and Reconciliation but was warned by Wellsley that if the flood managed to escape in the vessel upon arrival to Earth the planet would fall.
--
-On board of the Pillar of Autumn an improvised reunion by the covenant forces on the Ships situation was depressing. The flood were advancing in every direction, and an army of robots were killing everything on their way and had taking total control on the engineering room.
-And to make things worse a human had landed on the ship and has been killing everything on their way.
-So the master field elite asked if someone wanted the mission to search and kill the human. Zamamee offered quickly, he would have his revenge.
--
-Master Chief Travel throws the firefights and carnages arriving at the cryo chamber from there he continued for the Maintenance Control Room.
-Finally after all the mindless killing they arrived at the engineering room.
--
-McKay and his troops entered the ship via the shuttle bay and initiated the attack from the inside with the objective of taking control of the control room.
-Meanwhile Silva and his heavily armored Helljumpers entered by the gravity lift with the objective of controlling Engineering.
--
-Yayap was assigned at the communication center to guide the kill team of Zamamee into the location of the Human.
--
-Master Chief entered the Engineering room and headed into level three from where he could take away the safes from the fusion reactor and detonate the grenade inside.
--
-The attack of the humans on the alien Ship was extremely well coordinated and ended up with eighty percent of the ship under human control in a mere of minutes but the risk of the flood was too great and even with the suggestion of Wellsley and Mckay, Silva was still willing to take the ship to earth. Jenkins signaled Mckay of the fiber optic that connected engineering to the control room. Mckay then knew that if she let the ship arrive to earth she would put in danger everybody on Earth so she did what was best for everybody and launched a grenade into the compartment.
-The ship lose control and crashed into Halo’s surface.
--
-Yayap told Zamamee the exit route that the human would take and Zamamee prepared the trap in the lift. Yayap knew that this was it, everybody was going to die so he steal a bunch of food and methane, put it into a ghost and scape, searching for a place where he could die in peace.
- For the first time he was happy.
--
-Master Chief manually initiated the explosion of the fusion reactor and searched for an exit, arriving at a lift full of covenant. 
-He would have died if not for Cortana that had still control over some of the ships systems including elevators. She made the elevator fall a few meters so that they couldn’t reach Master Chief and then he put a few grenades inside. This killed everybody on board of the elevator.
-Master Chief then exited into the surface of the ship and Cortana asked Echo 419 for an extraction. They ran for a Warthog and went to the Extraction point.
-But Foahammer was destroyed by a banshee patrol without options and little time to waste they went for a Longsword in the bay.
--
-Yayap watched peacefully as the explosion of the Pillar of Autumn began and waited for the imminent end.
--
-Master Chief barely arrived at the vessel and accelerated outside of Halo’s atmosphere.
-The explosion tore apart Halo.
-Cortana made a quick scan over the radio frequencies but everything left was silence. 
-Cortana told Master Chief that: “We did what we had to do—for Earth. An entire Covenant armada obliterated. And the Flood —we had no choice. Halo, it’s finished.”
-“No,” the Chief replied, settling in behind the Longsword’s controls. “The
-Covenant are still out there, and Earth is at risk. We’re just getting started.”&lt;/p&gt;
+&lt;p&gt;Zuka habia entrado al Truth and Reconciliation, pasado por los mismos protocolos de seguridad y entrado al consejo del profeta en tiempo record. Esto le sento bien al Elite hasta que descubrio que en la sala del consejo se encontraba la cabeza de Rolamee sobre un pedestal.&lt;/p&gt;
+
+&lt;p&gt;Un holograma del profeta aparecio y señalo la cabeza del Elite. Luego le dijo a Zuka que la muerte de su compatriota habia sido a causa de su incompetencia para contener un arma biologica que habian creado los profetas, posiblemente como una forma de defender al anillo de los infieles. El profeta sabia del reciente fracazo de Zuka para matar al humano aumentado y le pregunto sobre su siguiente plan para matarlo de una vez por todas.&lt;/p&gt;
+
+&lt;p&gt;Si Zuka lograba convencer al profeta con su nuevo plan, este lo dejaria ir con vida. Afortunadamente Zuka iba preparado y salio rapidamente de la sala para reunirse con Yayap, por primera vez el exito no dependia del honor o la gloria si no de su supervivencia.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;El jefe maestro a bordo del pelican de Foahammer decendio a las entrañas metalicas del anillo y bajo de la nave sobre una plataforma defendida por el covenant. Al neutralizar a los enemigos y siguiendo las direcciones de cortana continuo su decenso por los tuneles de mantenimiento del anillo.&lt;/p&gt;
+
+&lt;p&gt;El camino fue largo pero finalmente salio al &lt;em&gt;exterior&lt;/em&gt; y se encontro con un nivel del anillo de varios kilometros de altura estaba siendo asaltado por una tormenta de nieve.&lt;/p&gt;
+
+&lt;p&gt;Mientras el jefe maestro continuaba su camino a la ubicacion del centro de control un pelican iba en picada y solicitaba refuerzos inmediatamente. El pelican pertenecia al Fireteam Zulu, uno de los exploradores de Alpha Base.&lt;/p&gt;
+
+&lt;p&gt;El jefe maestro se apresuro a ayudarlos, cuando llego los sobrevivientes estaban atrapados bajo el intenso fuego enemigo de torretas de plasma, un ghost y hasta un Wraith.&lt;/p&gt;
+
+&lt;p&gt;El jefe maestro tomo posesion de un Shade e intento repeler a los enemigos pero era inutil, decidio ir por uno de los warthogs que llevaba el Pelican y confiar en la punteria de sus tripulantes.&lt;/p&gt;
+
+&lt;p&gt;Destruir al Wraith fue el principal problema, el jefe maestro razono que si lograba acercar el warthog lo suficiente, el mortero no podria disparar a menos que estubiera dispuesto a correr el riesgo de dañarse a si mismo. Sin embargo el tanque enemigo tenia un truco bajo la manga, este podia revertir la energia utilizada en la creacion de los morteros para generar un repentino impulso que chocara contra el warthog con la extremadamente blindada parte frontal.&lt;/p&gt;
+
+&lt;p&gt;Gracias a las habilidades del jefe maestro, puderon evitar el impulso del mortero y situarce en su parte trasera en donde una serie de balas pudo penetrar el blindaje y destruir una parte vital del tanque, haciendo que explotara repentinamente en una bola de fuego.&lt;/p&gt;
+
+&lt;p&gt;El jefe maestro continuo hasta donde pudo con el warthog, pero en un punto la inclinacion de una montaña lo obligo a continuar el viaje a pie.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Alpha Base habia estado demaciado calmada desde el ultimo ataque covenant. Al parecer se estaban organizando para realizar un verdadero y definitivo ataque final. Silva estaba paranoico, habia redoblado las patruyas aprovechando la pausa para obtener informaciond el terreno y de otras estructuras que pudiera fortificar, tenia que expandir su territorio y por gracia de algun milagro encontrar alguna forma de salir del anillo.&lt;/p&gt;
+
+&lt;p&gt;McKay se encontraba en una de las patruyas cuando encontraron un ghost volteado, como si hubiera chocado. El resto de las patruyas se reunieron, alertas a una emboscada. Lograron establecer un perimetro, llamar por refuerzos y McKay se acerco a pie al lugar del accidente. Alrededor del ghost habia un enorme charco de sangre alienigena y el cuerpo del conductor, un grunt.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Yayap se encontraba junto al Ghost descompuesto esperando su rapida muerta tan pronto fuera descubierto por los humanos. Zuka sabia que el humano aumentado tenia que estar en la unica base humana del anillo o por lo menos regresar a ella en algun punto.&lt;/p&gt;
+
+&lt;p&gt;El plan que habia ideado es que Yayap fuera capturado y en el momento que supiera que el humano aumentado estaba de regreso enviara una señal que le permitiera a un equipo especializado de elites veteranos infiltrarse a la instalacion, matar al humano aumentado y de paso destruir las defensas de la base para que los refuerzos pudieran exterminar al resto de los humanos.&lt;/p&gt;
+
+&lt;p&gt;El primer paso de su plan fue un exito, Yayap fue amarrado y las raciones de alimento del Ghost fueron recuperadas por la expedicion de regreso a la base alpha. El unico problema era el metano, Yayap se sofocaria en un futuro proximo si los humanos no descubrian su necesidad biologica o lo mataban antes de tiempo.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;El jefe maestro habia logrado llegar al centro de control y sus monoliticas puertas de metal. El interior de las puertas podria contener facilmente uno o varios pelicans. El jefe maestro abrio las puertas y se regreso a un Shade que habia eliminado previamente, el grupo de contrataque covenant que se habia agrupado en la puerta para repeler al enemigo fue sorprendido con una lluvia de plasma, afortunadamente para el jefe maestro detras de las puertas se encontraba un enorme tunel artificial sin covertura, la infanteria no tuvo como protejerse y murio tan pronto como salieron de la puerta.&lt;/p&gt;
+
+&lt;p&gt;El jefe maestro se adentro al tunel y la colosal puerta se cerro por detras. Continuo caminando hasta salir a una esfera de varios kilometros de diametro, el tunel se convertia en una plataforma de cristal que seguia el radio de la esfera hasta llegar a un panel en el centro junto con un holograma del planeta Threshold y del anillo.&lt;/p&gt;
+
+&lt;p&gt;Alrededor de la esfera giraba otro gigantesco holograma del anillo de cientos de metros de diametro, el hologama era extremadamente realista. El jefe maestro activo el panel y sintio como cortana dejaba su implante neuronal y era transmitida al panel. Una vez dentro de el utilizo los proyectores de la sala para generar una proyeccion holografica de si misma.&lt;/p&gt;
+
+&lt;p&gt;El jefe le pregunto si podia utilizar el anillo como un arma para eliminar al covenant. Cortana se mostro distante, desconectada de la realidad por la inmesurable cantidad de informacion a la que habia sido expuesta. Cientos de miles de años de investigacion y desarrollo cientifico habian ocurrido en el anillo, apenas y podia relegar poder de procesamiento a su conversacion con el espartan.&lt;/p&gt;
+
+&lt;p&gt;Cortana comenzo a gritarle que no habia tiempo para dar explicaciones, Keyes se encontraba en un peligro mortal y el jefe debia ir a rescatarlo de inmediato. Ella se tenia que quedar en la terminal si queria evitar que el covenant utilizara el anillo. Sabiendo de que cortana controlaba cualquiera que fuera el arma del anillo, analizo sus opciones y opto por un cambio de prioridades. Salio de inmediato de la sala de control para rescatar a Keyes de este misterioso enemigo.&lt;/p&gt;
+
+&lt;h3 id=&quot;capitulo-8&quot;&gt;Capitulo 8&lt;/h3&gt;
 
 </description>
         <pubDate>Tue, 26 Sep 2017 00:00:00 -0500</pubDate>
@@ -987,15 +952,19 @@ Covenant are still out there, and Earth is at risk. We’re just getting started
 
 &lt;p&gt;&lt;img src=&quot;/Images/JimiHendrix.jpg&quot; alt=&quot;Jimi Hendrix by David Redfern&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Llamado al nacer Johnny Allen Hendrix con su sobrenombre Buster. Su padre le cambiaria posteriormente el nombre a James Marshall Hendrix. Siguiendo los pasos de su padre, el cual participo en la segunda guerra mundial, Jimi se enlista en el ejercito pero es dado de baja cuando se fractura el tobillo en su lanzamiento de paracaidas numero 26.&lt;/p&gt;
+&lt;p&gt;Llamado al nacer &lt;strong&gt;Johnny Allen Hendrix&lt;/strong&gt; con su sobrenombre Buster. Su padre le cambiaria posteriormente el nombre a James Marshall Hendrix.&lt;/p&gt;
 
-&lt;p&gt;Tocaria en varias bandas improvisadas antes de conocer a Chas Chandler, el bajista de la banda Animals, quien lo ayudaria a propulsar su carrera en Gran Bretaña con la formacion de la banda “Jimi Hendrix Experience”. La banda se conformaria por el bajista Noel Redding y el baterista Mitch Mitchell.&lt;/p&gt;
+&lt;p&gt;Siguiendo los pasos de su padre, el cual participo en la segunda guerra mundial, Jimi se enlista en el ejercito pero es dado de baja al fracturarse el tobillo en su lanzamiento de paracaidas numero 26.&lt;/p&gt;
 
-&lt;p&gt;&amp;lt;iframe width=640” height=”360” src=”https://www.youtube-nocookie.com/embed/_PVjcIO4MT4?rel=0” frameborder=”0” allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/p&gt;
+&lt;p&gt;Tocaria en varias bandas informales antes de conocer a &lt;a href=&quot;https://en.wikipedia.org/wiki/Chas_Chandler&quot;&gt;Chas Chandler&lt;/a&gt;, el bajista de la banda Animals, quien lo ayudaria a propulsar su carrera en Gran Bretaña con la formacion de la banda &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Jimi_Hendrix_Experience&quot;&gt;“Jimi Hendrix Experience”&lt;/a&gt;. La banda se conformaria por el bajista &lt;a href=&quot;https://en.wikipedia.org/wiki/Noel_Redding&quot;&gt;Noel Redding&lt;/a&gt; y el baterista &lt;a href=&quot;https://en.wikipedia.org/wiki/Mitch_Mitchell&quot;&gt;Mitch Mitchell&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;De regreso en Estados Unidos entraria a la cultura popular con su presentacion en el Monterey Pop Festival de 1967. Para 1969 era el artista mejor pagado del mundo por presentacion, obteniendo $18,000 dolares por aparecer en el Festival Woodstock de 1969.&lt;/p&gt;
+&lt;iframe width=&quot;640&quot; height=&quot;365&quot; src=&quot;https://www.youtube.com/embed/_PVjcIO4MT4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;p&gt;Una de las caracteristicas de su musica era el revolucionario uso de las distorciones provocadas por los amplificadores de las guitarras electricas como parte integral de su musica. Populariza el uso del pedal “Wah Wah” y fue el primer artista en utilizar efectos Sterofonicos en sus albums. Al igual que The Who, Jimi llego a quebrar guitarras electricas y quemarlas en rituales dedicados a los dioses del rock.&lt;/p&gt;
+&lt;p&gt;De regreso en Estados Unidos entraria a la cultura popular con su presentacion en el &lt;a href=&quot;https://en.wikipedia.org/wiki/Monterey_Pop_Festival&quot;&gt;Monterey Pop Festival&lt;/a&gt; de 1967. Para 1969 era el artista mejor pagado del mundo por presentacion, obteniendo $18,000 dolares por aparecer en el &lt;a href=&quot;https://en.wikipedia.org/wiki/Woodstock&quot;&gt;Festival Woodstock&lt;/a&gt; de 1969.&lt;/p&gt;
+
+&lt;p&gt;Una de las caracteristicas de su musica era el revolucionario uso de las distorciones provocadas por los antiguos &lt;a href=&quot;https://es.wikipedia.org/wiki/Amplificador_de_guitarra&quot;&gt;amplificadores&lt;/a&gt; de las guitarras electricas como parte integral de su musica.&lt;/p&gt;
+
+&lt;p&gt;Populariza el uso del pedal &lt;a href=&quot;https://en.wikipedia.org/wiki/Wah-wah_pedal&quot;&gt;“Wah Wah”&lt;/a&gt; y fue el primer artista en utilizar &lt;a href=&quot;https://es.wikipedia.org/wiki/Sonido_estereof%C3%B3nico&quot;&gt;Efectos Sterofonicos&lt;/a&gt; en sus albums. Al igual que &lt;a href=&quot;https://es.wikipedia.org/wiki/The_Who&quot;&gt;The Who&lt;/a&gt;, Jimi llego a &lt;a href=&quot;https://youtu.be/_-7toYWFEyk&quot;&gt;quebrar guitarras electricas&lt;/a&gt; y quemarlas en rituales dedicados a los dioses del rock.&lt;/p&gt;
 
 &lt;p&gt;Albums:&lt;/p&gt;
 
@@ -1027,17 +996,17 @@ Covenant are still out there, and Earth is at risk. We’re just getting started
     
       <item>
         <title>Perdido</title>
-        <description>&lt;p class=&quot;centro&quot;&gt;Llore lágrimas de arrope,
-derrame tiempo sin verte,
+        <description>&lt;p class=&quot;centro&quot;&gt;Llore lágrimas de arrope,&lt;br /&gt;
+derrame tiempo sin verte,&lt;br /&gt;
 y entre mis dedos los tuyos no están.&lt;/p&gt;
 
-&lt;p class=&quot;centro&quot;&gt;Toca mi pecho y siente un corazón callado.
-Siente el frio de un amor congelado
+&lt;p class=&quot;centro&quot;&gt;Toca mi pecho y siente un corazón callado.&lt;br /&gt;
+Siente el frio de un amor congelado&lt;br /&gt;
 que antes de morir aclamo tu nombre.&lt;/p&gt;
 
-&lt;p class=&quot;centro&quot;&gt;Hoy llego a dormir tranquilo,
-si en mis sueños has de regresar
-para volver a mostrar,
+&lt;p class=&quot;centro&quot;&gt;Hoy llego a dormir tranquilo,&lt;br /&gt;
+si en mis sueños has de regresar&lt;br /&gt;
+para volver a mostrar,&lt;br /&gt;
 que no lloré en vano.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Sep 2017 00:00:00 -0500</pubDate>
@@ -1059,9 +1028,11 @@ que no lloré en vano.&lt;/p&gt;
     
       <item>
         <title>Peter Bynum</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/Images/StripesPB.jpg&quot; alt=&quot;Peter Bynum NY Stripes&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;Pintor Estadounidence y creador de la exposicion “Iluminated Paint” compuesta de pinturas escultoricas dentro de placas de vidrio. Dentro de las placas se exponen intrincados patrones naturales que encontramos en las ramas de los arboles o en las conexiones del sistema nervioso.&lt;/p&gt;
 
-&lt;p&gt;Pintor Estadounidence y creador de la exposicion “Iluminated Paint” compuesta de pinturas escultoricas dentro de placas de vidrio. Dentro de las placas se exponen intrincados patrones naturales que encontramos en las ramas de los arboles o en las conexiones del sistema nervioso. Estudio cine y fotografia en la universidad de Cine de Nueva York y ahora se dedica a crear estas modernas obras plasticas en tres dimenciones.&lt;/p&gt;
+&lt;p&gt;Estudio cine y fotografia en la universidad de Cine de Nueva York y ahora se dedica a crear estas modernas obras plasticas en tres dimenciones.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/Images/StripesPB.jpg&quot; alt=&quot;Peter Bynum NY Stripes&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Me parece muy interesante su manejo de la pintura como medio de creacion unico, independiente de la mano humana. La belleza de sus conexiones sinapticas y su similitud con las estructuras naturales captan la atencion de inmediato. Estas caracteristicas se acentuan con la presencia monolitica y traslucida de sus pinturas escultoricas.&lt;/p&gt;
 
