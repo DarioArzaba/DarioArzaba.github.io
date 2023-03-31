@@ -1,0 +1,20 @@
+<ul class="social-share">
+  <li>
+    <a class="facebook" target="_blank" rel="nofollow" title="Comparte en Facebook"
+      onclick="window.open(this.href, 'mywin', 'left=200,top=100,width=500,height=300'); return false;"
+      href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">Comparte en Facebook</a>
+  </li>
+  <li>
+    <a class="twitter" target="_blank" rel="nofollow" title="Tuitealo"
+      onclick="window.open(this.href, 'mywin', 'left=200,top=100,width=500,height=250'); return false;"
+      href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title | url_encode }}&via={{ site.twitter }}">Tuitealo</a>
+  </li>
+  <li>
+    <a class="linkedin" target="_blank" rel="nofollow" title="Publica en LinkedIn"
+      onclick="window.open(this.href, 'mywin', 'left=200,top=100,width=520,height=570'); return false;"
+      href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{page.url }}&title={{ page.title }}&summary={{ page.excerpt | strip_html | url_encode }}&source={{ site.title }}">Publica en LinkedIn</a>
+  </li>
+  <li>
+    <a class="rss" target="_blank" rel="nofollow" title="Subscribete al Feed" href="{{ site.feed }}">Subscribete al RSS</a>
+  </li>
+</ul>
