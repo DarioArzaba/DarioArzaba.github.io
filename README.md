@@ -1,8 +1,6 @@
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="Images/ScreenSSiteLogo.png">
-  </a>
+  <img src="Images/ScreenSSiteLogo.png">
 
   <h3 align="center">My (Old) Personal Blog</h3>
 
